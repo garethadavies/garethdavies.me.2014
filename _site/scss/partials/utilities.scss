@@ -1,0 +1,427 @@
+/*------------------------------------*\
+	$$ Just Checking - Utilities
+\*------------------------------------*/
+
+/*
+Requires:
+  * SASS
+  * Compass
+  * Global Variables
+  * Global Mixins
+Contents:
+  * Imports
+  * Clearfix
+ 	* Helper classes
+ 		* Visibility
+ 		* Floaters
+ 		* Readable Widths
+ 		* Pointer Events
+ 	* Padding
+ 		* Remove Padding
+ 		* Add Padding
+ 		* Extra Padding
+ 		* IE8 Support
+ 	* Margins
+ 		* Remove Margin
+ 		* Add Margin
+ 		* Extra Margin
+ 		* Half Margin
+ 	* Text
+ 		* Indent
+ 		* Text alignment
+ 		* Text overflow
+ 	* Backgrounds
+ 		* Hover
+ 		* No background
+ 	* Borders
+ 		* No Border
+ 		* Border radius
+ 	* Links
+ 		* No decoration
+ 	* Lists
+ 	* Positioning
+ 		* Relative
+ 		* Absolute
+ 	* Display
+ 		* Block
+ 		* Inline block
+ 		* Inline
+ 	* Cursors
+ 		* Pointer
+ 	* Status
+ 		* Disabled
+ 	* Remove Styles
+ 	* Widths
+ 		* 100%
+ 		* 66%
+ 		* 50%
+ 		* 45%
+ 		* 33%
+ 	* Media Queries
+ 		* <= 767px
+ 			* Visibility
+ 			* Padding
+ 			* Margin
+ 			* Text Alignment
+ 			* Borders
+ 		* >= 768px
+ 			* Readable Widths
+ 			* Padding
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+
+
+
+
+/*------------------------------------*\
+  $ Imports
+\*------------------------------------*/
+
+@import "../modules/_variables"; 
+
+
+
+
+/*------------------------------------*\
+  $ Helper classes
+\*------------------------------------*/
+
+/* Visibility */
+
+.hide,
+// Hide from IE8
+.lt-ie9 .ie8-hide {
+	display: none;
+}
+
+.invisible {
+	position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+/* Floaters */
+
+.right,
+.always-right {
+	float: right;
+}
+
+.left,
+.always-left {
+	float: left;
+}
+
+
+
+
+/*------------------------------------*\
+  $ Padding
+\*------------------------------------*/
+
+/* Remove Padding */
+
+.no-padding {
+	padding: 0 !important;
+}
+
+.no-padding-left {
+	padding-left: 0 !important;
+}
+
+.no-padding-right {
+	padding-right: 0 !important;
+}
+
+.no-padding-top {
+	padding-top: 0 !important;
+}
+
+.no-padding-bottom {
+	padding-bottom: 0 !important;
+}
+
+/* Add Padding */
+
+.padding {
+	padding: $padding !important;
+}
+
+.padding-left,
+input.padding-left {
+	padding-left: $padding !important;
+}
+
+.padding-right {
+	padding-right: $padding !important;
+}
+
+.padding-top {
+	padding-top: $padding !important;
+}
+
+.padding-bottom {
+	padding-bottom: $padding !important;
+}
+
+/* Extra Padding */
+
+.extra-padding {
+	padding: $padding*2 !important;
+}
+
+.extra-padding-right {
+	padding-right: $padding*2 !important;
+}
+
+.extra-padding-left,
+input.extra-padding-left {
+	padding-left: $padding*2 !important;
+}
+
+.extra-padding-bottom {
+	padding-bottom: $padding*2 !important;
+}
+
+/* IE8 Support */
+
+.lt-ie9 .extra-padding-top {
+	padding-top: $padding*3.8 !important;
+}
+
+
+
+
+/*------------------------------------*\
+  $ Margin
+\*------------------------------------*/
+
+/*  */
+
+.section-margin {
+	margin-bottom: $margin*8;
+}
+
+.related-margin {
+	margin-bottom: $margin*4;
+}
+
+/* Remove Margin */
+
+.no-margin {
+	margin: 0 !important;
+}
+
+.no-margin-left {
+	margin-left: 0 !important;
+}
+
+.no-margin-right {
+	margin-right: 0 !important;
+}
+
+.no-margin-top {
+	margin-top: 0 !important;
+}
+
+.no-margin-bottom {
+	margin-bottom: 0 !important;
+}
+
+/* Add Margin */
+
+.margin {
+	margin: $margin !important;
+}
+
+.margin-left {
+	margin-left: $margin !important;
+}
+
+.margin-right {
+	margin-right: $margin !important;
+}
+
+.margin-top {
+	margin-top: $margin !important;
+}
+
+.margin-bottom {
+	margin-bottom: $margin !important;
+}
+
+/* Extra Margin */
+
+.extra-margin {
+	margin: $margin*2 !important;
+}
+
+.extra-margin-left {
+	margin-left: $margin*2 !important;
+}
+
+.extra-margin-right {
+	margin-right: $margin*2 !important;
+}
+
+.extra-margin-top {
+	margin-top: $margin*2 !important;
+}
+
+.extra-margin-bottom {
+	margin-bottom: $margin*2 !important;
+}
+
+/* Half Margin */
+
+.half-margin {
+	margin: $margin/2 !important;
+}
+
+.half-margin-left {
+	margin-left: $margin/2 !important;
+}
+
+.half-margin-right {
+	margin-right: $margin/2 !important;
+}
+
+.half-margin-top {
+	margin-top: $margin/2 !important;
+}
+
+.half-margin-bottom {
+	margin-bottom: $margin/2 !important;
+}
+
+
+
+
+/*------------------------------------*\
+  $ Borders
+\*------------------------------------*/
+
+/* No Border */
+
+.no-border {
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+}
+
+.no-border-top {
+	border-top: none;
+}
+
+.no-border-right {
+	border-right: none;
+}
+
+.no-border-bottom {
+	border-bottom: none;
+}
+
+.no-border-left {
+	border-left: none;
+}
+
+
+
+
+/*------------------------------------*\
+  $ Positioning
+\*------------------------------------*/
+
+/* Relative */
+
+.relative {
+	position: relative;
+}
+
+/* Absolute */
+
+.absolute {
+	position: absolute;
+}
+
+
+
+
+/*------------------------------------*\
+  $ Display
+\*------------------------------------*/
+
+/* Block */
+
+.block {
+	display: block;
+}
+
+/* Inline block */
+
+.inline-block {
+	display: inline-block;
+}
+
+/* Inline */
+
+.inline {
+	display: inline;
+}
+
+
+
+
+/*------------------------------------*\
+  $ Cursors
+\*------------------------------------*/
+
+/* Pointer */
+
+.pointer {
+	cursor: pointer;
+}
+
+
+
+
+/*------------------------------------*\
+  $ Widths
+\*------------------------------------*/
+
+/* 100% */
+
+.full-width {
+	width: 100%;
+}
+
+/* 66% */
+
+.two-thirds-width {
+	width: 66%;
+}
+
+/* 50% */
+
+.half-width {
+	width: 50%;
+}
+
+/* 45% */
+
+.half-width-margin {
+	width: 45%;
+}
+
+/* 33% */
+
+.third-width {
+	width: 33%;
+}

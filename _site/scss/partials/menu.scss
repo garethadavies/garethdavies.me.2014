@@ -1,0 +1,61 @@
+/*------------------------------------*\
+$$ Just Checking - Menu
+\*------------------------------------*/
+
+/*
+Requires:
+  * SASS
+Contents:
+  * Main Menu
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+
+
+
+
+/*------------------------------------*\
+  $ Imports
+\*------------------------------------*/
+
+@import "../modules/_variables"; 
+
+
+
+
+/*------------------------------------*\
+  $ Main Menu
+\*------------------------------------*/
+
+.main-menu {
+	width: 100%;
+	margin: $margin*4 0;
+
+	li {
+		padding: 0 $padding;
+
+		a {
+			text-decoration: none;
+			color: #222;
+			font-size: 1.8rem;
+			font-weight: 300;
+
+			&:hover {
+				font-weight: 500;
+			}
+		}
+	}
+
+	li:first-child {
+		padding-left: 0;
+	}
+
+	.main-menu-active {
+
+		a {
+			font-weight: 500;	
+		}
+
+	}
+
+}

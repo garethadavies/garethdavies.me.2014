@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Gareth Davies -- God -- @garethadavies
+
+# THANKS
+
+    HTML5 Boilerplate team
+    http://www.getskeleton.com/
+    http://www.appelsiini.net/projects/lazyload
+
+# TECHNOLOGY COLOPHON
+
+    HTML5
+    CSS3
+    jQuery
+    jQuery Lazy Load
