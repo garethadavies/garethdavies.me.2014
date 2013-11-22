@@ -7,77 +7,78 @@ title: Blog
 
 <div class="Grid Grid--gutters3x Grid--full large-Grid--fit">
 
-  <div class="Grid-cell">
-		
-		<h3><a href="#">03. Lorem ipsum dolor situati</a></h3>
-
-		<p>23rd November 2013 | 4 Comments</p>
-
-		<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis</p>
-
-	</div>
-
+  <!-- This loops through the paginated posts -->
+	{% for post in paginator.posts %}
+  
   <div class="Grid-cell">
 
-  	<h3><a href="#">03. Lorem ipsum dolor situati</a></h3>
+  	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
-		<p>23rd November 2013 | 4 Comments</p>
+		<p>{{ post.date | date_to_string }} | 4 Comments</p>
 
-		<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis</p>
+		<p>{{ post.excerpt }}</p>
 
-	</div>
+  </div>
 
-	<div class="Grid-cell">
-
-		<h3><a href="#">03. Lorem ipsum dolor situati</a></h3>
-
-		<p>23rd November 2013 | 4 Comments</p>
-
-		<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis</p>
-
-	</div>
+	{% endfor %}
 
 </div>
 
-<div class="Grid Grid--gutters3x Grid--full large-Grid--fit section-margin">
-
-  <div class="Grid-cell">
-		
-		<h3><a href="#">03. Lorem ipsum dolor situati</a></h3>
-
-		<p>23rd November 2013 | 4 Comments</p>
-
-		<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis</p>
-
-	</div>
-
-  <div class="Grid-cell">
-
-  	<h3><a href="#">03. Lorem ipsum dolor situati</a></h3>
-
-		<p>23rd November 2013 | 4 Comments</p>
-
-		<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis</p>
-
-	</div>
-
-	<div class="Grid-cell">
-
-		<h3><a href="#">03. Lorem ipsum dolor situati</a></h3>
-
-		<p>23rd November 2013 | 4 Comments</p>
-
-		<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis</p>
-
-	</div>
-
+<!-- Pagination links -->
+<div class="pagination">
+	<ul>
+		{% if paginator.previous_page %}
+		{% if paginator.previous_page == 1 %}
+		<li>
+			<a href="/blog">&laquo;</a>
+		</li>
+		{% else %}
+		<li>
+			<a href="/blog/page{{paginator.previous_page}}">&laquo;</a>
+		</li>
+		{% endif %}
+		{% else %}
+		<li class="disabled">
+			<a href="#">&laquo;</a>
+		</li>
+		{% endif %}
+		{% if paginator.page == 1 %}
+		<li class="active">
+			<a href="#">1</a>
+		</li>
+		{% else %}
+		<li>
+			<a href="/blog">1</a>
+		</li>
+		{% endif %}
+		{% for count in (2..paginator.total_pages) %}
+		{% if count == paginator.page %}
+		<li class="active">
+			<a href="#">{{count}}</a>
+		</li>
+		{% else %}
+		<li>
+			<a href="/blog/page{{count}}">{{count}}</a>
+		</li>
+		{% endif %}
+		{% endfor %}
+		{% if paginator.next_page %}
+		<li>
+			<a href="/blog/page{{paginator.next_page}}">&raquo;</a>
+		</li>
+		{% else %}
+		<li class="disabled">
+			<a href="#">&raquo;</a>
+		</li>
+		{% endif %}
+	</ul>
 </div>
 
-<div class="cf">
+<!-- <div class="cf">
 	
 	<p>
 		<a href="#" class="left">Older posts</a>
 		<a href="#" class="right">Newer posts</a>
 	</p>
 
-</div>
+</div> -->
