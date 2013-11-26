@@ -1,0 +1,14 @@
+############
+## Git Ignore
+############
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Folders
+intermediate/
+publish/
+.sass-cache/

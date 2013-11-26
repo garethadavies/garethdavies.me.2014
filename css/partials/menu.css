@@ -1,0 +1,59 @@
+/*------------------------------------*\
+$$ Just Checking - Menu
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Main Menu
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Imports
+\*------------------------------------*/
+/*------------------------------------*\
+  $$ Just Checking - Global Variables
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Colours
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Margin & Padding
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Main Menu
+\*------------------------------------*/
+/* line 30, ../../scss/partials/menu.scss */
+.main-menu {
+  width: 100%;
+  margin: 40px 0;
+}
+/* line 34, ../../scss/partials/menu.scss */
+.main-menu li {
+  padding: 0 10px;
+}
+/* line 37, ../../scss/partials/menu.scss */
+.main-menu li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+/* line 43, ../../scss/partials/menu.scss */
+.main-menu li a:hover {
+  font-weight: 500;
+}
+/* line 49, ../../scss/partials/menu.scss */
+.main-menu li:first-child {
+  padding-left: 0;
+}
+/* line 55, ../../scss/partials/menu.scss */
+.main-menu .main-menu-active a {
+  font-weight: 500;
+}
