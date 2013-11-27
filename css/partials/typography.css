@@ -24,10 +24,11 @@ body {
   color: #222;
 }
 
-/* line 34, ../../scss/partials/typography.scss */
+/* line 35, ../../scss/partials/typography.scss */
 p,
 li,
-label {
+label,
+button {
   font-size: 1.4rem;
   /* =14px */
   line-height: 1.6em;
@@ -36,7 +37,7 @@ label {
 /*------------------------------------*\
   $ Headers
 \*------------------------------------*/
-/* line 49, ../../scss/partials/typography.scss */
+/* line 50, ../../scss/partials/typography.scss */
 h1,
 h2,
 h3,
@@ -45,24 +46,48 @@ h3,
   line-height: 1.2em;
 }
 
-/* line 56, ../../scss/partials/typography.scss */
+/* line 57, ../../scss/partials/typography.scss */
 h1 {
   font-size: 6.8rem;
   /* =68px */
-  font-weight: 100;
+  font-weight: 300;
 }
 
-/* line 61, ../../scss/partials/typography.scss */
+/* line 63, ../../scss/partials/typography.scss */
 h2 {
   font-size: 4.2rem;
   /* =42px */
-  font-weight: 100;
+  font-weight: 300;
 }
 
-/* line 66, ../../scss/partials/typography.scss */
+/* line 68, ../../scss/partials/typography.scss */
 h3 {
   font-size: 2.6rem;
   /* =26px */
   font-weight: 300;
+}
+
+/* line 73, ../../scss/partials/typography.scss */
+h4 {
+  font-size: 2rem;
+  /* =26px */
+  font-weight: 500;
+}
+
+/* line 78, ../../scss/partials/typography.scss */
+h5 {
+  font-size: 1.6rem;
+  /* =26px */
+  font-weight: 500;
+}
+
+/* line 83, ../../scss/partials/typography.scss */
+.sub-title-parent {
   margin-bottom: 0;
+}
+
+/* line 87, ../../scss/partials/typography.scss */
+.sub-title {
+  margin-top: 0;
+  font-weight: 300;
 }

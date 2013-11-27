@@ -38,6 +38,26 @@ body {
 
 
 
+/*------------------------------------*\
+  $ Contact Map
+\*------------------------------------*/
+
+.contact-map-section {
+  position: relative;
+  width: 100%; 
+  min-height: 700px;
+  background: url('../images/map.png') no-repeat top right;
+}
+
+.contact-map-label {
+  position: absolute;
+  top: 180px;
+  right: 238px;
+}
+
+
+
+
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the

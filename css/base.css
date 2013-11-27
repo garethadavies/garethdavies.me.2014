@@ -37,6 +37,24 @@ body {
   padding: 10px;
 }
 
+/*------------------------------------*\
+  $ Contact Map
+\*------------------------------------*/
+/* line 45, ../scss/base.scss */
+.contact-map-section {
+  position: relative;
+  width: 100%;
+  min-height: 700px;
+  background: url("../images/map.png") no-repeat top right;
+}
+
+/* line 52, ../scss/base.scss */
+.contact-map-label {
+  position: absolute;
+  top: 180px;
+  right: 238px;
+}
+
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
@@ -46,7 +64,7 @@ body {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 51, ../scss/base.scss */
+/* line 71, ../scss/base.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -55,7 +73,7 @@ body {
   /* 2 */
 }
 
-/* line 56, ../scss/base.scss */
+/* line 76, ../scss/base.scss */
 .cf:after {
   clear: both;
 }
@@ -64,7 +82,7 @@ body {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 64, ../scss/base.scss */
+/* line 84, ../scss/base.scss */
 .cf {
   *zoom: 1;
 }
