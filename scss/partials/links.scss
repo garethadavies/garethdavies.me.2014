@@ -24,38 +24,9 @@ Author(s):
 
 
 /*------------------------------------*\
-  $ Main Menu
+  $ Links
 \*------------------------------------*/
 
-.main-menu {
-	width: 100%;
-	padding: $margin*4 0;
-
-	li {
-		padding: 0 $padding;
-
-		a {
-			text-decoration: none;
-			color: #222;
-			font-size: 1.8rem;
-			font-weight: 300;
-
-			&:hover {
-				font-weight: 500;
-			}
-		}
-	}
-
-	li:first-child {
-		padding-left: 0;
-	}
-
-	.main-menu-active {
-
-		a {
-			font-weight: 500;	
-		}
-
-	}
-
+a {
+	color: darkred;
 }

@@ -29,10 +29,14 @@ Author(s):
   $ Scaffolding
 \*------------------------------------*/
 
+* {
+  box-sizing: border-box;
+}
+
 body {
 	max-width: 960px; // 960px
 	margin: 0 auto;
-	padding: $padding;
+	padding: 0 $padding; 
 }
 
 
@@ -44,7 +48,7 @@ body {
 
 .contact-map-section {
   position: relative;
-  width: 100%; 
+  width: 100%;  
   min-height: 700px;
   background: url('../images/map.png') no-repeat top right;
 }
@@ -52,7 +56,7 @@ body {
 .contact-map-label {
   position: absolute;
   top: 180px;
-  right: 238px;
+  right: 282px;
 }
 
 

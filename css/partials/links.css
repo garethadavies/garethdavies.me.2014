@@ -1,7 +1,20 @@
 /*------------------------------------*\
+$$ Just Checking - Menu
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Main Menu
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Imports
+\*------------------------------------*/
+/*------------------------------------*\
   $$ Just Checking - Global Variables
 \*------------------------------------*/
-
 /*
 Requires:
   * SASS
@@ -10,37 +23,17 @@ Contents:
 Author(s):
   * Gareth Davies @garethadavies
 */
-
-
-
-
 /*------------------------------------*\
   $ Margin & Padding
 \*------------------------------------*/
-
-$padding: 10px;
-$margin: 10px;
-
-
-
-
 /*------------------------------------*\
   $ Colours
 \*------------------------------------*/
-
-$gray: #999;
-$grayMid: #666;
-$grayLight: #ccc;
-$grayLighter: #eee;
-
-
-
-
 /*------------------------------------*\
   $ Borders
 \*------------------------------------*/
-
-$border: 1px solid $grayLight;
-$borderColour: $grayLight;
-$borderStyle: solid;
-$borderWidth: 1px;
+/*------------------------------------*\
+  $ Links
+\*------------------------------------*/
+a {
+  color: darkred; }

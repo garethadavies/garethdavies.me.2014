@@ -1,5 +1,5 @@
 /*------------------------------------*\
-$$ Just Checking - Menu
+$$ Just Checking - Buttons
 \*------------------------------------*/
 /*
 Requires:
@@ -33,21 +33,18 @@ Author(s):
   $ Borders
 \*------------------------------------*/
 /*------------------------------------*\
-  $ Main Menu
+  $ Buttons
 \*------------------------------------*/
-.main-menu {
-  width: 100%;
-  padding: 40px 0; }
-  .main-menu li {
-    padding: 0 10px; }
-    .main-menu li a {
-      text-decoration: none;
-      color: #222;
-      font-size: 1.8rem;
-      font-weight: 300; }
-      .main-menu li a:hover {
-        font-weight: 500; }
-  .main-menu li:first-child {
-    padding-left: 0; }
-  .main-menu .main-menu-active a {
-    font-weight: 500; }
+button,
+.button {
+  border: none;
+  background: #eeeeee;
+  line-height: 2.6em;
+  border-bottom: 1px solid #cccccc;
+  min-width: 100px;
+  padding: 0 20px; }
+
+button:hover,
+.button:hover {
+  border: none;
+  background: #cccccc; }
