@@ -1,0 +1,93 @@
+/*------------------------------------*\
+	$$ Just Checking - Typography
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Scaffolding
+  * Headers
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Scaffolding
+\*------------------------------------*/
+/* line 23, ../../scss/partials/typography.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 27, ../../scss/partials/typography.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+}
+
+/* line 35, ../../scss/partials/typography.scss */
+p,
+li,
+label,
+button {
+  font-size: 1.4rem;
+  /* =14px */
+  line-height: 1.6em;
+}
+
+/*------------------------------------*\
+  $ Headers
+\*------------------------------------*/
+/* line 50, ../../scss/partials/typography.scss */
+h1,
+h2,
+h3,
+.main-menu a {
+  font-family: 'Roboto Slab', serif;
+  line-height: 1.2em;
+}
+
+/* line 57, ../../scss/partials/typography.scss */
+h1 {
+  font-size: 6.8rem;
+  /* =68px */
+  font-weight: 300;
+}
+
+/* line 63, ../../scss/partials/typography.scss */
+h2 {
+  font-size: 4.2rem;
+  /* =42px */
+  font-weight: 300;
+}
+
+/* line 68, ../../scss/partials/typography.scss */
+h3 {
+  font-size: 2.6rem;
+  /* =26px */
+  font-weight: 300;
+}
+
+/* line 73, ../../scss/partials/typography.scss */
+h4 {
+  font-size: 2rem;
+  /* =26px */
+  font-weight: 500;
+}
+
+/* line 78, ../../scss/partials/typography.scss */
+h5 {
+  font-size: 1.6rem;
+  /* =26px */
+  font-weight: 500;
+}
+
+/* line 83, ../../scss/partials/typography.scss */
+.sub-title-parent {
+  margin-bottom: 0;
+}
+
+/* line 87, ../../scss/partials/typography.scss */
+.sub-title {
+  margin-top: 0;
+  font-weight: 300;
+}

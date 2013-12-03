@@ -1,0 +1,88 @@
+/*------------------------------------*\
+	$$ Just Checking - Base Styles
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Scaffolding
+  * Headers
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Imports
+\*------------------------------------*/
+/*------------------------------------*\
+  $$ Just Checking - Global Variables
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Colours
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Margin & Padding
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Scaffolding
+\*------------------------------------*/
+/* line 32, ../scss/base.scss */
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/*------------------------------------*\
+  $ Contact Map
+\*------------------------------------*/
+/* line 45, ../scss/base.scss */
+.contact-map-section {
+  position: relative;
+  width: 100%;
+  min-height: 700px;
+  background: url("../images/map.png") no-repeat top right;
+}
+
+/* line 52, ../scss/base.scss */
+.contact-map-label {
+  position: absolute;
+  top: 180px;
+  right: 238px;
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 71, ../scss/base.scss */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 76, ../scss/base.scss */
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 84, ../scss/base.scss */
+.cf {
+  *zoom: 1;
+}
