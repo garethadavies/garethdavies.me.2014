@@ -1,5 +1,6 @@
 name: www.garethdavies.me
 markdown: redcarpet
 pygments: true
+exclude: [scss]
 paginate: 1
 paginate_path: "blog/page:num"
