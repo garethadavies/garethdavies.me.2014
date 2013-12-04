@@ -33,8 +33,9 @@ p,
 li,
 label,
 button {
-	font-size: 1.4rem; /* =14px */
+	font-size: 1.5rem; /* =14px */
 	line-height: 1.6em;
+	font-weight: 300;
 }
 
 
@@ -87,4 +88,15 @@ h5 {
 .sub-title {
 	margin-top: 0;
 	font-weight: 300;
+}
+
+
+
+
+/*------------------------------------*\
+  $ Headers
+\*------------------------------------*/
+
+b { 
+	font-weight: 800;
 }

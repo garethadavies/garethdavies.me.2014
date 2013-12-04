@@ -11,4 +11,8 @@ Desktop.ini
 # Folders
 intermediate/
 publish/
-.sass-cache/.sass-cache/_site/
+.sass-cache/
+_site/
+
+# Files
+.orig
