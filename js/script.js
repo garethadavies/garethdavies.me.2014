@@ -6,9 +6,19 @@ by Gareth Davies
 // Initialise the lazy load script
 
 $(function() {
-	$('img').lazyload({
-		effect : 'fadeIn'
+
+	// $('img').lazyload({
+	// 	effect : 'fadeIn'
+	// });
+
+	$('#icon-menu').on('click', function() {
+
+		console.log('click');
+
+		$('#main-menu').toggle();
+
 	});
+
 });
 
 // Hide the address bar in mobile devices

@@ -57,22 +57,22 @@ h3,
 
 h1 {
 	// letter-spacing: -0.04rem;
-	font-size: 6.2rem; /* =62px */
+	font-size: 3.6rem; /* =36px */
 	font-weight: 300;
 }
 
 h2 { 
-	font-size: 4.2rem; /* =42px */
+	font-size: 2.8rem; /* =42px */
 	font-weight: 300;
 } 
 
 h3 { 
-	font-size: 2.6rem; /* =26px */
+	font-size: 2.2rem; /* =26px */
 	font-weight: 300;
 }
 
 h4 { 
-	font-size: 2rem; /* =26px */
+	font-size: 1.8rem; /* =26px */
 	font-weight: 500;
 }
 
@@ -94,9 +94,40 @@ h5 {
 
 
 /*------------------------------------*\
-  $ Headers
+  $ Styles
 \*------------------------------------*/
 
 b { 
 	font-weight: 800;
+}
+
+
+
+
+/*------------------------------------*\
+  $ >940
+\*------------------------------------*/
+
+@media only screen and (min-width: 940px) {
+
+	h1 {
+		font-size: 6.2rem; /* =62px */
+	}
+
+	h2 { 
+		font-size: 4.2rem; /* =42px */
+	} 
+
+	h3 { 
+		font-size: 2.6rem; /* =26px */
+	}
+
+	h4 { 
+		font-size: 2rem; /* =26px */
+	}
+
+	h5 { 
+		font-size: 1.6rem; /* =26px */
+	}
+
 }

@@ -35,24 +35,31 @@ Author(s):
 /*------------------------------------*\
   $ Main Menu
 \*------------------------------------*/
+.main-menu,
+.main-menu > li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
 .main-menu {
-  width: 100%;
-  padding: 40px 0; }
+  display: none; }
   .main-menu li {
-    padding: 0 10px; }
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid #cccccc; }
     .main-menu li a {
       text-decoration: none;
       color: #222;
       font-size: 1.8rem;
       font-weight: 300; }
-      .main-menu li a:hover {
-        font-weight: 500; }
-  .main-menu li:first-child {
-    padding-left: 0; }
-  .main-menu .main-menu-active a {
-    font-weight: 500; }
+  .main-menu li:last-child {
+    border-bottom: 1px solid #cccccc; }
 
+/*------------------------------------*\
+  $ Menu Icon
+\*------------------------------------*/
 .icon-menu {
+  margin: 20px 0;
   width: 44px;
   height: 44px;
   display: block;
@@ -69,3 +76,27 @@ Author(s):
   height: 0.8rem;
   border-top: 2.4rem double #000;
   border-bottom: 0.8rem solid #000; }
+
+@media only screen and (min-width: 480px) {
+  /* Menu Icon */
+  .icon-menu {
+    display: none; }
+
+  /* Main Menu */
+  .main-menu {
+    width: 100%;
+    padding: 40px 0; }
+    .main-menu li {
+      float: left;
+      padding: 0 10px; }
+      .main-menu li a {
+        text-decoration: none;
+        color: #222;
+        font-size: 1.8rem;
+        font-weight: 300; }
+        .main-menu li a:hover {
+          font-weight: 500; }
+    .main-menu li:first-child {
+      padding-left: 0; }
+    .main-menu .main-menu-active a {
+      font-weight: 500; } }
