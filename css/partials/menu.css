@@ -42,12 +42,15 @@ Author(s):
   list-style: none; }
 
 .main-menu {
-  display: none; }
+  display: none;
+  margin-bottom: 40px; }
   .main-menu li {
     width: 100%;
     padding: 10px;
     border-top: 1px solid #cccccc; }
     .main-menu li a {
+      width: 100%;
+      display: inline-block;
       text-decoration: none;
       color: #222;
       font-size: 1.8rem;
@@ -84,12 +87,16 @@ Author(s):
 
   /* Main Menu */
   .main-menu {
+    display: block;
     width: 100%;
-    padding: 40px 0; }
+    margin: 40px 0; }
     .main-menu li {
+      width: auto;
+      border: none;
       float: left;
       padding: 0 10px; }
       .main-menu li a {
+        width: auto;
         text-decoration: none;
         color: #222;
         font-size: 1.8rem;
@@ -98,5 +105,7 @@ Author(s):
           font-weight: 500; }
     .main-menu li:first-child {
       padding-left: 0; }
+    .main-menu li:last-child {
+      border: none; }
     .main-menu .main-menu-active a {
       font-weight: 500; } }

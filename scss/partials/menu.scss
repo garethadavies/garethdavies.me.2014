@@ -36,6 +36,7 @@ Author(s):
 
 .main-menu {
 	display: none;
+	margin-bottom: $margin*4;
 
 	li {
 		width: 100%;
@@ -43,6 +44,8 @@ Author(s):
 		border-top: $borderWidth $borderStyle $borderColour;
 
 		a {
+			width: 100%;
+			display: inline-block;
 			text-decoration: none;
 			color: #222;
 			font-size: 1.8rem;
@@ -97,14 +100,18 @@ Author(s):
 	/* Main Menu */
 
 	.main-menu {
+		display: block;
 		width: 100%;
-		padding: $margin*4 0;
+		margin: $margin*4 0;
 
 		li {
+			width: auto;
+			border: none;
 			float: left;
 			padding: 0 $padding;
 
 			a {
+				width: auto;
 				text-decoration: none;
 				color: #222;
 				font-size: 1.8rem;
@@ -118,6 +125,10 @@ Author(s):
 
 		li:first-child {
 			padding-left: 0;
+		}
+
+		li:last-child {
+			border: none;
 		}
 
 		.main-menu-active {
