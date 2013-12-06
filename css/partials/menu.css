@@ -51,3 +51,21 @@ Author(s):
     padding-left: 0; }
   .main-menu .main-menu-active a {
     font-weight: 500; }
+
+.icon-menu {
+  width: 44px;
+  height: 44px;
+  display: block;
+  position: relative;
+  padding-left: 1.25em;
+  color: #999999; }
+
+.icon-menu:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 44px;
+  height: 0.8rem;
+  border-top: 2.4rem double #000;
+  border-bottom: 0.8rem solid #000; }
