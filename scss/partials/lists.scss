@@ -17,12 +17,22 @@ Author(s):
 
 
 /*------------------------------------*\
+  $ Imports
+\*------------------------------------*/
+
+@import "../modules/_variables"; 
+
+
+
+
+/*------------------------------------*\
   $ Default Lists
 \*------------------------------------*/
 
 ul,
 ol {
   line-height: 1.6;
+  margin-top: 17px;
   margin-bottom: 17px;
   list-style-position: inside;
 }
@@ -42,7 +52,6 @@ ul li ol {
 
 .no-list-styling {
   list-style: none;
-  margin: 0;
   padding: 0;
 
   li {

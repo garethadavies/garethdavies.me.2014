@@ -12,50 +12,61 @@ Author(s):
   * Gareth Davies @garethadavies
 */
 /*------------------------------------*\
+  $ Imports
+\*------------------------------------*/
+/*------------------------------------*\
+  $$ Just Checking - Global Variables
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Colours
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Margin & Padding
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Colours
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Borders
+\*------------------------------------*/
+/*------------------------------------*\
   $ Default Lists
 \*------------------------------------*/
-/* line 24, ../../scss/partials/lists.scss */
 ul,
 ol {
   line-height: 1.6;
+  margin-top: 17px;
   margin-bottom: 17px;
-  list-style-position: inside;
-}
+  list-style-position: inside; }
 
-/* line 31, ../../scss/partials/lists.scss */
 ul li ul,
 ul li ol {
   margin-left: 20px;
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 /*------------------------------------*\
   $ No Styling
 \*------------------------------------*/
-/* line 43, ../../scss/partials/lists.scss */
 .no-list-styling {
   list-style: none;
-  margin: 0;
-  padding: 0;
-}
-/* line 48, ../../scss/partials/lists.scss */
-.no-list-styling li {
-  margin: 0;
-  padding: 0;
-}
+  padding: 0; }
+  .no-list-styling li {
+    margin: 0;
+    padding: 0; }
 
 /*------------------------------------*\
   $ Inline List
 \*------------------------------------*/
-/* line 62, ../../scss/partials/lists.scss */
 .inline-list,
 .inline-list > li {
   margin: 0;
   padding: 0;
-  list-style: none;
-}
+  list-style: none; }
 
-/* line 68, ../../scss/partials/lists.scss */
 .inline-list > li {
-  float: left;
-}
+  float: left; }

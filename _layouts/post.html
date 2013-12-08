@@ -3,26 +3,21 @@ layout: default
 class: blog
 ---
 
-<div class="pure-g-r margin-bottom">
+<h1 class="no-margin-bottom">{{ page.title }}</h1>
+<h3>A short sentence to give more information about this post.</h3>
 
-	<div class="pure-u-1">
+<div class="Grid Grid--gutters3x Grid--full large-Grid--fit section-margin">
 
-		<h1 class="no-margin">{{ page.title }}</h1>
-		<h3 class="no-margin">A short sentence to give more information about this post.</h3>
+  <div class="Grid-cell u-large-1of4">
 
-	</div>
-
-</div>
-
-<div class="pure-g-r margin-top">
-
-	<div class="pure-u-1-4">
-
-		<p class="meta">{{ page.date | date_to_string }}</p>
+		<ul class="no-list-styling">
+			<li>{{ page.date | date_to_string }}</li>
+			<li>3 Comments</li>
+		</ul>
 
 	</div>
 
-	<div class="pure-u-3-4">
+	<div class="Grid-cell">
 
 		<div class="post">
 		{{ content }}
