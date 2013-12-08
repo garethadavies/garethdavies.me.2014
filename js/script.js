@@ -37,9 +37,14 @@ $(function() {
 
 	];
 
-	var ctx = document.getElementById("myChart").getContext("2d");
+	var
+	chart1 = document.getElementById("myChart").getContext("2d"),
+	chart2 = document.getElementById("myChart2").getContext("2d"),
+	chart3 = document.getElementById("myChart3").getContext("2d");
 
-	new Chart(ctx).Doughnut(data);
+	new Chart(chart1).Doughnut(data);
+	new Chart(chart2).Doughnut(data);
+	new Chart(chart3).Doughnut(data);
 
 });
 
