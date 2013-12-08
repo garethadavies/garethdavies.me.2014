@@ -13,6 +13,48 @@ $(function() {
 
 	//
 
+	/*
+
+	Doughnut.defaults = {
+		//Boolean - Whether we should show a stroke on each segment
+		segmentShowStroke : true,
+		
+		//String - The colour of each segment stroke
+		segmentStrokeColor : "#fff",
+		
+		//Number - The width of each segment stroke
+		segmentStrokeWidth : 2,
+		
+		//The percentage of the chart that we cut out of the middle.
+		percentageInnerCutout : 50,
+		
+		//Boolean - Whether we should animate the chart	
+		animation : true,
+		
+		//Number - Amount of animation steps
+		animationSteps : 100,
+		
+		//String - Animation easing effect
+		animationEasing : "easeOutBounce",
+		
+		//Boolean - Whether we animate the rotation of the Doughnut
+		animateRotate : true,
+
+		//Boolean - Whether we animate scaling the Doughnut from the centre
+		animateScale : false,
+		
+		//Function - Will fire on animation completion.
+		onAnimationComplete : null
+	}
+
+	*/
+
+	var options = {
+
+		animation: false
+
+	};
+
 	var data = [
 		{
 			value: 30,
@@ -42,9 +84,9 @@ $(function() {
 	chart2 = document.getElementById("myChart2").getContext("2d"),
 	chart3 = document.getElementById("myChart3").getContext("2d");
 
-	new Chart(chart1).Doughnut(data);
-	new Chart(chart2).Doughnut(data);
-	new Chart(chart3).Doughnut(data);
+	new Chart(chart1).Doughnut(data, options);
+	new Chart(chart2).Doughnut(data, options);
+	new Chart(chart3).Doughnut(data, options);
 
 });
 
