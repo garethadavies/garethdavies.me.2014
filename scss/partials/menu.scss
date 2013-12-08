@@ -102,7 +102,7 @@ Author(s):
 	.main-menu {
 		display: block;
 		width: 100%;
-		margin: $margin*4 0;
+		padding: $padding*4 0;
 
 		li {
 			width: auto;
@@ -118,7 +118,7 @@ Author(s):
 				font-weight: 300;
 
 				&:hover {
-					font-weight: 500;
+					// font-weight: 500;
 				}
 			}
 		}
@@ -131,12 +131,46 @@ Author(s):
 			border: none;
 		}
 
-		.main-menu-active {
+	}
 
-			a {
-				font-weight: 500;	
-			}
+	/* You are here */
 
+	.home .main-menu-active {
+
+		a {
+			font-weight: 500;	
+		}
+
+	}
+
+	.about .main-menu-active {
+
+		a {
+			font-weight: 500;	
+		}
+
+	}
+
+	.blog .main-menu-active {
+
+		a {
+			font-weight: 500;	
+		}
+
+	}
+
+	.contact .main-menu-active {
+
+		a {
+			font-weight: 500;	
+		}
+
+	}
+
+	.work .main-menu-active {
+
+		a {
+			font-weight: 500;	
 		}
 
 	}
