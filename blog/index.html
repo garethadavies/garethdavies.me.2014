@@ -13,13 +13,21 @@ class: blog
   
   <div class="Grid-cell">
 
-  	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  	<h3>{{ forloop.index }} <a href="{{ post.url }}">{{ post.title }}</a></h3>
 
 		<p>{{ post.date | date_to_string }} | 4 Comments</p>
 
 		<p>{{ post.excerpt }}</p>
 
   </div>
+
+	{% if forloop.index == 3 %}
+
+	</div>
+
+	<div class="Grid Grid--gutters3x Grid--full large-Grid--fit">
+
+	{% endif %}
 
 	{% endfor %}
 
