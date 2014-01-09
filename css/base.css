@@ -39,6 +39,9 @@ Author(s):
 * {
   box-sizing: border-box; }
 
+html {
+  border-top: 8px solid #333333; }
+
 body {
   max-width: 960px;
   margin: 0 auto;
