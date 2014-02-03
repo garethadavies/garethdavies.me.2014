@@ -36,20 +36,27 @@ Author(s):
 
 .main-menu {
 	display: none;
-	margin-bottom: $margin*4;
+	// margin-bottom: $margin*4;
 
 	li {
 		width: 100%;
 		padding: $padding;
 		border-top: $borderWidth $borderStyle $borderColour;
+		line-height: 8.4rem;
 
 		a {
-			width: 100%;
-			display: inline-block;
+			// width: 100%;
+			// display: inline-block;
 			text-decoration: none;
 			color: #222;
 			font-size: 1.8rem;
 			font-weight: 300;
+		}
+
+		// Circle links in top menu
+		.circle-link {
+			position: relative;
+			top: 2.4rem;
 		}
 	}
 
@@ -102,7 +109,7 @@ Author(s):
 	.main-menu {
 		display: block;
 		width: 100%;
-		padding: $padding*4 0;
+		// padding: $padding*4 0;
 
 		li {
 			width: auto;
@@ -111,7 +118,7 @@ Author(s):
 			padding: 0 $padding;
 
 			a {
-				width: auto;
+				// width: auto;
 				text-decoration: none;
 				color: #222;
 				font-size: 1.8rem;

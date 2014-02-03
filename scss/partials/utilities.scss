@@ -110,12 +110,12 @@ Author(s):
 
 .right,
 .always-right {
-	float: right;
+	float: right !important;
 }
 
 .left,
 .always-left {
-	float: left;
+	float: left !important;
 }
 
 
@@ -330,6 +330,26 @@ input.extra-padding-left {
 
 .no-border-left {
 	border-left: none;
+}
+
+.border {
+	border: $borderWidth $borderStyle $grayDark;
+}
+
+.border-top {
+	border-top: $borderWidth $borderStyle $grayDark;
+}
+
+.border-right {
+	border-right: $borderWidth $borderStyle $grayDark;
+}
+
+.border-bottom {
+	border-bottom: $borderWidth $borderStyle $grayDark;
+}
+
+.border-left {
+	border-left: $borderWidth $borderStyle $grayDark;
 }
 
 

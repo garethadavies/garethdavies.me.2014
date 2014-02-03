@@ -30,3 +30,16 @@ Author(s):
 a {
 	color: darkred;
 }
+
+
+
+
+.circle-link {
+	display: block;
+	width: 38px;
+	height: 38px;
+	border: $border;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 3.4rem;
+}

@@ -42,21 +42,22 @@ Author(s):
   list-style: none; }
 
 .main-menu {
-  display: none;
-  margin-bottom: 40px; }
+  display: none; }
   .main-menu li {
     width: 100%;
     padding: 10px;
-    border-top: 1px solid #cccccc; }
+    border-top: 1px solid #222222;
+    line-height: 8.4rem; }
     .main-menu li a {
-      width: 100%;
-      display: inline-block;
       text-decoration: none;
       color: #222;
       font-size: 1.8rem;
       font-weight: 300; }
+    .main-menu li .circle-link {
+      position: relative;
+      top: 2.4rem; }
   .main-menu li:last-child {
-    border-bottom: 1px solid #cccccc; }
+    border-bottom: 1px solid #222222; }
 
 /*------------------------------------*\
   $ Menu Icon
@@ -88,15 +89,13 @@ Author(s):
   /* Main Menu */
   .main-menu {
     display: block;
-    width: 100%;
-    padding: 40px 0; }
+    width: 100%; }
     .main-menu li {
       width: auto;
       border: none;
       float: left;
       padding: 0 10px; }
       .main-menu li a {
-        width: auto;
         text-decoration: none;
         color: #222;
         font-size: 1.8rem;

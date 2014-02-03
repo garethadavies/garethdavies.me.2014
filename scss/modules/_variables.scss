@@ -30,7 +30,7 @@ $margin: 10px;
 
 $gray: #999;
 $grayMid: #666;
-$grayDark: #333;
+$grayDark: #222; 
 $grayLight: #ccc;
 $grayLighter: #eee;
 
@@ -41,7 +41,7 @@ $grayLighter: #eee;
   $ Borders
 \*------------------------------------*/
 
-$border: 1px solid $grayLight;
-$borderColour: $grayLight;
+$borderColour: $grayDark;
 $borderStyle: solid;
 $borderWidth: 1px;
+$border: $borderWidth $borderStyle $borderColour;
