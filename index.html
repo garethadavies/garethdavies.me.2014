@@ -16,7 +16,7 @@ class: home
 
   	<h3 class="section-header"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
-		<p><b>{{ post.date | date_to_string }}</b> | 4 Comments</p>
+		<p><b>{{ post.date | date: "%-d %B %Y" }}</b> | <a href="#">4 Comments</a></p>
 
 		{{ post.excerpt }}
 
