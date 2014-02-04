@@ -57,21 +57,22 @@ img {
   max-width: 100%; }
 
 .trophy-wrapper {
-  position: absolute;
-  top: 67px;
+  position: fixed;
+  top: 54px;
   left: 50%;
   z-index: 3;
-  margin-left: -78px;
-  width: 157px;
-  height: 157px;
+  margin-left: -79px;
+  width: 159px;
+  height: 159px;
   background-color: white;
   border: 1px solid #222222;
   border-width: 2px;
-  border-radius: 100%; }
+  border-radius: 100%;
+  -webkit-transition: all .2s ease-out; }
 
 .trophy {
-  position: absolute;
-  top: 7px;
+  position: relative;
+  top: 8px;
   left: 50%;
   margin-left: -69px;
   width: 139px;
@@ -80,6 +81,11 @@ img {
   border: 1px solid #222222;
   border-radius: 100%;
   padding: 5px; }
+
+.trophy-fixed {
+  position: fixed;
+  top: -10px;
+  -webkit-transform: scale(0.6); }
 
 .section-header {
   padding-top: 20px;

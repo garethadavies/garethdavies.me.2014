@@ -11,6 +11,23 @@ $(function() {
 
 	});
 
+	$(window).on('scroll', function() {
+
+		console.log($(document).scrollTop());
+
+		if ($(document).scrollTop() > 10) {
+
+			$('.trophy-wrapper').addClass('trophy-fixed');
+
+		}
+		else {
+
+			$('.trophy-wrapper').removeClass('trophy-fixed');			
+
+		}
+
+	});
+
 	//
 
 	/*

@@ -55,7 +55,7 @@ Author(s):
     width: 100%;
     padding: 10px;
     border-top: 1px solid #222222;
-    line-height: 8.4rem; }
+    line-height: 8rem; }
     .main-menu li a {
       text-decoration: none;
       color: #222;
@@ -63,7 +63,7 @@ Author(s):
       font-weight: 300; }
     .main-menu li .circle-link {
       position: relative;
-      top: 2.4rem; }
+      top: 2.2rem; }
   .main-menu li:last-child {
     border-bottom: 1px solid #222222; }
 
