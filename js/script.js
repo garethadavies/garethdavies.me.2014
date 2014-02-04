@@ -13,9 +13,9 @@ $(function() {
 
 	$(window).on('scroll', function() {
 
-		console.log($(document).scrollTop());
+		// console.log($(document).scrollTop());
 
-		if ($(document).scrollTop() > 10) {
+		if ($(document).scrollTop() > 50) {
 
 			$('.trophy-wrapper').addClass('trophy-fixed');
 
