@@ -34,11 +34,12 @@ Author(s):
 }
 
 html {
-  border-top: 6px $borderStyle $grayDark;
+  // border-top: 6px $borderStyle $grayDark;
 }
 
 body {
 	width: 100%;
+  padding: $padding*22 0 $padding*2 0;
 }
 
 
@@ -87,6 +88,7 @@ img {
   position: absolute;
   top: 67px;
   left: 50%;
+  z-index: 3;
   margin-left: -78px;
   width: 157px;
   height: 157px;
@@ -107,6 +109,20 @@ img {
   border: $border;
   border-radius: 100%;
   padding: $padding/2;
+}
+
+
+
+
+.section-header {
+  padding-top: $padding*2;
+  margin-bottom: $margin;
+  border-top: $border;
+
+  a {
+    text-decoration: none;
+    color: $grayDark;
+  }
 }
 
 

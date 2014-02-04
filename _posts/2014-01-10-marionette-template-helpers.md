@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "04. Marionette Template Helpers"
+date:   2014-01-10 10:13:00
+---
+
 If you are developing a Marionette application, there is a very useful attribute called ```templateHelpers``` available on all Marionette views that render a template.
 
 I have used Marionette for a while now, but had never had need for this feature until I started to build a date formatting system into a recent application.

@@ -32,6 +32,13 @@ Author(s):
 /*------------------------------------*\
   $ Borders
 \*------------------------------------*/
+.main-menu-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  border-top: 6px solid #222222; }
+
 /*------------------------------------*\
   $ Main Menu
 \*------------------------------------*/
@@ -42,7 +49,8 @@ Author(s):
   list-style: none; }
 
 .main-menu {
-  display: none; }
+  display: none;
+  background-color: white; }
   .main-menu li {
     width: 100%;
     padding: 10px;

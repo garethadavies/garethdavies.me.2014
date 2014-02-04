@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "07. Dividing Backone Collections"
+date:   2014-01-28 10:13:00
+---
+
 I recently found myself needing to extract models based on an attribute value (Boolean) from a Backbone collection and add them into 2 seperate collections.
 
 This may sound simple enough, but I had to do this for data that would be included in each response from the API.

@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "05. Application State Object"
+date:   2014-01-24 10:13:00
+---
+
 One of the best things about the Marionette application object is that you can extend it to add your own functionality. This came in very useful recently on a project that required me to be able to store, retrieve and update specific application settings throughout the application.
 
 ### The Requirements

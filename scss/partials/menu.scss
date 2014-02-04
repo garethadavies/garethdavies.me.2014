@@ -23,6 +23,17 @@ Author(s):
 
 
 
+.main-menu-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	border-top: 6px $borderStyle $grayDark;
+}
+
+
+
+
 /*------------------------------------*\
   $ Main Menu
 \*------------------------------------*/
@@ -36,6 +47,7 @@ Author(s):
 
 .main-menu {
 	display: none;
+	background-color: white;
 	// margin-bottom: $margin*4;
 
 	li {

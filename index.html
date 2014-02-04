@@ -4,17 +4,19 @@ title: Home
 class: home
 ---
 
-<h1>Hello, I am Gareth Davies, a web designer &amp; developer based in Birmingham, England.</h1>
+<h1>Hello, I am Gareth Davies, a front-end web developer based in Birmingham, England...</h1>
 
-<div class="posts Grid Grid--gutters3x Grid--full large-Grid--fit">
+<h2 class="sub-title">Lorem ipsum dolor sit amet, <a href="/work">work examples</a>, consectet uer about me elit, <a href="/blog">my blog</a> dolor sit amet, <a href="/contact">contact me</a> uer adipiscing elit...</h2>
+
+<div class="posts section-margin Grid Grid--gutters3x Grid--full large-Grid--fit">
 
 	{% for post in site.posts limit:3 %}
   
   <div class="Grid-cell">
 
-  	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  	<h3 class="section-header"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
-		<p>{{ post.date | date_to_string }} | 4 Comments</p>
+		<p><b>{{ post.date | date_to_string }}</b> | 4 Comments</p>
 
 		{{ post.excerpt }}
 

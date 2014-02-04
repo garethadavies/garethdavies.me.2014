@@ -41,7 +41,7 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #222; }
+  color: #222222; }
 
 p,
 li,
@@ -66,7 +66,7 @@ h1 {
   /* =36px */
   font-weight: 300;
   margin: 40px 0;
-  line-height: 1em; }
+  line-height: 1.1em; }
 
 h2 {
   font-size: 2.8rem;
@@ -93,7 +93,8 @@ h5 {
 
 .sub-title {
   margin-top: 0;
-  font-weight: 300; }
+  font-weight: 100;
+  font-size: 2.8rem; }
 
 /*------------------------------------*\
   $ Styles
@@ -152,7 +153,7 @@ b {
 \*------------------------------------*/
 @media only screen and (min-width: 940px) {
   h1 {
-    font-size: 8rem;
+    font-size: 6.4rem;
     /* =62px */ }
 
   h2 {

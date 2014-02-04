@@ -178,10 +178,10 @@ input.extra-padding-left {
 \*------------------------------------*/
 /*  */
 .section-margin {
-  margin-bottom: 80px; }
+  margin-top: 80px; }
 
 .related-margin {
-  margin-bottom: 40px; }
+  margin-top: 40px; }
 
 /* Remove Margin */
 .no-margin {

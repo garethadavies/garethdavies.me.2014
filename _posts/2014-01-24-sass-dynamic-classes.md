@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "06. SASS Dynamic Classes"
+date:   2014-01-24 10:13:00
+---
+
 I have recently moved over to using [SASS](http://sass-lang.com) rather than [LESS](http://lesscss.org) in my projects. I had use LESS for quite a while and it pretty much did everything I wanted it to.
 
 Being in charge of (and being the only person working on) a fairly large and complex front-end has meant that I have been trying to make all of my work as easy to complete and maintain as possible.
