@@ -25,7 +25,7 @@ class: blog
 
 	</div>
 
-	<div class="Grid Grid--gutters3x Grid--full large-Grid--fit">
+	<div class="Grid Grid--gutters3x Grid--full large-Grid--fit padding-bottom">
 
 	{% endif %}
 
@@ -36,53 +36,33 @@ class: blog
 {% if site.posts | size > site.paginate %}
 
 <!-- Pagination links -->
-<div class="pagination">
-	<ul>
+<div class="pagination full-width border-top extra-margin-top cf">
+	<p>
 		{% if paginator.previous_page %}
 		{% if paginator.previous_page == 1 %}
-		<li>
-			<a href="/blog">&laquo;</a>
-		</li>
+		<span class="left">
+			<a href="/blog">Newer posts</a>
+		</span>
 		{% else %}
-		<li>
-			<a href="/blog/page{{paginator.previous_page}}">&laquo;</a>
-		</li>
+		<span class="left">
+			<a href="/blog/page{{paginator.previous_page}}">Newer posts</a>
+		</span>
 		{% endif %}
 		{% else %}
-		<li class="disabled">
-			<a href="#">&laquo;</a>
-		</li>
+		<span class="disabled left">
+			<a href="#">Newer posts</a>
+		</span>
 		{% endif %}
-		{% if paginator.page == 1 %}
-		<li class="active">
-			<a href="#">1</a>
-		</li>
-		{% else %}
-		<li>
-			<a href="/blog">1</a>
-		</li>
-		{% endif %}
-		{% for count in (2..paginator.total_pages) %}
-		{% if count == paginator.page %}
-		<li class="active">
-			<a href="#">{{count}}</a>
-		</li>
-		{% else %}
-		<li>
-			<a href="/blog/page{{count}}">{{count}}</a>
-		</li>
-		{% endif %}
-		{% endfor %}
 		{% if paginator.next_page %}
-		<li>
-			<a href="/blog/page{{paginator.next_page}}">&raquo;</a>
-		</li>
+		<span class="right">
+			<a href="/blog/page{{paginator.next_page}}">Older posts</a>
+		</span>
 		{% else %}
-		<li class="disabled">
-			<a href="#">&raquo;</a>
-		</li>
+		<span class="disabled right">
+			<a href="#">Older posts</a>
+		</span>
 		{% endif %}
-	</ul>
+	</p>
 </div>
 
 {% endif %}
