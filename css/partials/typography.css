@@ -57,9 +57,9 @@ button {
 \*------------------------------------*/
 h1,
 h2,
-h3,
-.main-menu a {
-  font-family: 'Roboto Slab', serif; }
+h3 {
+  font-family: 'Roboto Slab', serif;
+  line-height: 1.2em; }
 
 h1 {
   font-size: 3.6rem;
@@ -100,7 +100,7 @@ h5 {
   $ Styles
 \*------------------------------------*/
 b {
-  font-weight: 800; }
+  font-weight: 400; }
 
 /*------------------------------------*\
   $ >480
@@ -154,18 +154,22 @@ b {
 @media only screen and (min-width: 940px) {
   h1 {
     font-size: 6.4rem;
-    /* =62px */ }
+    /* =62px */
+    text-align: center; }
+
+  .home h1 {
+    text-align: left; }
 
   h2 {
     font-size: 4.2rem;
     /* =42px */ }
 
   h3 {
-    font-size: 2.6rem;
+    font-size: 3rem;
     /* =26px */ }
 
   h4 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     /* =26px */ }
 
   h5 {

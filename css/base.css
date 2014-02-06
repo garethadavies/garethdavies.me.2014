@@ -41,6 +41,9 @@ Author(s):
 
 body {
   width: 100%;
+  padding: 190px 0 20px 0; }
+
+.home {
   padding: 220px 0 20px 0; }
 
 /*------------------------------------*\
@@ -88,12 +91,14 @@ img {
   -webkit-transform: scale(0.6); }
 
 .section-header {
-  padding-top: 20px;
+  padding-top: 25px;
   margin-bottom: 10px;
   border-top: 1px solid #222222; }
   .section-header a {
     text-decoration: none;
     color: #222222; }
+    .section-header a:hover {
+      color: darkred; }
 
 /**
  * For modern browsers

@@ -57,6 +57,7 @@ Author(s):
 		line-height: 8rem; 
 
 		a {
+			font-family: 'Roboto Slab', serif;
 			// width: 100%;
 			// display: inline-block;
 			text-decoration: none;
@@ -67,6 +68,10 @@ Author(s):
 			i {
 				font-size: 1.6rem;
 			}
+		}
+
+		a:hover {
+			color: darkred;
 		}
 
 		// Circle links in top menu
@@ -136,7 +141,7 @@ Author(s):
 			a {
 				// width: auto;
 				text-decoration: none;
-				color: #222;
+				color: $grayDark;
 				font-size: 1.8rem;
 				font-weight: 300;
 
@@ -152,6 +157,10 @@ Author(s):
 
 		li:last-child {
 			border: none;
+		}
+
+		.main-menu-active {
+			pointer-events: none;
 		}
 
 	}

@@ -39,6 +39,10 @@ html {
 
 body {
 	width: 100%;
+  padding: $padding*19 0 $padding*2 0;
+}
+
+.home {
   padding: $padding*22 0 $padding*2 0;
 }
 
@@ -123,13 +127,17 @@ img {
 
 
 .section-header {
-  padding-top: $padding*2;
+  padding-top: $padding*2.5;
   margin-bottom: $margin;
   border-top: $border;
 
   a {
     text-decoration: none;
     color: $grayDark;
+
+    &:hover {
+      color: darkred;
+    }
   }
 }
 

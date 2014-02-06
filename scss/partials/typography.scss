@@ -56,12 +56,11 @@ button {
 
 h1,
 h2,
-h3,
-.main-menu a { 
+h3 {
 	font-family: 'Roboto Slab', serif; 
 	// letter-spacing: -0.04rem;
 	// line-height: 6rem;
-	// line-height: 1.2em;
+	line-height: 1.2em;
 }
 
 h1 {
@@ -110,7 +109,7 @@ h5 {
 \*------------------------------------*/
 
 b { 
-	font-weight: 800;
+	font-weight: 400;
 }
 
 
@@ -186,6 +185,13 @@ b {
 
 	h1 {
 		font-size: 6.4rem; /* =62px */
+		text-align: center;
+	}
+
+	.home h1 {
+
+		text-align: left;
+
 	}
 
 	h2 { 
@@ -193,11 +199,11 @@ b {
 	} 
 
 	h3 { 
-		font-size: 2.6rem; /* =26px */
+		font-size: 3rem; /* =26px */
 	}
 
 	h4 { 
-		font-size: 2rem; /* =26px */
+		font-size: 2.2rem; /* =26px */
 	}
 
 	h5 { 

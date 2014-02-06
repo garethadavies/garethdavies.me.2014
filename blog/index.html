@@ -13,11 +13,11 @@ class: blog
   
   <div class="Grid-cell">
 
-  	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  	<h3 class="section-header"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
-		<p>{{ post.date | date_to_string }} | 4 Comments</p>
+		<p><b>{{ post.date | date: "%-d %B %Y" }}</b> | <a href="#">4 Comments</a></p>
 
-		<p>{{ post.excerpt }}</p>
+		{{ post.excerpt }}
 
   </div>
 
@@ -33,7 +33,7 @@ class: blog
 
 </div>
 
-{% if site.paginate > total_posts %}
+{% if site.posts | size > site.paginate %}
 
 <!-- Pagination links -->
 <div class="pagination">

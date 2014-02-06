@@ -57,12 +57,15 @@ Author(s):
     border-top: 1px solid #222222;
     line-height: 8rem; }
     .main-menu li a {
+      font-family: 'Roboto Slab', serif;
       text-decoration: none;
       color: #222;
       font-size: 1.8rem;
       font-weight: 300; }
       .main-menu li a i {
         font-size: 1.6rem; }
+    .main-menu li a:hover {
+      color: darkred; }
     .main-menu li .circle-link {
       position: relative;
       top: 2.2rem; }
@@ -107,13 +110,15 @@ Author(s):
       padding: 0 10px; }
       .main-menu li a {
         text-decoration: none;
-        color: #222;
+        color: #222222;
         font-size: 1.8rem;
         font-weight: 300; }
     .main-menu li:first-child {
       padding-left: 0; }
     .main-menu li:last-child {
       border: none; }
+    .main-menu .main-menu-active {
+      pointer-events: none; }
 
   /* You are here */
   .home .main-menu-active a {
