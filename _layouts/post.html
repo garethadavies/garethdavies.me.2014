@@ -3,29 +3,38 @@ layout: default
 class: blog
 ---
 
-<h1 class="no-margin-bottom">{{ page.title }}</h1>
-<h3>A short sentence to give more information about this post.</h3>
+<h1>{{ page.title }}</h1>
+
+<h2 class="sub-title">{{ page.subtitle }}</h2>
 
 <div class="Grid Grid--gutters3x Grid--full large-Grid--fit section-margin">
 
   <div class="Grid-cell u-large-1of4">
 
-		<ul class="no-list-styling">
-			<li>{{ page.date | date_to_string }}</li>
-			<li>3 Comments</li>
-		</ul>
+		<div class="border-top">
+
+			<ul class="no-list-styling">
+				<li><b>{{ page.date | date: "%-d %B %Y" }}</b></li>
+				<li>3 Comments</li>
+			</ul>
+
+		</div>
 
 	</div>
 
 	<div class="Grid-cell">
 
-		<div class="post">
-		{{ content }}
+		<div class="border-top">
+
+			<div class="post">
+			{{ content }}
+			</div>
+
 		</div>
 
-		<hr>
+		<!-- <hr> -->
 
-		<div id="disqus_thread"></div>
+		<!-- <div id="disqus_thread"></div>
 		<script type="text/javascript">
 		    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 		    var disqus_shortname = 'garethdavies'; // required: replace example with your forum shortname
@@ -38,7 +47,7 @@ class: blog
 		    })();
 		</script>
 		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-		<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+		<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> -->
     
 	</div>
 
