@@ -41,8 +41,9 @@ body {
 p,
 li,
 label,
-button {
-	font-size: 1.5rem; /* =14px */
+button,
+.highlight {
+	font-size: 1.6rem; /* =14px */
 	line-height: 1.6em;
 	font-weight: 300;
 }
@@ -56,40 +57,51 @@ button {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
 	font-family: 'Roboto Slab', serif; 
 	// letter-spacing: -0.04rem;
 	// line-height: 6rem;
 	line-height: 1.2em;
+	font-weight: 300;
+	margin-bottom: 1em;
 }
 
 h1 {
 	// letter-spacing: -0.04rem;
 	font-size: 3.6rem; /* =36px */
-	font-weight: 300;
 	margin: $margin*4 0;
 	line-height: 1.1em;
+	// font-weight: 500;
 }
 
 h2 { 
-	font-size: 2.8rem; /* =42px */
-	font-weight: 300;
+	font-size: 3rem; /* =42px */
 } 
 
 h3 { 
-	font-size: 2.2rem; /* =26px */
-	font-weight: 300;
+	font-size: 2.4rem; /* =26px */
+	border-bottom: $border;
+	padding-bottom: .4em; 
+	margin-top: 1.2em;
+	// line-height: 2.6em;
+	// font-weight: 500;
 }
 
 h4 { 
 	font-size: 1.8rem; /* =26px */
-	font-weight: 500;
 }
 
 h5 { 
 	font-size: 1.6rem; /* =26px */
-	font-weight: 500;
 }
+
+
+
+
+
 
 .sub-title-parent {
 	margin-bottom: 0;
@@ -98,9 +110,14 @@ h5 {
 .sub-title {
 	width: 100%;
 	text-align: center;
-	margin-top: -2.2rem;
+	margin-top: -2.4rem;
 	font-weight: 100;
 	font-size: 2.8rem;
+}
+
+.home .sub-title {
+	text-align: left;
+	margin-top: -1.2rem;
 }
 
 
@@ -197,19 +214,19 @@ b {
 	}
 
 	h2 { 
-		font-size: 4.2rem; /* =42px */
+		font-size: 5rem; /* =42px */
 	} 
 
 	h3 { 
-		font-size: 3rem; /* =26px */
+		font-size: 4rem; /* =26px */
 	}
 
 	h4 { 
-		font-size: 2.2rem; /* =26px */
+		font-size: 2.4rem; /* =26px */
 	}
 
 	h5 { 
-		font-size: 1.6rem; /* =26px */
+		font-size: 1.8rem; /* =26px */
 	}
 
 }

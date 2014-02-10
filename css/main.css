@@ -10,6 +10,7 @@
 @import 'partials/buttons.css';
 @import 'partials/links.css';
 @import 'partials/utilities.css';
+@import 'partials/syntax.css';
 
 /* Vendor */
 @import 'vendor/fontello.css';

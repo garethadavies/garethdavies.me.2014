@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "08. Backbone Crudder"
+subtitle: "Make your Backbone application CRUD operations even easier"
 date:   2014-02-07 10:13:00
 ---
 
