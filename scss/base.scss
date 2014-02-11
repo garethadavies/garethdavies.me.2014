@@ -127,9 +127,10 @@ img {
 
 
 .section-header {
-  padding-top: $padding*2.5;
-  margin-bottom: $margin;
+  padding: $padding*2.5 0 0 0;
+  margin-bottom: 0;
   border-top: $border;
+  border-bottom: none;
 
   a {
     text-decoration: none;
@@ -138,6 +139,17 @@ img {
     &:hover {
       color: darkred;
     }
+  }
+}
+
+
+
+
+.date {
+  li:first-child {
+    font-family: 'Roboto Slab', serif; 
+    font-size: 3rem;
+    line-height: 1em;
   }
 }
 

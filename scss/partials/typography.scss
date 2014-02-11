@@ -79,13 +79,13 @@ h1 {
 
 h2 { 
 	font-size: 3rem; /* =42px */
+	border-bottom: $border;
+	padding-bottom: .4em; 
+	margin-top: 1.2em;
 } 
 
 h3 { 
 	font-size: 2.4rem; /* =26px */
-	border-bottom: $border;
-	padding-bottom: .4em; 
-	margin-top: 1.2em;
 	// line-height: 2.6em;
 	// font-weight: 500;
 }
@@ -113,6 +113,7 @@ h5 {
 	margin-top: -2.4rem;
 	font-weight: 100;
 	font-size: 2.8rem;
+	border: none;
 }
 
 .home .sub-title {
@@ -209,24 +210,24 @@ b {
 
 	.home h1 {
 
-		text-align: left;
+		text-align: left; 
 
 	}
 
 	h2 { 
-		font-size: 5rem; /* =42px */
+		font-size: 3.8rem; /* =42px */
 	} 
 
 	h3 { 
-		font-size: 4rem; /* =26px */
-	}
-
-	h4 { 
 		font-size: 2.4rem; /* =26px */
 	}
 
-	h5 { 
+	h4 { 
 		font-size: 1.8rem; /* =26px */
+	}
+
+	h5 { 
+		font-size: 1.6rem; /* =26px */
 	}
 
 }

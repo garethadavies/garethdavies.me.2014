@@ -91,14 +91,20 @@ img {
   -webkit-transform: scale(0.6); }
 
 .section-header {
-  padding-top: 25px;
-  margin-bottom: 10px;
-  border-top: 1px solid #222222; }
+  padding: 25px 0 0 0;
+  margin-bottom: 0;
+  border-top: 1px solid #222222;
+  border-bottom: none; }
   .section-header a {
     text-decoration: none;
     color: #222222; }
     .section-header a:hover {
       color: darkred; }
+
+.date li:first-child {
+  font-family: 'Roboto Slab', serif;
+  font-size: 3rem;
+  line-height: 1em; }
 
 /**
  * For modern browsers

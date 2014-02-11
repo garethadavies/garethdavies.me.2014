@@ -11,25 +11,20 @@ class: blog
 
   <div class="Grid-cell u-large-1of4">
 
-		<div class="">
-
-			<ul class="no-list-styling">
-				<li><b>{{ page.date | date: "%-d %B %Y" }}</b></li>
-				<li><a href="#">3 Comments</a></li>
-			</ul>
-
-		</div>
+		<ul class="no-list-styling date">
+			<!-- <li><b>Published</b></li> -->
+			<!-- <li>{{ page.date | date: "%-d %B %Y" }}</li> -->
+			<li>{{ page.date | date: "%d %B" }}</li>
+			<!-- <li>{{ page.date | date: "%b" }}</li> -->
+			<li>{{ page.date | date: "%Y" }}</li>
+		</ul>
 
 	</div>
 
 	<div class="Grid-cell">
 
-		<div class="">
-
-			<div class="post">
-			{{ content }}
-			</div>
-
+		<div class="post">
+		{{ content }}
 		</div>
 
 		<!-- <hr> -->

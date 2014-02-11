@@ -9,7 +9,7 @@ Backbone.Crudder is a Backbone plugin I have created to make CRUD operations eas
 
 Feel free to use and change this plugin as you wish as it has been developed to suit my own application, but maybe not yours. It has been used in live applications, so I can guarantee it works, but I am happy if people wish to change the code to suit your own needs.
 
-### Requirements
+## Requirements
 
 The requirements for this plugin were to:
 
@@ -17,7 +17,7 @@ The requirements for this plugin were to:
 2. Be able to define what happens when particular events occur
 3. Be able to provide a callback function to deal with the response
 
-#### Dependancies
+### Dependancies
 
 * jQuery (>=1.8.3) - http://jquery.com
 * Backbone (>=1.0.0) - http://backbonejs.org
