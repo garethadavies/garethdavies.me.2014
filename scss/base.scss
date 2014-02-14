@@ -127,6 +127,7 @@ img {
 
 
 .section-header {
+  position: relative;
   padding: $padding*2.5 0 0 0;
   margin-bottom: 0;
   border-top: $border;
@@ -140,6 +141,16 @@ img {
       color: darkred;
     }
   }
+}
+
+.section-header:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 6px;
+  background-color: $grayDark;
+  position: absolute; 
+  top: -10px;
 }
 
 
