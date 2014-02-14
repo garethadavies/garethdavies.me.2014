@@ -79,8 +79,12 @@ h1 {
 h2 {
   border-bottom: 1px solid #222222;
   padding-bottom: .4em;
-  margin-top: 1.2em;
+  margin-top: 1.4em;
   letter-spacing: -0.02em;
+}
+
+h3 {
+  margin-top: 1.4em;
 }
 
 .sub-title {
@@ -177,21 +181,16 @@ b {
   }
 
   h2 {
-    font-size: 2.4em;
+    font-size: 2.2em;
     /* =42px */
   }
 
   h3 {
-    font-size: 1.6em;
+    font-size: 1.4em;
     /* =26px */
   }
 
   h4 {
-    font-size: 1.2em;
-    /* =26px */
-  }
-
-  h5 {
     font-size: 1em;
     /* =26px */
   }

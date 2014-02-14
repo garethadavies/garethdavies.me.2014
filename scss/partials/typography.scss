@@ -66,7 +66,7 @@ h6 {
 	// line-height: 6em;
 	line-height: 1.2em;
 	font-weight: 600;
-	margin-bottom: 1em;
+	margin-bottom: 1em; 
 }
 
 h1 {
@@ -81,11 +81,12 @@ h2 {
 	//font-size: 3em; /* =42px */
 	border-bottom: $border;
 	padding-bottom: .4em; 
-	margin-top: 1.2em;
+	margin-top: 1.4em;
 	letter-spacing: -0.02em;
 } 
 
-h3 { 
+h3 {
+	margin-top: 1.4em;
 	//font-size: 2.4em; /* =26px */
 	// line-height: 2.6em;
 	// font-weight: 500;
@@ -210,18 +211,14 @@ b {
 	}
 
 	h2 { 
-		font-size: 2.4em; /* =42px */
+		font-size: 2.2em; /* =42px */
 	} 
 
 	h3 { 
-		font-size: 1.6em; /* =26px */
+		font-size: 1.4em; /* =26px */
 	}
 
 	h4 { 
-		font-size: 1.2em; /* =26px */
-	}
-
-	h5 { 
 		font-size: 1em; /* =26px */
 	}
 

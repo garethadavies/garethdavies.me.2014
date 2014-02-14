@@ -23,19 +23,19 @@ The requirements for this plugin were to:
 * Backbone (>=1.0.0) - http://backbonejs.org
 * Underscore (>=1.4.4) - http://underscorejs.com
 
-### Getting up and running
+## Getting up and running
 
-#### Download the script
+### Download the script
 
 * [backbone.crudder.js](https://raw.github.com/garethadavies/backbone.crudder/master/backbone.crudder.js)
 
-#### Reference the script
+### Reference the script
 
 This script requires jQuery, Backbone and Underscore, so make sure you add it after those files.
 
 &lt;script src=&quot;path/to/file/backbone.crudder.js&quot;&gt;&lt;/script&gt;
 
-#### Extend Crudder
+### Extend Crudder
 You can extend Crudder and define what you want to happen when the jQuery AJAX ```beforeSend```, ```complete```, ```success``` and ```error``` functions are fired.
 
 ```js
@@ -70,7 +70,7 @@ _.extend(Backbone.Crudder.prototype, {
 
 Make sure that you include the backbone.crudder.js file before you extend it.
 
-#### Initialise Crudder
+### Initialise Crudder
 When you initialise crudder, you can state which of the functions you wish to be activated.
 
 ```js
@@ -84,9 +84,9 @@ Backbone.Crudder.initialize({
 });
 ```
 
-### Using Crudder
+## Using Crudder
 
-#### Options
+### Options
 
 Each type of Crudder request types share the following options:
 
@@ -117,9 +117,9 @@ The creating/updating request has the following options:
 }
 ```
 
-#### Example Fetch
+### Example Fetch
 
-##### Options
+#### Options
 
 ```js
 Backbone.Crudder.reading({
@@ -141,7 +141,7 @@ Backbone.Crudder.reading({
 });
 ```
 
-#### Example Save
+### Example Save
 
 ```js
 Backbone.Crudder.creatingUpdating({
@@ -173,7 +173,7 @@ Backbone.Crudder.creatingUpdating({
 
 You may want to look at Derick Bailey's [Backbone.Syphon](https://github.com/derickbailey/backbone.syphon) as an easy way to serialise the forms in your backbone application.
 
-#### Example Delete
+### Example Delete
 
 ```js
 Backbone.Crudder.deleting({
