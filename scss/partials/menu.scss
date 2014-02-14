@@ -56,7 +56,7 @@ Author(s):
 		width: 100%;
 		padding: 0 $padding;
 		border-top: $borderWidth $borderStyle $borderColour;
-		line-height: 2.2em; 
+		line-height: 2.3em; 
 
 		a {
 			//font-family: 'Roboto Slab', serif;
@@ -65,7 +65,7 @@ Author(s):
 			text-decoration: none;
 			color: #222;
 			//font-size: 1.8rem;
-			font-weight: 300;
+			//font-weight: 300;
 
 			i {
 				//font-size: 1.6rem;
@@ -145,7 +145,7 @@ Author(s):
 				text-decoration: none;
 				color: $grayDark;
 				//font-size: 1.8rem;
-				font-weight: 300;
+				//font-weight: 300;
 
 				&:hover {
 					// font-weight: 500;
@@ -172,7 +172,7 @@ Author(s):
 	.home .main-menu-active {
 
 		a {
-			font-weight: 500;	
+			font-weight: 600;	
 		}
 
 	}
@@ -180,7 +180,7 @@ Author(s):
 	.about .main-menu-active {
 
 		a {
-			font-weight: 500;	
+			font-weight: 600;	
 		}
 
 	}
@@ -188,7 +188,7 @@ Author(s):
 	.blog .main-menu-active {
 
 		a {
-			font-weight: 500;	
+			font-weight: 600;	
 		}
 
 	}
@@ -196,7 +196,7 @@ Author(s):
 	.contact .main-menu-active {
 
 		a {
-			font-weight: 500;	
+			font-weight: 600;	
 		}
 
 	}
@@ -204,7 +204,7 @@ Author(s):
 	.work .main-menu-active {
 
 		a {
-			font-weight: 500;	
+			font-weight: 600;	
 		}
 
 	}
