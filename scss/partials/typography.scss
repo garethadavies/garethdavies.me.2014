@@ -62,20 +62,19 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Roboto Slab', serif; 
 	// letter-spacing: -0.04em;
 	// line-height: 6em;
 	line-height: 1.2em;
-	font-weight: 300;
+	font-weight: 600;
 	margin-bottom: 1em;
 }
 
 h1 {
-	// letter-spacing: -0.04em;
+	letter-spacing: -0.04em;
 	//font-size: 3.6em; /* =36px */
 	margin: $margin*4 0;
 	line-height: 1.1em;
-	// font-weight: 500;
+	//font-weight: 500;
 }
 
 h2 { 
@@ -83,6 +82,7 @@ h2 {
 	border-bottom: $border;
 	padding-bottom: .4em; 
 	margin-top: 1.2em;
+	letter-spacing: -0.02em;
 } 
 
 h3 { 
@@ -106,7 +106,7 @@ h5 {
 	width: 100%;
 	text-align: center;
 	margin-top: -1em;
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 2em;
 	border: none;
 }
@@ -199,7 +199,7 @@ b {
 @media only screen and (min-width: 940px) {
 
 	h1 {
-		font-size: 4.6em; /* =62px */
+		font-size: 4.4em; /* =62px */
 		text-align: center;
 	}
 
@@ -210,19 +210,19 @@ b {
 	}
 
 	h2 { 
-		font-size: 3em; /* =42px */
+		font-size: 2.4em; /* =42px */
 	} 
 
 	h3 { 
-		font-size: 2.4em; /* =26px */
+		font-size: 1.6em; /* =26px */
 	}
 
 	h4 { 
-		font-size: 1.8em; /* =26px */
+		font-size: 1.2em; /* =26px */
 	}
 
 	h5 { 
-		font-size: 1.6em; /* =26px */
+		font-size: 1em; /* =26px */
 	}
 
 }
