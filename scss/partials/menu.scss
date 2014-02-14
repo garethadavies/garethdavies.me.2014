@@ -50,12 +50,13 @@ Author(s):
 	display: none;
 	background-color: white;
 	// margin-bottom: $margin*4;
+	padding: $padding*2 0;
 
 	li {
 		width: 100%;
-		padding: $padding;
+		padding: 0 $padding;
 		border-top: $borderWidth $borderStyle $borderColour;
-		line-height: 4em; 
+		line-height: 2.2em; 
 
 		a {
 			font-family: 'Roboto Slab', serif;
@@ -77,8 +78,8 @@ Author(s):
 
 		// Circle links in top menu
 		.circle-link {
-			position: relative;
-			top: .8em;
+			//position: relative;
+			//top: .8em;
 		}
 	}
 

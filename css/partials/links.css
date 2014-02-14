@@ -36,7 +36,8 @@ Author(s):
   $ Links
 \*------------------------------------*/
 a {
-  color: darkred; }
+  color: darkred;
+}
 
 .circle-link {
   display: block;
@@ -45,7 +46,8 @@ a {
   border: 1px solid #222222;
   border-radius: 100%;
   text-align: center;
-  line-height: 2.3rem; }
+}
 
 .circle-link:hover {
-  border-color: darkred; }
+  border-color: darkred;
+}

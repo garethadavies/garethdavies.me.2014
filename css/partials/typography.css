@@ -38,11 +38,13 @@ Author(s):
 \*------------------------------------*/
 html,
 body {
-  font-size: 100%; }
+  font-size: 100%;
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #222222; }
+  color: #222222;
+}
 
 p,
 li,
@@ -51,7 +53,8 @@ button,
 .highlight {
   font-size: 1em;
   line-height: 1.6em;
-  font-weight: 300; }
+  font-weight: 300;
+}
 
 /*------------------------------------*\
   $ Headers
@@ -65,35 +68,40 @@ h6 {
   font-family: 'Roboto Slab', serif;
   line-height: 1.2em;
   font-weight: 300;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+}
 
 h1 {
   margin: 40px 0;
-  line-height: 1.1em; }
+  line-height: 1.1em;
+}
 
 h2 {
   border-bottom: 1px solid #222222;
   padding-bottom: .4em;
-  margin-top: 1.2em; }
-
-.sub-title-parent {
-  margin-bottom: 0; }
+  margin-top: 1.2em;
+}
 
 .sub-title {
   width: 100%;
   text-align: center;
+  margin-top: -1em;
   font-weight: 100;
-  font-size: 2.2em;
-  border: none; }
+  font-size: 2em;
+  border: none;
+}
 
 .home .sub-title {
-  text-align: left; }
+  text-align: left;
+  margin-top: 0;
+}
 
 /*------------------------------------*\
   $ Styles
 \*------------------------------------*/
 b {
-  font-weight: 400; }
+  font-weight: 400;
+}
 
 /*------------------------------------*\
   $ >480
@@ -101,46 +109,58 @@ b {
 @media only screen and (min-width: 480px) {
   h1 {
     font-size: 4.2em;
-    /* =62px */ }
+    /* =62px */
+  }
 
   h2 {
     font-size: 4.2em;
-    /* =42px */ }
+    /* =42px */
+  }
 
   h3 {
     font-size: 2.6em;
-    /* =26px */ }
+    /* =26px */
+  }
 
   h4 {
     font-size: 2em;
-    /* =26px */ }
+    /* =26px */
+  }
 
   h5 {
     font-size: 1.6em;
-    /* =26px */ } }
+    /* =26px */
+  }
+}
 /*------------------------------------*\
   $ >768
 \*------------------------------------*/
 @media only screen and (min-width: 768px) {
   h1 {
     font-size: 5em;
-    /* =62px */ }
+    /* =62px */
+  }
 
   h2 {
     font-size: 4.2em;
-    /* =42px */ }
+    /* =42px */
+  }
 
   h3 {
     font-size: 2.6em;
-    /* =26px */ }
+    /* =26px */
+  }
 
   h4 {
     font-size: 2em;
-    /* =26px */ }
+    /* =26px */
+  }
 
   h5 {
     font-size: 1.6em;
-    /* =26px */ } }
+    /* =26px */
+  }
+}
 /*------------------------------------*\
   $ >940
 \*------------------------------------*/
@@ -148,23 +168,30 @@ b {
   h1 {
     font-size: 4.6em;
     /* =62px */
-    text-align: center; }
+    text-align: center;
+  }
 
   .home h1 {
-    text-align: left; }
+    text-align: left;
+  }
 
   h2 {
     font-size: 3em;
-    /* =42px */ }
+    /* =42px */
+  }
 
   h3 {
     font-size: 2.4em;
-    /* =26px */ }
+    /* =26px */
+  }
 
   h4 {
     font-size: 1.8em;
-    /* =26px */ }
+    /* =26px */
+  }
 
   h5 {
     font-size: 1.6em;
-    /* =26px */ } }
+    /* =26px */
+  }
+}
