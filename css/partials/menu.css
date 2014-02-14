@@ -37,7 +37,8 @@ Author(s):
   top: 0;
   left: 0;
   z-index: 2;
-  border-top: 6px solid #222222; }
+  border-top: 6px solid #222222;
+  background-color: white; }
 
 /*------------------------------------*\
   $ Main Menu
@@ -55,20 +56,17 @@ Author(s):
     width: 100%;
     padding: 10px;
     border-top: 1px solid #222222;
-    line-height: 8rem; }
+    line-height: 4em; }
     .main-menu li a {
       font-family: 'Roboto Slab', serif;
       text-decoration: none;
       color: #222;
-      font-size: 1.8rem;
       font-weight: 300; }
-      .main-menu li a i {
-        font-size: 1.6rem; }
     .main-menu li a:hover {
       color: darkred; }
     .main-menu li .circle-link {
       position: relative;
-      top: 2.2rem; }
+      top: .8em; }
   .main-menu li:last-child {
     border-bottom: 1px solid #222222; }
 
@@ -111,7 +109,6 @@ Author(s):
       .main-menu li a {
         text-decoration: none;
         color: #222222;
-        font-size: 1.8rem;
         font-weight: 300; }
     .main-menu li:first-child {
       padding-left: 0; }

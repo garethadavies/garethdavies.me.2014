@@ -19,6 +19,8 @@ Author(s):
   $ Imports
 \*------------------------------------*/
 
+@import "bourbon/bourbon";
+@import "neat/neat";
 @import "modules/_variables"; 
 
 
@@ -28,10 +30,6 @@ Author(s):
 /*------------------------------------*\
   $ Scaffolding
 \*------------------------------------*/
-
-* {
-  box-sizing: border-box;
-}
 
 html {
   // border-top: 6px $borderStyle $grayDark;
@@ -46,6 +44,10 @@ body {
   padding: $padding*22 0 $padding*2 0;
 }
 
+.container {
+  @include outer-container;
+}
+
 
 
 
@@ -56,8 +58,8 @@ body {
 @media only screen and (min-width: 940px) {
 
   .container {
-    max-width: 960px;
-    margin: 0 auto;
+    // max-width: 960px;
+    // margin: 0 auto;
     // background: url('../images/gareth.png') no-repeat top right;
     // background-size: 20%;
   }
@@ -90,8 +92,8 @@ img {
 
 .trophy-wrapper {
   position: fixed;
-  top: 54px;
-  left: 50%;
+  top: 34px;
+  left: 50%; 
   z-index: 3;
   margin-left: -79px;
   width: 159px;
@@ -167,29 +169,6 @@ img {
 
 
 
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
-}
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-    *zoom: 1;
+.clearfix {
+  @include clearfix;
 }

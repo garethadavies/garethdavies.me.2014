@@ -95,7 +95,7 @@ $(function() {
 		}
 
 	];
-
+/*
 	var
 	chart1 = document.getElementById("myChart").getContext("2d"),
 	chart2 = document.getElementById("myChart2").getContext("2d"),
@@ -104,6 +104,7 @@ $(function() {
 	new Chart(chart1).Doughnut(data, options);
 	new Chart(chart2).Doughnut(data, options);
 	new Chart(chart3).Doughnut(data, options);
+	*/
 
 });
 

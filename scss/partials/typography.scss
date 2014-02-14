@@ -29,8 +29,9 @@ Author(s):
   $ Scaffolding
 \*------------------------------------*/
 
-html { 
-	font-size: 62.5%; 
+html,
+body { 
+	font-size: 100%;
 }
 
 body {
@@ -43,7 +44,7 @@ li,
 label,
 button,
 .highlight {
-	font-size: 1.6rem; /* =14px */
+	font-size: 1em;
 	line-height: 1.6em;
 	font-weight: 300;
 }
@@ -62,40 +63,40 @@ h4,
 h5,
 h6 {
 	font-family: 'Roboto Slab', serif; 
-	// letter-spacing: -0.04rem;
-	// line-height: 6rem;
+	// letter-spacing: -0.04em;
+	// line-height: 6em;
 	line-height: 1.2em;
 	font-weight: 300;
 	margin-bottom: 1em;
 }
 
 h1 {
-	// letter-spacing: -0.04rem;
-	font-size: 3.6rem; /* =36px */
+	// letter-spacing: -0.04em;
+	//font-size: 3.6em; /* =36px */
 	margin: $margin*4 0;
 	line-height: 1.1em;
 	// font-weight: 500;
 }
 
 h2 { 
-	font-size: 3rem; /* =42px */
+	//font-size: 3em; /* =42px */
 	border-bottom: $border;
 	padding-bottom: .4em; 
 	margin-top: 1.2em;
 } 
 
 h3 { 
-	font-size: 2.4rem; /* =26px */
+	//font-size: 2.4em; /* =26px */
 	// line-height: 2.6em;
 	// font-weight: 500;
 }
 
 h4 { 
-	font-size: 1.8rem; /* =26px */
+	//font-size: 1.8em; /* =26px */
 }
 
 h5 { 
-	font-size: 1.6rem; /* =26px */
+	//font-size: 1.6em; /* =26px */
 }
 
 
@@ -110,15 +111,15 @@ h5 {
 .sub-title {
 	width: 100%;
 	text-align: center;
-	margin-top: -2.4rem;
+	// margin-top: -2.4em;
 	font-weight: 100;
-	font-size: 2.8rem;
+	font-size: 2.2em;
 	border: none;
 }
 
 .home .sub-title {
 	text-align: left;
-	margin-top: -1.2rem;
+	//margin-top: -1.2em;
 }
 
 
@@ -142,23 +143,23 @@ b {
 @media only screen and (min-width: 480px) {
 
 	h1 {
-		font-size: 4.2rem; /* =62px */
+		font-size: 4.2em; /* =62px */
 	}
 
 	h2 { 
-		font-size: 4.2rem; /* =42px */
+		font-size: 4.2em; /* =42px */
 	} 
 
 	h3 { 
-		font-size: 2.6rem; /* =26px */
+		font-size: 2.6em; /* =26px */
 	}
 
 	h4 { 
-		font-size: 2rem; /* =26px */
+		font-size: 2em; /* =26px */
 	}
 
 	h5 { 
-		font-size: 1.6rem; /* =26px */
+		font-size: 1.6em; /* =26px */
 	}
 
 }
@@ -173,23 +174,23 @@ b {
 @media only screen and (min-width: 768px) {
 
 	h1 {
-		font-size: 5rem; /* =62px */
+		font-size: 5em; /* =62px */
 	}
 
 	h2 { 
-		font-size: 4.2rem; /* =42px */
+		font-size: 4.2em; /* =42px */
 	} 
 
 	h3 { 
-		font-size: 2.6rem; /* =26px */
+		font-size: 2.6em; /* =26px */
 	}
 
 	h4 { 
-		font-size: 2rem; /* =26px */
+		font-size: 2em; /* =26px */
 	}
 
 	h5 { 
-		font-size: 1.6rem; /* =26px */
+		font-size: 1.6em; /* =26px */
 	}
 
 }
@@ -204,7 +205,7 @@ b {
 @media only screen and (min-width: 940px) {
 
 	h1 {
-		font-size: 6.4rem; /* =62px */
+		font-size: 4.6em; /* =62px */
 		text-align: center;
 	}
 
@@ -215,19 +216,19 @@ b {
 	}
 
 	h2 { 
-		font-size: 3.8rem; /* =42px */
+		font-size: 3em; /* =42px */
 	} 
 
 	h3 { 
-		font-size: 2.4rem; /* =26px */
+		font-size: 2.4em; /* =26px */
 	}
 
 	h4 { 
-		font-size: 1.8rem; /* =26px */
+		font-size: 1.8em; /* =26px */
 	}
 
 	h5 { 
-		font-size: 1.6rem; /* =26px */
+		font-size: 1.6em; /* =26px */
 	}
 
 }

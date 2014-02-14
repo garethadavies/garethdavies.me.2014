@@ -8,11 +8,11 @@ class: home
 
 <h2 class="sub-title">Lorem ipsum dolor sit amet, <a href="/work">work examples</a>, consectet uer about me elit, <a href="/blog">my blog</a> dolor sit amet, <a href="/contact">contact me</a> uer adipiscing elit...</h2>
 
-<div class="posts section-margin Grid Grid--gutters3x Grid--full large-Grid--fit">
+<div class="section-margin row">
 
 	{% for post in site.posts limit:6 %}
   
-  <div class="Grid-cell">
+  <div class="column-4">
 
   	<h2 class="section-header"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
@@ -26,7 +26,7 @@ class: home
 
 	</div>
 
-	<div class="Grid Grid--gutters3x Grid--full large-Grid--fit">
+	<div class="row">
 
 	{% endif %}
 

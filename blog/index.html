@@ -6,12 +6,12 @@ class: blog
 
 <h1>{{ page.title }}</h1>
 
-<div class="Grid Grid--gutters3x Grid--full large-Grid--fit">
+<div class="row">
 
   <!-- This loops through the paginated posts -->
 	{% for post in paginator.posts %}
   
-  <div class="Grid-cell">
+  <div class="column-4">
 
   	<h2 class="section-header"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
@@ -25,7 +25,7 @@ class: blog
 
 	</div>
 
-	<div class="Grid Grid--gutters3x Grid--full large-Grid--fit padding-bottom">
+	<div class="row">
 
 	{% endif %}
 
@@ -36,7 +36,7 @@ class: blog
 {% if site.posts | size > site.paginate %}
 
 <!-- Pagination links -->
-<div class="pagination full-width border-top extra-margin-top cf">
+<div class="pagination full-width border-top extra-margin-top clearfix">
 	<p>
 		{% if paginator.previous_page %}
 		{% if paginator.previous_page == 1 %}

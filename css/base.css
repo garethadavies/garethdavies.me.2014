@@ -13,6 +13,12 @@ Author(s):
 /*------------------------------------*\
   $ Imports
 \*------------------------------------*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /*------------------------------------*\
   $$ Just Checking - Global Variables
 \*------------------------------------*/
@@ -36,32 +42,42 @@ Author(s):
 /*------------------------------------*\
   $ Scaffolding
 \*------------------------------------*/
-* {
-  box-sizing: border-box; }
-
 body {
   width: 100%;
-  padding: 190px 0 20px 0; }
+  padding: 190px 0 20px 0;
+}
 
 .home {
-  padding: 220px 0 20px 0; }
+  padding: 220px 0 20px 0;
+}
+
+.container {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
 
 /*------------------------------------*\
   $ Contact Map
 \*------------------------------------*/
-@media only screen and (min-width: 940px) {
-  .container {
-    max-width: 960px;
-    margin: 0 auto; } }
 /*------------------------------------*\
   $ Images
 \*------------------------------------*/
 img {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 .trophy-wrapper {
   position: fixed;
-  top: 54px;
+  top: 34px;
   left: 50%;
   z-index: 3;
   margin-left: -79px;
@@ -71,7 +87,8 @@ img {
   border: 1px solid #222222;
   border-width: 2px;
   border-radius: 100%;
-  -webkit-transition: all .2s ease-out; }
+  -webkit-transition: all .2s ease-out;
+}
 
 .trophy {
   position: relative;
@@ -83,24 +100,29 @@ img {
   background-color: white;
   border: 1px solid #222222;
   border-radius: 100%;
-  padding: 5px; }
+  padding: 5px;
+}
 
 .trophy-fixed {
   position: fixed;
   top: -15px;
-  -webkit-transform: scale(0.6); }
+  -webkit-transform: scale(0.6);
+}
 
 .section-header {
   position: relative;
   padding: 25px 0 0 0;
   margin-bottom: 0;
   border-top: 1px solid #222222;
-  border-bottom: none; }
-  .section-header a {
-    text-decoration: none;
-    color: #222222; }
-    .section-header a:hover {
-      color: darkred; }
+  border-bottom: none;
+}
+.section-header a {
+  text-decoration: none;
+  color: #222222;
+}
+.section-header a:hover {
+  color: darkred;
+}
 
 .section-header:before {
   content: '';
@@ -109,35 +131,22 @@ img {
   height: 6px;
   background-color: #222222;
   position: absolute;
-  top: -10px; }
+  top: -10px;
+}
 
 .date li:first-child {
   font-family: 'Roboto Slab', serif;
   font-size: 3rem;
-  line-height: 1em; }
+  line-height: 1em;
+}
 
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-.cf:before,
-.cf:after {
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
   content: " ";
-  /* 1 */
   display: table;
-  /* 2 */ }
-
-.cf:after {
-  clear: both; }
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-  *zoom: 1; }
+}
+.clearfix:after {
+  clear: both;
+}

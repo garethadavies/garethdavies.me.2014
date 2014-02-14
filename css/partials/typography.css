@@ -36,8 +36,9 @@ Author(s):
 /*------------------------------------*\
   $ Scaffolding
 \*------------------------------------*/
-html {
-  font-size: 62.5%; }
+html,
+body {
+  font-size: 100%; }
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -48,8 +49,7 @@ li,
 label,
 button,
 .highlight {
-  font-size: 1.6rem;
-  /* =14px */
+  font-size: 1em;
   line-height: 1.6em;
   font-weight: 300; }
 
@@ -68,29 +68,13 @@ h6 {
   margin-bottom: 1em; }
 
 h1 {
-  font-size: 3.6rem;
-  /* =36px */
   margin: 40px 0;
   line-height: 1.1em; }
 
 h2 {
-  font-size: 3rem;
-  /* =42px */
   border-bottom: 1px solid #222222;
   padding-bottom: .4em;
   margin-top: 1.2em; }
-
-h3 {
-  font-size: 2.4rem;
-  /* =26px */ }
-
-h4 {
-  font-size: 1.8rem;
-  /* =26px */ }
-
-h5 {
-  font-size: 1.6rem;
-  /* =26px */ }
 
 .sub-title-parent {
   margin-bottom: 0; }
@@ -98,14 +82,12 @@ h5 {
 .sub-title {
   width: 100%;
   text-align: center;
-  margin-top: -2.4rem;
   font-weight: 100;
-  font-size: 2.8rem;
+  font-size: 2.2em;
   border: none; }
 
 .home .sub-title {
-  text-align: left;
-  margin-top: -1.2rem; }
+  text-align: left; }
 
 /*------------------------------------*\
   $ Styles
@@ -118,53 +100,53 @@ b {
 \*------------------------------------*/
 @media only screen and (min-width: 480px) {
   h1 {
-    font-size: 4.2rem;
+    font-size: 4.2em;
     /* =62px */ }
 
   h2 {
-    font-size: 4.2rem;
+    font-size: 4.2em;
     /* =42px */ }
 
   h3 {
-    font-size: 2.6rem;
+    font-size: 2.6em;
     /* =26px */ }
 
   h4 {
-    font-size: 2rem;
+    font-size: 2em;
     /* =26px */ }
 
   h5 {
-    font-size: 1.6rem;
+    font-size: 1.6em;
     /* =26px */ } }
 /*------------------------------------*\
   $ >768
 \*------------------------------------*/
 @media only screen and (min-width: 768px) {
   h1 {
-    font-size: 5rem;
+    font-size: 5em;
     /* =62px */ }
 
   h2 {
-    font-size: 4.2rem;
+    font-size: 4.2em;
     /* =42px */ }
 
   h3 {
-    font-size: 2.6rem;
+    font-size: 2.6em;
     /* =26px */ }
 
   h4 {
-    font-size: 2rem;
+    font-size: 2em;
     /* =26px */ }
 
   h5 {
-    font-size: 1.6rem;
+    font-size: 1.6em;
     /* =26px */ } }
 /*------------------------------------*\
   $ >940
 \*------------------------------------*/
 @media only screen and (min-width: 940px) {
   h1 {
-    font-size: 6.4rem;
+    font-size: 4.6em;
     /* =62px */
     text-align: center; }
 
@@ -172,17 +154,17 @@ b {
     text-align: left; }
 
   h2 {
-    font-size: 3.8rem;
+    font-size: 3em;
     /* =42px */ }
 
   h3 {
-    font-size: 2.4rem;
+    font-size: 2.4em;
     /* =26px */ }
 
   h4 {
-    font-size: 1.8rem;
+    font-size: 1.8em;
     /* =26px */ }
 
   h5 {
-    font-size: 1.6rem;
+    font-size: 1.6em;
     /* =26px */ } }
