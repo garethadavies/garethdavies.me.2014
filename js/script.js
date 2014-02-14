@@ -5,6 +5,17 @@ by Gareth Davies
 
 $(function() {
 
+	if ($(document).scrollTop() > 50) {
+
+			$('.trophy-wrapper').addClass('trophy-fixed');
+
+		}
+		else {
+
+			$('.trophy-wrapper').removeClass('trophy-fixed');
+
+		}
+
 	$('#icon-menu').on('click', function() {
 
 		$('#main-menu').toggle();
@@ -13,7 +24,7 @@ $(function() {
 
 	$(window).on('scroll', function() {
 
-		// console.log($(document).scrollTop());
+		//console.log($(document).scrollTop());
 
 		if ($(document).scrollTop() > 50) {
 
@@ -22,7 +33,7 @@ $(function() {
 		}
 		else {
 
-			$('.trophy-wrapper').removeClass('trophy-fixed');			
+			$('.trophy-wrapper').removeClass('trophy-fixed');
 
 		}
 

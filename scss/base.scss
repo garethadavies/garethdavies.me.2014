@@ -102,8 +102,7 @@ img {
   border: $border;
   border-width: 2px;
   border-radius: 100%;
-  // 
-  -webkit-transition: all .2s ease-out;
+  @include transition(all .2s ease-out);
 }
 
 .trophy {
@@ -122,7 +121,7 @@ img {
 .trophy-fixed {
   position: fixed;
   top: -15px;
-  -webkit-transform: scale(0.6);
+  @include transform(scale(0.6));
 }
 
 
