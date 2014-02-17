@@ -142,16 +142,16 @@ img {
       color: darkred;
     }
   }
-}
 
-.section-header:before {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 6px;
-  background-color: $grayDark;
-  position: absolute; 
-  top: -10px;
+  &:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 6px;
+    background-color: $grayDark;
+    position: absolute; 
+    top: -10px;
+  }
 }
 
 
@@ -163,6 +163,31 @@ img {
     font-size: 1.6em;
     line-height: 1em;
     font-weight: 600;
+  }
+}
+
+
+
+
+.colour-key {
+  $colors: ($gray, $grayMid, $grayDark, $grayLight);
+
+  li {
+    span {
+      width: 1em;
+      height: 1em;
+      display: inline-block;
+      background-color: red;
+      margin-right: $margin/2;
+    }
+  }
+
+  @for $i from 1 through length($colors) {
+    li:nth-child(#{$i}) {
+      span {
+        background-color: nth($colors, $i);
+      }
+    }
   }
 }
 

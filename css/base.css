@@ -129,7 +129,6 @@ img {
 .section-header a:hover {
   color: darkred;
 }
-
 .section-header:before {
   content: '';
   display: block;
@@ -144,6 +143,26 @@ img {
   font-size: 1.6em;
   line-height: 1em;
   font-weight: 600;
+}
+
+.colour-key li span {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  background-color: red;
+  margin-right: 5px;
+}
+.colour-key li:nth-child(1) span {
+  background-color: #999999;
+}
+.colour-key li:nth-child(2) span {
+  background-color: #666666;
+}
+.colour-key li:nth-child(3) span {
+  background-color: #222222;
+}
+.colour-key li:nth-child(4) span {
+  background-color: #cccccc;
 }
 
 .clearfix {

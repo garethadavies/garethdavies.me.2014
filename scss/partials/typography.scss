@@ -79,11 +79,11 @@ h1 {
 
 h2 { 
 	//font-size: 3em; /* =42px */
-	border-bottom: $border;
+	border-bottom: 2px solid;
 	padding-bottom: .4em; 
 	margin-top: 1.4em;
 	letter-spacing: -0.02em;
-} 
+}
 
 h3 {
 	margin-top: 1.4em;
@@ -111,6 +111,8 @@ h5 {
 	font-size: 2em;
 	border: none;
 }
+
+
 
 .home .sub-title {
 	text-align: left;
