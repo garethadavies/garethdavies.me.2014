@@ -119,32 +119,32 @@ Author(s):
 	
 	new Chart(chart1).Doughnut(data, {
 
-		percentageInnerCutout: 50
+		percentageInnerCutout: 60
 
 	});
 	new Chart(chart2).Doughnut(data, {
 
-		percentageInnerCutout: 50
+		percentageInnerCutout: 60
 
 	});
 	new Chart(chart3).Doughnut(data, {
 
-		percentageInnerCutout: 50
+		percentageInnerCutout: 60
 
 	});
 	new Chart(chart4).Doughnut(data, {
 
-		percentageInnerCutout: 50
+		percentageInnerCutout: 60
 
 	});
 	new Chart(chart5).Doughnut(data, {
 
-		percentageInnerCutout: 50
+		percentageInnerCutout: 60
 
 	});
 	new Chart(chart6).Doughnut(data, {
 
-		percentageInnerCutout: 50
+		percentageInnerCutout: 60
 
 	});
 
