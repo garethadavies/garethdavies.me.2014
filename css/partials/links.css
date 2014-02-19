@@ -38,6 +38,9 @@ Author(s):
 a {
   color: darkred;
 }
+a:hover {
+  color: #222222;
+}
 
 .circle-link {
   display: block;

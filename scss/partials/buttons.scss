@@ -30,15 +30,14 @@ Author(s):
 button,
 .button {
 	border: none;
-	background: $grayLighter;
+	background: darkred; 
+	color: white;
 	line-height: 2.6em;
-	border-bottom: $border;
 	min-width: 100px;
 	padding: 0 $padding*2;
-}
+	border-radius: $borderRadius;
 
-button:hover,
-.button:hover {
-	border: none;
-	background: $grayLight;
+	&:hover {
+		background: $grayDark;
+	}
 }

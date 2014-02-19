@@ -108,41 +108,139 @@ Author(s):
 		}
 	];
 
+	var dataUX = [
+		{
+			value: 33,
+			color: "#999"
+		},
+		{
+			value : 33,
+			color : "#666"
+		},
+		{
+			value : 34,
+			color : "#222"
+		}
+	];
+
+	var dataCode = [
+		{
+			value: 30,
+			color: "#999"
+		},
+		{
+			value : 30,
+			color : "#666"
+		},
+		{
+			value : 30,
+			color : "#222"
+		},
+		{
+			value : 10,
+			color : "#ccc"
+		}
+	];
+
+	var dataScript = [
+		{
+			value: 80,
+			color: "#999"
+		},
+		{
+			value : 10,
+			color : "#666"
+		},
+		{
+			value : 10,
+			color : "#222"
+		}
+	];
+
+	var dataLibs = [
+		{
+			value: 30,
+			color: "#999"
+		},
+		{
+			value : 30,
+			color : "#666"
+		},
+		{
+			value : 10,
+			color : "#222"
+		},
+		{
+			value : 30,
+			color : "#ccc"
+		}
+	];
+
+	var dataVisual = [
+		{
+			value: 60,
+			color: "#999"
+		},
+		{
+			value : 30,
+			color : "#666"
+		},
+		{
+			value : 10,
+			color : "#222"
+		}
+	];
+
+	var dataData = [
+		{
+			value: 60,
+			color: "#999"
+		},
+		{
+			value : 30,
+			color : "#666"
+		},
+		{
+			value : 10,
+			color : "#222"
+		}
+	];
+
 	var
-	chart1 = document.getElementById("myChart1").getContext("2d"),
-	chart2 = document.getElementById("myChart2").getContext("2d"),
-	chart3 = document.getElementById("myChart3").getContext("2d"),
-	chart4 = document.getElementById("myChart4").getContext("2d"),
-	chart5 = document.getElementById("myChart5").getContext("2d"),
-	chart6 = document.getElementById("myChart6").getContext("2d");
+	chartUX = document.getElementById("chartUX").getContext("2d"),
+	chartCode = document.getElementById("chartCode").getContext("2d"),
+	chartScript = document.getElementById("chartScript").getContext("2d"),
+	chartLibs = document.getElementById("chartLibs").getContext("2d"),
+	chartVisual = document.getElementById("chartVisual").getContext("2d"),
+	chartData = document.getElementById("chartData").getContext("2d");
 
 	
-	new Chart(chart1).Doughnut(data, {
+	new Chart(chartUX).Doughnut(dataUX, {
 
 		percentageInnerCutout: 60
 
 	});
-	new Chart(chart2).Doughnut(data, {
+	new Chart(chartCode).Doughnut(dataCode, {
 
 		percentageInnerCutout: 60
 
 	});
-	new Chart(chart3).Doughnut(data, {
+	new Chart(chartScript).Doughnut(dataScript, {
 
 		percentageInnerCutout: 60
 
 	});
-	new Chart(chart4).Doughnut(data, {
+	new Chart(chartLibs).Doughnut(dataLibs, {
 
 		percentageInnerCutout: 60
 
 	});
-	new Chart(chart5).Doughnut(data, {
+	new Chart(chartVisual).Doughnut(dataVisual, {
 
 		percentageInnerCutout: 60
 
 	});
-	new Chart(chart6).Doughnut(data, {
+	new Chart(chartData).Doughnut(dataData, {
 
 		percentageInnerCutout: 60
 

@@ -29,6 +29,10 @@ Author(s):
 
 a {
 	color: darkred;
+
+	&:hover {
+		color: $grayDark;
+	}
 }
 
 

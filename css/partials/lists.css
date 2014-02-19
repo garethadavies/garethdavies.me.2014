@@ -42,22 +42,26 @@ ol {
   line-height: 1.6;
   margin-top: 17px;
   margin-bottom: 17px;
-  list-style-position: inside; }
+  list-style-position: inside;
+}
 
 ul li ul,
 ul li ol {
   margin-left: 20px;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 /*------------------------------------*\
   $ No Styling
 \*------------------------------------*/
 .no-list-styling {
   list-style: none;
-  padding: 0; }
-  .no-list-styling li {
-    margin: 0;
-    padding: 0; }
+  padding: 0;
+}
+.no-list-styling li {
+  margin: 0;
+  padding: 0;
+}
 
 /*------------------------------------*\
   $ Inline List
@@ -66,7 +70,9 @@ ul li ol {
 .inline-list > li {
   margin: 0;
   padding: 0;
-  list-style: none; }
+  list-style: none;
+}
 
 .inline-list > li {
-  float: left; }
+  float: left;
+}
