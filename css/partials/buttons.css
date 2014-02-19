@@ -38,7 +38,8 @@ Author(s):
 button,
 .button {
   border: none;
-  background: darkred;
+  background-image: -webkit-linear-gradient( #b40000 0, #b40000 89%, darkred 90%, darkred 100%);
+  background-image: linear-gradient( #b40000 0, #b40000 89%, darkred 90%, darkred 100%);
   color: white;
   line-height: 2.6em;
   min-width: 100px;
@@ -47,5 +48,5 @@ button,
 }
 button:hover,
 .button:hover {
-  background: #222222;
+  background: darkred;
 }
