@@ -64,17 +64,17 @@ body {
     // background-size: 20%;
   }
 
-  .contact > .container {
-    // position: relative;
-    // width: 100%;  
-    // min-height: 700px;
-    // background: url('../images/map.png') no-repeat top right;
+  .contact-map {
+    position: relative;
+    width: 100%;  
+    min-height: 700px;
+    background: url('../images/map.png') no-repeat top right;
   }
 
   .contact-map-label {
-    // position: absolute;
-    // top: 180px;
-    // right: 282px;
+    position: absolute;
+    top: 180px; 
+    right: 282px;
   }
 
 }

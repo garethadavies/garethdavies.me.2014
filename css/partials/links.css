@@ -43,14 +43,17 @@ a:hover {
 }
 
 .circle-link {
-  display: block;
+  display: inline-block;
   width: 38px;
   height: 38px;
   border: 1px solid #222222;
   border-radius: 100%;
   text-align: center;
+  color: #222222;
+  line-height: 2.3em;
 }
 
 .circle-link:hover {
   border-color: darkred;
+  color: darkred;
 }

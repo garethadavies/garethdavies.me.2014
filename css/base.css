@@ -68,6 +68,20 @@ body {
 /*------------------------------------*\
   $ Contact Map
 \*------------------------------------*/
+@media only screen and (min-width: 940px) {
+  .contact-map {
+    position: relative;
+    width: 100%;
+    min-height: 700px;
+    background: url("../images/map.png") no-repeat top right;
+  }
+
+  .contact-map-label {
+    position: absolute;
+    top: 180px;
+    right: 282px;
+  }
+}
 /*------------------------------------*\
   $ Images
 \*------------------------------------*/
