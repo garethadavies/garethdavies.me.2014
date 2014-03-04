@@ -112,6 +112,11 @@ Author(s):
   border: 0;
 }
 
+.disabled {
+  color: #cccccc;
+  pointer-events: none;
+}
+
 /* Floaters */
 .right,
 .always-right {
@@ -197,11 +202,11 @@ input.extra-padding-left {
 \*------------------------------------*/
 /*  */
 .section-margin {
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .related-margin {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 /* Remove Margin */

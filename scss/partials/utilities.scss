@@ -106,6 +106,11 @@ Author(s):
   border: 0;
 }
 
+.disabled {
+	color: $grayLight;
+	pointer-events: none;
+}
+
 /* Floaters */
 
 .right,
@@ -205,11 +210,11 @@ input.extra-padding-left {
 /*  */
 
 .section-margin {
-	margin-top: $margin*6;
+	margin-top: $margin*8;
 }
 
 .related-margin {
-	margin-top: $margin*3;
+	margin-top: $margin*4;
 }
 
 /* Remove Margin */

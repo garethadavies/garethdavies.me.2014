@@ -12,9 +12,9 @@ class: home
 
 	{% for post in site.posts limit:6 %}
   
-  <div class="column-4">
+  <div class="column-4 section-header">
 
-  	<h2 class="section-header"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  	<h2 class="no-margin"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
 		<p><b>{{ post.date | date: "%-d %B %Y" }}</b> | <a href="#">4 Comments</a></p>
 
