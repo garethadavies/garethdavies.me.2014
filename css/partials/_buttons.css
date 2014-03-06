@@ -1,5 +1,5 @@
 /*------------------------------------*\
-$$ Just Checking - Menu
+$$ Just Checking - Buttons
 \*------------------------------------*/
 /*
 Requires:
@@ -33,35 +33,20 @@ Author(s):
   $ Borders
 \*------------------------------------*/
 /*------------------------------------*\
-  $ Links
+  $ Buttons
 \*------------------------------------*/
-a {
-  color: darkred;
+button,
+.button {
+  border: none;
+  background-image: -webkit-linear-gradient( #b40000 0, #b40000 89%, darkred 90%, darkred 100%);
+  background-image: linear-gradient( #b40000 0, #b40000 89%, darkred 90%, darkred 100%);
+  color: white;
+  line-height: 2.6em;
+  min-width: 100px;
+  padding: 0 20px;
+  border-radius: 3px;
 }
-a:hover {
-  color: #222222;
-}
-
-h2 a {
-  color: #222222;
-  text-decoration: none;
-}
-h2 a:hover {
-  text-decoration: underline;
-}
-
-.circle-link {
-  display: inline-block;
-  width: 38px;
-  height: 38px;
-  border: 1px solid #222222;
-  border-radius: 100%;
-  text-align: center;
-  color: #222222;
-  line-height: 2.3em;
-}
-
-.circle-link:hover {
-  border-color: darkred;
-  color: darkred;
+button:hover,
+.button:hover {
+  background: darkred;
 }

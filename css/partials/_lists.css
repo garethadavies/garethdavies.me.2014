@@ -1,11 +1,13 @@
 /*------------------------------------*\
-$$ Just Checking - Menu
+$$ Just Checking - Lists
 \*------------------------------------*/
 /*
 Requires:
   * SASS
 Contents:
-  * Main Menu
+  * Default Lists
+  * No Styling
+  * Inline List
 Author(s):
   * Gareth Davies @garethadavies
 */
@@ -33,35 +35,44 @@ Author(s):
   $ Borders
 \*------------------------------------*/
 /*------------------------------------*\
-  $ Links
+  $ Default Lists
 \*------------------------------------*/
-a {
-  color: darkred;
-}
-a:hover {
-  color: #222222;
-}
-
-h2 a {
-  color: #222222;
-  text-decoration: none;
-}
-h2 a:hover {
-  text-decoration: underline;
+ul,
+ol {
+  line-height: 1.6;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  list-style-position: inside;
 }
 
-.circle-link {
-  display: inline-block;
-  width: 38px;
-  height: 38px;
-  border: 1px solid #222222;
-  border-radius: 100%;
-  text-align: center;
-  color: #222222;
-  line-height: 2.3em;
+ul li ul,
+ul li ol {
+  margin-left: 20px;
+  margin-bottom: 0;
 }
 
-.circle-link:hover {
-  border-color: darkred;
-  color: darkred;
+/*------------------------------------*\
+  $ No Styling
+\*------------------------------------*/
+.no-list-styling {
+  list-style: none;
+  padding: 0;
+}
+.no-list-styling li {
+  margin: 0;
+  padding: 0;
+}
+
+/*------------------------------------*\
+  $ Inline List
+\*------------------------------------*/
+.inline-list,
+.inline-list > li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.inline-list > li {
+  float: left;
 }

@@ -134,72 +134,10 @@ b {
 
 
 /*------------------------------------*\
-  $ >480
-\*------------------------------------*/
-
-@media only screen and (min-width: 480px) {
-
-	h1 {
-		font-size: 4.2em; /* =62px */
-	}
-
-	h2 { 
-		font-size: 4.2em; /* =42px */
-	} 
-
-	h3 { 
-		font-size: 2.6em; /* =26px */
-	}
-
-	h4 { 
-		font-size: 2em; /* =26px */
-	}
-
-	h5 { 
-		font-size: 1.6em; /* =26px */
-	}
-
-}
-
-
-
-
-/*------------------------------------*\
-  $ >768
-\*------------------------------------*/
-
-@media only screen and (min-width: 768px) {
-
-	h1 {
-		font-size: 5em; /* =62px */
-	}
-
-	h2 { 
-		font-size: 4.2em; /* =42px */
-	} 
-
-	h3 { 
-		font-size: 2.6em; /* =26px */
-	}
-
-	h4 { 
-		font-size: 2em; /* =26px */
-	}
-
-	h5 { 
-		font-size: 1.6em; /* =26px */
-	}
-
-}
-
-
-
-
-/*------------------------------------*\
   $ >940
 \*------------------------------------*/
 
-@media only screen and (min-width: 940px) {
+@include media($desktop) {
 
 	h1 {
 		font-size: 4.4em; /* =62px */

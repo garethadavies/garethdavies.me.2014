@@ -16,32 +16,16 @@ Author(s):
 
 
 /*------------------------------------*\
-  $ Imports
-\*------------------------------------*/
-
-@import "bourbon/bourbon";
-@import "neat/neat";
-@import "modules/_variables"; 
-
-
-
-
-
-/*------------------------------------*\
   $ Scaffolding
 \*------------------------------------*/
 
-html {
-  // border-top: 6px $borderStyle $grayDark;
-}
-
 body {
 	width: 100%;
-  padding: $padding*19 0 $padding*2 0;
+  padding: $padding*19 $padding $padding*2 $padding;
 }
 
 .home {
-  padding: $padding*20 0 $padding*2 0;
+  padding: $padding*20 $padding $padding*2 $padding;
 }
 
 .container {
@@ -55,14 +39,7 @@ body {
   $ Contact Map
 \*------------------------------------*/
 
-@media only screen and (min-width: 940px) {
-
-  .container {
-    // max-width: 960px;
-    // margin: 0 auto;
-    // background: url('../images/gareth.png') no-repeat top right;
-    // background-size: 20%;
-  }
+@include media($desktop) {
 
   .contact-map {
     position: relative;

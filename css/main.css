@@ -1,16 +1,1636 @@
+@import url(../css/normalize.css);
+@import url(../css/vendor/fontello.css);
+/*------------------------------------*\
+  $ Imports
+\*------------------------------------*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*------------------------------------*\
+  $$ Just Checking - Global Variables
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Colours
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Margin & Padding
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Colours
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Borders
+\*------------------------------------*/
 /* Base */
-@import 'normalize.css';
-@import 'base.css';
+/*------------------------------------*\
+	$$ Just Checking - Base Styles
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Scaffolding
+  * Headers
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Scaffolding
+\*------------------------------------*/
+body {
+  width: 100%;
+  padding: 190px 10px 20px 10px;
+}
+
+.home {
+  padding: 200px 10px 20px 10px;
+}
+
+.container {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+
+/*------------------------------------*\
+  $ Contact Map
+\*------------------------------------*/
+@media screen and (min-width: 940px) {
+  .contact-map {
+    position: relative;
+    width: 100%;
+    min-height: 700px;
+    background: url("../images/map.png") no-repeat top right;
+  }
+
+  .contact-map-label {
+    position: absolute;
+    top: 180px;
+    right: 282px;
+  }
+}
+/*------------------------------------*\
+  $ Images
+\*------------------------------------*/
+img {
+  max-width: 100%;
+}
+
+.trophy-wrapper {
+  position: fixed;
+  top: 34px;
+  left: 50%;
+  z-index: 3;
+  margin-left: -79px;
+  width: 159px;
+  height: 159px;
+  background-color: white;
+  border: 1px solid #222222;
+  border-width: 2px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.trophy {
+  position: relative;
+  top: 8px;
+  left: 50%;
+  margin-left: -69px;
+  width: 139px;
+  height: 139px;
+  background-color: white;
+  border: 1px solid #222222;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.trophy-fixed {
+  position: fixed;
+  top: -15px;
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
+}
+
+.section-header {
+  position: relative;
+  padding: 25px 0 0 0;
+  margin-bottom: 0;
+  border-top: 1px solid #222222;
+  border-bottom: none;
+}
+.section-header:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 6px;
+  background-color: #222222;
+  position: absolute;
+  top: -10px;
+}
+
+h2.section-header a {
+  text-decoration: none;
+  color: #222222;
+}
+h2.section-header a:hover {
+  color: darkred;
+}
+
+.date li:first-child {
+  font-size: 1.6em;
+  line-height: 1em;
+  font-weight: 600;
+}
+
+.colour-key li span {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  background-color: red;
+  margin-right: 5px;
+}
+.colour-key li:nth-child(1) span {
+  background-color: #999999;
+}
+.colour-key li:nth-child(2) span {
+  background-color: #666666;
+}
+.colour-key li:nth-child(3) span {
+  background-color: #222222;
+}
+.colour-key li:nth-child(4) span {
+  background-color: #cccccc;
+}
+
+.timeline {
+  position: relative;
+  border-top: 2px solid #222222;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.timeline .timeline-item {
+  position: absolute;
+  top: -10px;
+  background-color: white;
+  border: 4px solid #222222;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
 
 /* Partials */
-@import 'partials/typography.css';
-@import 'partials/grid.css';
-@import 'partials/lists.css';
-@import 'partials/menu.css';
-@import 'partials/buttons.css';
-@import 'partials/links.css';
-@import 'partials/utilities.css';
-@import 'partials/syntax.css';
+/*------------------------------------*\
+	$$ Just Checking - Typography
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Scaffolding
+  * Headers
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Imports
+\*------------------------------------*/
+/*------------------------------------*\
+  $$ Just Checking - Global Variables
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Colours
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Margin & Padding
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Colours
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Borders
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Scaffolding
+\*------------------------------------*/
+html,
+body {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #222222;
+}
+
+p,
+li,
+label,
+button,
+.highlight {
+  font-size: 1em;
+  line-height: 1.6em;
+  font-weight: 300;
+}
+
+/*------------------------------------*\
+  $ Headers
+\*------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+h1 {
+  letter-spacing: -0.04em;
+  margin: 40px 0;
+  line-height: 1.1em;
+}
+
+h2 {
+  letter-spacing: -0.02em;
+}
+
+h3 {
+  margin-top: 1.4em;
+}
+
+.sub-title {
+  width: 100%;
+  text-align: center;
+  margin-top: -1em;
+  font-weight: 300;
+  font-size: 2em;
+  border: none;
+}
+
+.home .sub-title {
+  text-align: left;
+  margin-top: 0;
+}
+
+/*------------------------------------*\
+  $ Styles
+\*------------------------------------*/
+b {
+  font-weight: 400;
+}
+
+/*------------------------------------*\
+  $ >940
+\*------------------------------------*/
+@media screen and (min-width: 940px) {
+  h1 {
+    font-size: 4.4em;
+    /* =62px */
+    text-align: center;
+  }
+
+  .home h1 {
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 2.2em;
+    /* =42px */
+  }
+
+  h3 {
+    font-size: 1.4em;
+    /* =26px */
+  }
+
+  h4 {
+    font-size: 1em;
+    /* =26px */
+  }
+}
+/*------------------------------------*\
+  $$ Grid System
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+  * Bourbon
+  * Neat
+Contents:
+  * Import
+  * Grid
+*/
+/*------------------------------------*\
+  $ Grid
+\*------------------------------------*/
+.row {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+@media screen and (min-width: 480px) {
+  .row .small-1 {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 19.43277%;
+  }
+  .row .small-1:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 480px) {
+  .row .small-2 {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 46.28851%;
+  }
+  .row .small-2:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 480px) {
+  .row .small-3 {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 73.14426%;
+  }
+  .row .small-3:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 480px) {
+  .row .small-4 {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%;
+  }
+  .row .small-4:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 480px) {
+  .row .small-5 {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 126.85574%;
+  }
+  .row .small-5:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 480px) {
+  .row .small-6 {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 153.71149%;
+  }
+  .row .small-6:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 480px) {
+  .row .small-7 {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 180.56723%;
+  }
+  .row .small-7:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 480px) {
+  .row .small-8 {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 207.42297%;
+  }
+  .row .small-8:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 480px) {
+  .row .small-9 {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 234.27871%;
+  }
+  .row .small-9:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 480px) {
+  .row .small-10 {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 261.13446%;
+  }
+  .row .small-10:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 480px) {
+  .row .small-11 {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 287.9902%;
+  }
+  .row .small-11:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 480px) {
+  .row .small-12 {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 314.84594%;
+  }
+  .row .small-12:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .row .medium-1 {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 9.36867%;
+  }
+  .row .medium-1:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .row .medium-2 {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 22.316%;
+  }
+  .row .medium-2:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .row .medium-3 {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 35.26334%;
+  }
+  .row .medium-3:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .row .medium-4 {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 48.21067%;
+  }
+  .row .medium-4:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .row .medium-5 {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 61.158%;
+  }
+  .row .medium-5:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .row .medium-6 {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 74.10533%;
+  }
+  .row .medium-6:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .row .medium-7 {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 87.05267%;
+  }
+  .row .medium-7:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .row .medium-8 {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 100%;
+  }
+  .row .medium-8:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .row .medium-9 {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 112.94733%;
+  }
+  .row .medium-9:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .row .medium-10 {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 125.89467%;
+  }
+  .row .medium-10:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .row .medium-11 {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 138.842%;
+  }
+  .row .medium-11:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .row .medium-12 {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 151.78933%;
+  }
+  .row .medium-12:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 940px) {
+  .row .large-1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 6.17215%;
+  }
+  .row .large-1:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 940px) {
+  .row .large-2 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%;
+  }
+  .row .large-2:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 940px) {
+  .row .large-3 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+  }
+  .row .large-3:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 940px) {
+  .row .large-4 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+  }
+  .row .large-4:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 940px) {
+  .row .large-5 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%;
+  }
+  .row .large-5:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 940px) {
+  .row .large-6 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+  }
+  .row .large-6:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 940px) {
+  .row .large-7 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 57.35098%;
+  }
+  .row .large-7:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 940px) {
+  .row .large-8 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+  }
+  .row .large-8:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 940px) {
+  .row .large-9 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+  }
+  .row .large-9:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 940px) {
+  .row .large-10 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+  }
+  .row .large-10:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 940px) {
+  .row .large-11 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 91.4702%;
+  }
+  .row .large-11:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 940px) {
+  .row .large-12 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+  }
+  .row .large-12:last-child {
+    margin-right: 0;
+  }
+}
+
+/*------------------------------------*\
+$$ Just Checking - Lists
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Default Lists
+  * No Styling
+  * Inline List
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Imports
+\*------------------------------------*/
+/*------------------------------------*\
+  $$ Just Checking - Global Variables
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Colours
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Margin & Padding
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Colours
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Borders
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Default Lists
+\*------------------------------------*/
+ul,
+ol {
+  line-height: 1.6;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  list-style-position: inside;
+}
+
+ul li ul,
+ul li ol {
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+/*------------------------------------*\
+  $ No Styling
+\*------------------------------------*/
+.no-list-styling {
+  list-style: none;
+  padding: 0;
+}
+.no-list-styling li {
+  margin: 0;
+  padding: 0;
+}
+
+/*------------------------------------*\
+  $ Inline List
+\*------------------------------------*/
+.inline-list,
+.inline-list > li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.inline-list > li {
+  float: left;
+}
+
+/*------------------------------------*\
+$$ Just Checking - Menu
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Main Menu
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Imports
+\*------------------------------------*/
+/*------------------------------------*\
+  $$ Just Checking - Global Variables
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Colours
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Margin & Padding
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Colours
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Borders
+\*------------------------------------*/
+.main-menu-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  border-top: 6px solid #222222;
+  background-color: white;
+}
+
+/*------------------------------------*\
+  $ Main Menu
+\*------------------------------------*/
+.main-menu,
+.main-menu > li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-menu {
+  display: none;
+  padding: 20px 0;
+}
+.main-menu li {
+  width: 100%;
+  padding: 0 10px;
+  border-top: 1px solid #222222;
+  line-height: 2.3em;
+}
+.main-menu li a {
+  text-decoration: none;
+  color: #222;
+}
+.main-menu li a:hover {
+  color: darkred;
+}
+.main-menu li:last-child {
+  border-bottom: 1px solid #222222;
+}
+
+/*------------------------------------*\
+  $ Menu Icon
+\*------------------------------------*/
+.icon-menu {
+  margin: 5px 0;
+  width: 44px;
+  height: 44px;
+  display: block;
+  position: relative;
+  padding-left: 1.25em;
+  color: #999999;
+}
+
+.icon-menu:before {
+  content: "";
+  position: absolute;
+  top: 0.4em;
+  left: 0;
+  width: 44px;
+  height: 0.4em;
+  border-top: 1.2em double #222222;
+  border-bottom: 0.4em solid #222222;
+}
+
+@media only screen and (min-width: 480px) {
+  /* Menu Icon */
+  .icon-menu {
+    display: none;
+  }
+
+  /* Main Menu */
+  .main-menu {
+    display: block;
+    width: 100%;
+  }
+  .main-menu li {
+    width: auto;
+    border: none;
+    float: left;
+    padding: 0 10px;
+  }
+  .main-menu li a {
+    text-decoration: none;
+    color: #222222;
+  }
+  .main-menu li:first-child {
+    padding-left: 0;
+  }
+  .main-menu li:last-child {
+    border: none;
+  }
+  .main-menu .main-menu-active {
+    pointer-events: none;
+  }
+
+  /* You are here */
+  .home .main-menu-active a {
+    font-weight: 600;
+  }
+
+  .about .main-menu-active a {
+    font-weight: 600;
+  }
+
+  .blog .main-menu-active a {
+    font-weight: 600;
+  }
+
+  .contact .main-menu-active a {
+    font-weight: 600;
+  }
+
+  .work .main-menu-active a {
+    font-weight: 600;
+  }
+}
+/*------------------------------------*\
+$$ Just Checking - Buttons
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Main Menu
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Imports
+\*------------------------------------*/
+/*------------------------------------*\
+  $$ Just Checking - Global Variables
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Colours
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Margin & Padding
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Colours
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Borders
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Buttons
+\*------------------------------------*/
+button,
+.button {
+  border: none;
+  background-image: -webkit-linear-gradient( #b40000 0, #b40000 89%, darkred 90%, darkred 100%);
+  background-image: linear-gradient( #b40000 0, #b40000 89%, darkred 90%, darkred 100%);
+  color: white;
+  line-height: 2.6em;
+  min-width: 100px;
+  padding: 0 20px;
+  border-radius: 3px;
+}
+button:hover,
+.button:hover {
+  background: darkred;
+}
+
+/*------------------------------------*\
+$$ Just Checking - Menu
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Main Menu
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Imports
+\*------------------------------------*/
+/*------------------------------------*\
+  $$ Just Checking - Global Variables
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Colours
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Margin & Padding
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Colours
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Borders
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Links
+\*------------------------------------*/
+a {
+  color: darkred;
+}
+a:hover {
+  color: #222222;
+}
+
+h2 a {
+  color: #222222;
+  text-decoration: none;
+}
+h2 a:hover {
+  text-decoration: underline;
+}
+
+.circle-link {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  border: 1px solid #222222;
+  border-radius: 100%;
+  text-align: center;
+  color: #222222;
+  line-height: 2.3em;
+}
+
+.circle-link:hover {
+  border-color: darkred;
+  color: darkred;
+}
+
+/*------------------------------------*\
+	$$ Just Checking - Utilities
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+  * Compass
+  * Global Variables
+  * Global Mixins
+Contents:
+  * Imports
+  * Clearfix
+ 	* Helper classes
+ 		* Visibility
+ 		* Floaters
+ 		* Readable Widths
+ 		* Pointer Events
+ 	* Padding
+ 		* Remove Padding
+ 		* Add Padding
+ 		* Extra Padding
+ 		* IE8 Support
+ 	* Margins
+ 		* Remove Margin
+ 		* Add Margin
+ 		* Extra Margin
+ 		* Half Margin
+ 	* Text
+ 		* Indent
+ 		* Text alignment
+ 		* Text overflow
+ 	* Backgrounds
+ 		* Hover
+ 		* No background
+ 	* Borders
+ 		* No Border
+ 		* Border radius
+ 	* Links
+ 		* No decoration
+ 	* Lists
+ 	* Positioning
+ 		* Relative
+ 		* Absolute
+ 	* Display
+ 		* Block
+ 		* Inline block
+ 		* Inline
+ 	* Cursors
+ 		* Pointer
+ 	* Status
+ 		* Disabled
+ 	* Remove Styles
+ 	* Widths
+ 		* 100%
+ 		* 66%
+ 		* 50%
+ 		* 45%
+ 		* 33%
+ 	* Media Queries
+ 		* <= 767px
+ 			* Visibility
+ 			* Padding
+ 			* Margin
+ 			* Text Alignment
+ 			* Borders
+ 		* >= 768px
+ 			* Readable Widths
+ 			* Padding
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Imports
+\*------------------------------------*/
+/*------------------------------------*\
+  $$ Just Checking - Global Variables
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Colours
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Margin & Padding
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Colours
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Borders
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Helper classes
+\*------------------------------------*/
+/* Visibility */
+.hide,
+.lt-ie9 .ie8-hide {
+  display: none;
+}
+
+.invisible {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+.disabled {
+  color: #cccccc;
+  pointer-events: none;
+}
+
+/* Floaters */
+.right,
+.always-right {
+  float: right !important;
+}
+
+.left,
+.always-left {
+  float: left !important;
+}
+
+/*------------------------------------*\
+  $ Padding
+\*------------------------------------*/
+/* Remove Padding */
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-padding-left {
+  padding-left: 0 !important;
+}
+
+.no-padding-right {
+  padding-right: 0 !important;
+}
+
+.no-padding-top {
+  padding-top: 0 !important;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0 !important;
+}
+
+/* Add Padding */
+.padding {
+  padding: 10px !important;
+}
+
+.padding-left,
+input.padding-left {
+  padding-left: 10px !important;
+}
+
+.padding-right {
+  padding-right: 10px !important;
+}
+
+.padding-top {
+  padding-top: 10px !important;
+}
+
+.padding-bottom {
+  padding-bottom: 10px !important;
+}
+
+/* Extra Padding */
+.extra-padding {
+  padding: 20px !important;
+}
+
+.extra-padding-right {
+  padding-right: 20px !important;
+}
+
+.extra-padding-left,
+input.extra-padding-left {
+  padding-left: 20px !important;
+}
+
+.extra-padding-bottom {
+  padding-bottom: 20px !important;
+}
+
+/* IE8 Support */
+.lt-ie9 .extra-padding-top {
+  padding-top: 38px !important;
+}
+
+/*------------------------------------*\
+  $ Margin
+\*------------------------------------*/
+/*  */
+.section-margin {
+  margin-top: 80px;
+}
+
+.related-margin {
+  margin-top: 40px;
+}
+
+/* Remove Margin */
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-margin-left {
+  margin-left: 0 !important;
+}
+
+.no-margin-right {
+  margin-right: 0 !important;
+}
+
+.no-margin-top {
+  margin-top: 0 !important;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+/* Add Margin */
+.margin {
+  margin: 10px !important;
+}
+
+.margin-left {
+  margin-left: 10px !important;
+}
+
+.margin-right {
+  margin-right: 10px !important;
+}
+
+.margin-top {
+  margin-top: 10px !important;
+}
+
+.margin-bottom {
+  margin-bottom: 10px !important;
+}
+
+/* Extra Margin */
+.extra-margin {
+  margin: 20px !important;
+}
+
+.extra-margin-left {
+  margin-left: 20px !important;
+}
+
+.extra-margin-right {
+  margin-right: 20px !important;
+}
+
+.extra-margin-top {
+  margin-top: 20px !important;
+}
+
+.extra-margin-bottom {
+  margin-bottom: 20px !important;
+}
+
+/* Half Margin */
+.half-margin {
+  margin: 5px !important;
+}
+
+.half-margin-left {
+  margin-left: 5px !important;
+}
+
+.half-margin-right {
+  margin-right: 5px !important;
+}
+
+.half-margin-top {
+  margin-top: 5px !important;
+}
+
+.half-margin-bottom {
+  margin-bottom: 5px !important;
+}
+
+/*------------------------------------*\
+  $ Borders
+\*------------------------------------*/
+/* No Border */
+.no-border {
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+.no-border-top {
+  border-top: none;
+}
+
+.no-border-right {
+  border-right: none;
+}
+
+.no-border-bottom {
+  border-bottom: none;
+}
+
+.no-border-left {
+  border-left: none;
+}
+
+.border {
+  border: 1px solid #222222;
+}
+
+.border-top {
+  border-top: 1px solid #222222;
+}
+
+.border-right {
+  border-right: 1px solid #222222;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #222222;
+}
+
+.border-left {
+  border-left: 1px solid #222222;
+}
+
+/*------------------------------------*\
+  $ Positioning
+\*------------------------------------*/
+/* Relative */
+.relative {
+  position: relative;
+}
+
+/* Absolute */
+.absolute {
+  position: absolute;
+}
+
+/*------------------------------------*\
+  $ Display
+\*------------------------------------*/
+/* Block */
+.block {
+  display: block;
+}
+
+/* Inline block */
+.inline-block {
+  display: inline-block;
+}
+
+/* Inline */
+.inline {
+  display: inline;
+}
+
+/*------------------------------------*\
+  $ Cursors
+\*------------------------------------*/
+/* Pointer */
+.pointer {
+  cursor: pointer;
+}
+
+/*------------------------------------*\
+  $ Widths
+\*------------------------------------*/
+/* 100% */
+.full-width {
+  width: 100%;
+}
+
+/* 66% */
+.two-thirds-width {
+  width: 66%;
+}
+
+/* 50% */
+.half-width {
+  width: 50%;
+}
+
+/* 45% */
+.half-width-margin {
+  width: 45%;
+}
+
+/* 33% */
+.third-width {
+  width: 33%;
+}
+
+/*------------------------------------*\
+	$$ Just Checking - Base Styles
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Scaffolding
+  * Headers
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Imports
+\*------------------------------------*/
+/*------------------------------------*\
+  $$ Just Checking - Global Variables
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Colours
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Margin & Padding
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Colours
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Borders
+\*------------------------------------*/
+.highlight {
+  background-color: #f9f9f9;
+  padding: 5px 20px;
+  font-size: 1em;
+}
+
+/* mustang syntax highlighting */
+.highlight, .highlight pre, .highlight table {
+  background: #202020 !important;
+  color: #e2e2e5 !important;
+}
+
+.highlight .hll {
+  background-color: #ffffcc !important;
+}
+
+.highlight .cp {
+  color: #faf4c6 !important;
+}
+
+.highlight .go {
+  color: gray !important;
+  background-color: #303030 !important;
+}
+
+.highlight .c, .highlight .cm, .highlight .c1, .highlight .cs {
+  color: gray !important;
+  font-style: italic !important;
+}
+
+.highlight .err, .highlight .g, .highlight .l, .highlight .n, .highlight .o, .highlight .x, .highlight .p, .highlight .gd,
+.highlight .ge, .highlight .gr, .highlight .gi, .highlight .gp, .highlight .gs, .highlight .gt, .highlight .ld, .highlight .nb,
+.highlight .nc, .highlight .nd, .highlight .ne, .highlight .nl, .highlight .nn, .highlight .nx, .highlight .py, .highlight .ow,
+.highlight .w, .highlight .bp {
+  color: #e2e2e5 !important;
+}
+
+.highlight .k, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt,
+.highlight .nt {
+  color: #7e8aa2 !important;
+}
+
+.highlight .gh, .highlight .gu {
+  color: #f6f3e8 !important;
+  font-weight: 700 !important;
+}
+
+.highlight .m, .highlight .no, .highlight .ni, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo,
+.highlight .il {
+  color: #ff9800 !important;
+}
+
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si,
+.highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss {
+  color: #b1d631 !important;
+  font-style: italic !important;
+}
+
+.highlight .na, .highlight .nf {
+  color: white !important;
+  font-weight: 700 !important;
+}
+
+.highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi {
+  color: #b1d631 !important;
+}
 
 /* Vendor */
-@import 'vendor/fontello.css';

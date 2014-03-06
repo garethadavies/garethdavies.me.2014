@@ -97,7 +97,7 @@ Author(s):
 \*------------------------------------*/
 
 .icon-menu {
-	margin: $margin*2 0;
+	margin: 5px 0; 
 	width: 44px;
 	height: 44px;
 	display: block;
@@ -108,13 +108,13 @@ Author(s):
 
 .icon-menu:before {
   content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 44px;
-  height: 0.8rem;
-  border-top: 2.4rem double #000;
-  border-bottom: 0.8rem solid #000;
+	position: absolute;
+	top: 0.4em;
+	left: 0;
+	width: 44px;
+	height: 0.4em;
+	border-top: 1.2em double $grayDark;
+	border-bottom: 0.4em solid $grayDark;
 }
 
 

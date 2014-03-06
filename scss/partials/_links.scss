@@ -35,6 +35,15 @@ a {
 	}
 }
 
+h2 a {
+	color: $grayDark;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
 
 
 

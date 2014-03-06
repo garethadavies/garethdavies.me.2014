@@ -1,0 +1,208 @@
+/*------------------------------------*\
+	$$ Just Checking - Base Styles
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Scaffolding
+  * Headers
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Imports
+\*------------------------------------*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*------------------------------------*\
+  $$ Just Checking - Global Variables
+\*------------------------------------*/
+/*
+Requires:
+  * SASS
+Contents:
+  * Colours
+Author(s):
+  * Gareth Davies @garethadavies
+*/
+/*------------------------------------*\
+  $ Margin & Padding
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Colours
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Borders
+\*------------------------------------*/
+/*------------------------------------*\
+  $ Scaffolding
+\*------------------------------------*/
+body {
+  width: 100%;
+  padding: 190px 10px 20px 10px;
+}
+
+.home {
+  padding: 200px 10px 20px 10px;
+}
+
+.container {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+
+/*------------------------------------*\
+  $ Contact Map
+\*------------------------------------*/
+@media only screen and (min-width: 940px) {
+  .contact-map {
+    position: relative;
+    width: 100%;
+    min-height: 700px;
+    background: url("../images/map.png") no-repeat top right;
+  }
+
+  .contact-map-label {
+    position: absolute;
+    top: 180px;
+    right: 282px;
+  }
+}
+/*------------------------------------*\
+  $ Images
+\*------------------------------------*/
+img {
+  max-width: 100%;
+}
+
+.trophy-wrapper {
+  position: fixed;
+  top: 34px;
+  left: 50%;
+  z-index: 3;
+  margin-left: -79px;
+  width: 159px;
+  height: 159px;
+  background-color: white;
+  border: 1px solid #222222;
+  border-width: 2px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.trophy {
+  position: relative;
+  top: 8px;
+  left: 50%;
+  margin-left: -69px;
+  width: 139px;
+  height: 139px;
+  background-color: white;
+  border: 1px solid #222222;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.trophy-fixed {
+  position: fixed;
+  top: -15px;
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
+}
+
+.section-header {
+  position: relative;
+  padding: 25px 0 0 0;
+  margin-bottom: 0;
+  border-top: 1px solid #222222;
+  border-bottom: none;
+}
+.section-header:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 6px;
+  background-color: #222222;
+  position: absolute;
+  top: -10px;
+}
+
+h2.section-header a {
+  text-decoration: none;
+  color: #222222;
+}
+h2.section-header a:hover {
+  color: darkred;
+}
+
+.date li:first-child {
+  font-size: 1.6em;
+  line-height: 1em;
+  font-weight: 600;
+}
+
+.colour-key li span {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  background-color: red;
+  margin-right: 5px;
+}
+.colour-key li:nth-child(1) span {
+  background-color: #999999;
+}
+.colour-key li:nth-child(2) span {
+  background-color: #666666;
+}
+.colour-key li:nth-child(3) span {
+  background-color: #222222;
+}
+.colour-key li:nth-child(4) span {
+  background-color: #cccccc;
+}
+
+.timeline {
+  position: relative;
+  border-top: 2px solid #222222;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.timeline .timeline-item {
+  position: absolute;
+  top: -10px;
+  background-color: white;
+  border: 4px solid #222222;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
