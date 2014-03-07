@@ -39,7 +39,7 @@ body {
   $ Contact Map
 \*------------------------------------*/
 
-@include media($desktop) {
+@include media($large) {
 
   .contact-map {
     position: relative;

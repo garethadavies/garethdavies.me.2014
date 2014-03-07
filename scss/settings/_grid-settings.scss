@@ -1,6 +1,7 @@
 @import "../neat/neat-helpers";
 
 // Breakpoints
-$desktop: new-breakpoint(min-width 940px 12);
-$tablet: new-breakpoint(min-width 768px 8);
-$mobile: new-breakpoint(min-width 480px 4);
+$large: new-breakpoint(min-width 940px 12);
+$medium: new-breakpoint(min-width 768px 12);
+$small: new-breakpoint(min-width 480px 12);
+$tiny: new-breakpoint(min-width 320px 12);
