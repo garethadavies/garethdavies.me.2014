@@ -3,7 +3,6 @@
 /*------------------------------------*\
   $ Imports
 \*------------------------------------*/
-/* line 2, ../scss/neat/grid/_grid.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -46,30 +45,25 @@ Author(s):
 /*------------------------------------*\
   $ Scaffolding
 \*------------------------------------*/
-/* line 22, ../scss/_base.scss */
 body {
   width: 100%;
   padding: 190px 10px 20px 10px;
 }
 
-/* line 27, ../scss/_base.scss */
 .home {
   padding: 200px 10px 20px 10px;
 }
 
-/* line 31, ../scss/_base.scss */
 .container {
   *zoom: 1;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 18, ../scss/bourbon/addons/_clearfix.scss */
 .container:before, .container:after {
   content: " ";
   display: table;
 }
-/* line 23, ../scss/bourbon/addons/_clearfix.scss */
 .container:after {
   clear: both;
 }
@@ -78,7 +72,6 @@ body {
   $ Contact Map
 \*------------------------------------*/
 @media screen and (min-width: 940px) {
-  /* line 44, ../scss/_base.scss */
   .contact-map {
     position: relative;
     width: 100%;
@@ -86,7 +79,6 @@ body {
     background: url("../images/map.png") no-repeat top right;
   }
 
-  /* line 51, ../scss/_base.scss */
   .contact-map-label {
     position: absolute;
     top: 180px;
@@ -96,12 +88,10 @@ body {
 /*------------------------------------*\
   $ Images
 \*------------------------------------*/
-/* line 66, ../scss/_base.scss */
 img {
   max-width: 100%;
 }
 
-/* line 70, ../scss/_base.scss */
 .trophy-wrapper {
   position: fixed;
   top: 34px;
@@ -119,7 +109,6 @@ img {
   transition: all 0.2s ease-out;
 }
 
-/* line 85, ../scss/_base.scss */
 .trophy {
   position: relative;
   top: 8px;
@@ -133,7 +122,6 @@ img {
   padding: 5px;
 }
 
-/* line 98, ../scss/_base.scss */
 .trophy-fixed {
   position: fixed;
   top: -15px;
@@ -144,43 +132,37 @@ img {
   transform: scale(0.6);
 }
 
-/* line 107, ../scss/_base.scss */
 .section-header {
   position: relative;
   padding: 25px 0 0 0;
   margin-bottom: 0;
-  border-top: 1px solid #222222;
+  border-top: 6px solid #222222;
   border-bottom: none;
 }
-/* line 114, ../scss/_base.scss */
 .section-header:before {
   content: '';
   display: block;
   width: 100%;
-  height: 6px;
+  height: 1px;
   background-color: #222222;
   position: absolute;
-  top: -10px;
+  top: 2px;
 }
 
-/* line 126, ../scss/_base.scss */
 h2.section-header a {
   text-decoration: none;
   color: #222222;
 }
-/* line 130, ../scss/_base.scss */
 h2.section-header a:hover {
   color: darkred;
 }
 
-/* line 140, ../scss/_base.scss */
 .date li:first-child {
   font-size: 1.6em;
   line-height: 1em;
   font-weight: 600;
 }
 
-/* line 155, ../scss/_base.scss */
 .colour-key li span {
   width: 1em;
   height: 1em;
@@ -188,31 +170,25 @@ h2.section-header a:hover {
   background-color: red;
   margin-right: 5px;
 }
-/* line 166, ../scss/_base.scss */
 .colour-key li:nth-child(1) span {
   background-color: #999999;
 }
-/* line 166, ../scss/_base.scss */
 .colour-key li:nth-child(2) span {
   background-color: #666666;
 }
-/* line 166, ../scss/_base.scss */
 .colour-key li:nth-child(3) span {
   background-color: #222222;
 }
-/* line 166, ../scss/_base.scss */
 .colour-key li:nth-child(4) span {
   background-color: #cccccc;
 }
 
-/* line 176, ../scss/_base.scss */
 .timeline {
   position: relative;
   border-top: 2px solid #222222;
   margin-top: 50px;
   padding-bottom: 50px;
 }
-/* line 182, ../scss/_base.scss */
 .timeline .timeline-item {
   position: absolute;
   top: -10px;
@@ -223,16 +199,13 @@ h2.section-header a:hover {
   width: 20px;
 }
 
-/* line 196, ../scss/_base.scss */
 .clearfix {
   *zoom: 1;
 }
-/* line 18, ../scss/bourbon/addons/_clearfix.scss */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table;
 }
-/* line 23, ../scss/bourbon/addons/_clearfix.scss */
 .clearfix:after {
   clear: both;
 }
@@ -276,19 +249,16 @@ Author(s):
 /*------------------------------------*\
   $ Scaffolding
 \*------------------------------------*/
-/* line 33, ../scss/partials/_typography.scss */
 html,
 body {
   font-size: 100%;
 }
 
-/* line 37, ../scss/partials/_typography.scss */
 body {
   font-family: 'Open Sans', sans-serif;
   color: #222222;
 }
 
-/* line 46, ../scss/partials/_typography.scss */
 p,
 li,
 label,
@@ -302,7 +272,6 @@ button,
 /*------------------------------------*\
   $ Headers
 \*------------------------------------*/
-/* line 64, ../scss/partials/_typography.scss */
 h1,
 h2,
 h3,
@@ -314,24 +283,20 @@ h6 {
   margin-bottom: 1em;
 }
 
-/* line 72, ../scss/partials/_typography.scss */
 h1 {
   letter-spacing: -0.04em;
   margin: 40px 0;
   line-height: 1.1em;
 }
 
-/* line 80, ../scss/partials/_typography.scss */
 h2 {
   letter-spacing: -0.02em;
 }
 
-/* line 88, ../scss/partials/_typography.scss */
 h3 {
   margin-top: 1.4em;
 }
 
-/* line 106, ../scss/partials/_typography.scss */
 .sub-title {
   width: 100%;
   text-align: center;
@@ -341,7 +306,6 @@ h3 {
   border: none;
 }
 
-/* line 117, ../scss/partials/_typography.scss */
 .home .sub-title {
   text-align: left;
   margin-top: 0;
@@ -350,7 +314,6 @@ h3 {
 /*------------------------------------*\
   $ Styles
 \*------------------------------------*/
-/* line 129, ../scss/partials/_typography.scss */
 b {
   font-weight: 400;
 }
@@ -359,31 +322,26 @@ b {
   $ >940
 \*------------------------------------*/
 @media screen and (min-width: 940px) {
-  /* line 142, ../scss/partials/_typography.scss */
   h1 {
     font-size: 4.4em;
     /* =62px */
     text-align: center;
   }
 
-  /* line 147, ../scss/partials/_typography.scss */
   .home h1 {
     text-align: left;
   }
 
-  /* line 153, ../scss/partials/_typography.scss */
   h2 {
     font-size: 2.2em;
     /* =42px */
   }
 
-  /* line 157, ../scss/partials/_typography.scss */
   h3 {
     font-size: 1.4em;
     /* =26px */
   }
 
-  /* line 161, ../scss/partials/_typography.scss */
   h4 {
     font-size: 1em;
     /* =26px */
@@ -411,7 +369,6 @@ Contents:
 /* 
 Row
 */
-/* line 30, ../scss/partials/_grid.scss */
 .row {
   *zoom: 1;
   max-width: 68em;
@@ -446,639 +403,540 @@ Row
   }
   */
 }
-/* line 18, ../scss/bourbon/addons/_clearfix.scss */
 .row:before, .row:after {
   content: " ";
   display: table;
 }
-/* line 23, ../scss/bourbon/addons/_clearfix.scss */
 .row:after {
   clear: both;
 }
-/* line 39, ../scss/partials/_grid.scss */
 .row .column {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 @media screen and (min-width: 320px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .tiny-1 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 6.17215%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .tiny-1:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 320px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .tiny-2 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 14.70196%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .tiny-2:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 320px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .tiny-3 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 23.23176%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .tiny-3:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 320px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .tiny-4 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .tiny-4:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 320px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .tiny-5 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 40.29137%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .tiny-5:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 320px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .tiny-6 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .tiny-6:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 320px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .tiny-7 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 57.35098%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .tiny-7:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 320px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .tiny-8 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 65.88078%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .tiny-8:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 320px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .tiny-9 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 74.41059%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .tiny-9:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 320px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .tiny-10 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 82.94039%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .tiny-10:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 320px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .tiny-11 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 91.4702%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .tiny-11:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 320px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .tiny-12 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .tiny-12:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .small-1 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 6.17215%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .small-1:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .small-2 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 14.70196%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .small-2:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .small-3 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 23.23176%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .small-3:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .small-4 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .small-4:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .small-5 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 40.29137%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .small-5:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .small-6 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .small-6:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .small-7 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 57.35098%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .small-7:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .small-8 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 65.88078%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .small-8:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .small-9 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 74.41059%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .small-9:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .small-10 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 82.94039%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .small-10:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .small-11 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 91.4702%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .small-11:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .small-12 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .small-12:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .medium-1 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 6.17215%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .medium-1:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .medium-2 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 14.70196%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .medium-2:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .medium-3 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 23.23176%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .medium-3:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .medium-4 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .medium-4:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .medium-5 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 40.29137%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .medium-5:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .medium-6 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .medium-6:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .medium-7 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 57.35098%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .medium-7:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .medium-8 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 65.88078%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .medium-8:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .medium-9 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 74.41059%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .medium-9:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .medium-10 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 82.94039%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .medium-10:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .medium-11 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 91.4702%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .medium-11:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .medium-12 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .medium-12:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 940px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .large-1 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 6.17215%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .large-1:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 940px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .large-2 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 14.70196%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .large-2:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 940px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .large-3 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 23.23176%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .large-3:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 940px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .large-4 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .large-4:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 940px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .large-5 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 40.29137%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .large-5:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 940px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .large-6 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .large-6:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 940px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .large-7 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 57.35098%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .large-7:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 940px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .large-8 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 65.88078%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .large-8:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 940px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .large-9 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 74.41059%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .large-9:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 940px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .large-10 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 82.94039%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .large-10:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 940px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .large-11 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 91.4702%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .large-11:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 940px) {
-  /* line 55, ../scss/partials/_grid.scss */
   .row .large-12 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%;
   }
-  /* line 40, ../scss/neat/grid/_span-columns.scss */
   .row .large-12:last-child {
     margin-right: 0;
   }
@@ -1123,7 +981,6 @@ Author(s):
 /*------------------------------------*\
   $ Default Lists
 \*------------------------------------*/
-/* line 33, ../scss/partials/_lists.scss */
 ul,
 ol {
   line-height: 1.6;
@@ -1132,7 +989,6 @@ ol {
   list-style-position: inside;
 }
 
-/* line 41, ../scss/partials/_lists.scss */
 ul li ul,
 ul li ol {
   margin-left: 20px;
@@ -1142,12 +998,10 @@ ul li ol {
 /*------------------------------------*\
   $ No Styling
 \*------------------------------------*/
-/* line 53, ../scss/partials/_lists.scss */
 .no-list-styling {
   list-style: none;
   padding: 0;
 }
-/* line 57, ../scss/partials/_lists.scss */
 .no-list-styling li {
   margin: 0;
   padding: 0;
@@ -1156,7 +1010,6 @@ ul li ol {
 /*------------------------------------*\
   $ Inline List
 \*------------------------------------*/
-/* line 71, ../scss/partials/_lists.scss */
 .inline-list,
 .inline-list > li {
   margin: 0;
@@ -1164,7 +1017,6 @@ ul li ol {
   list-style: none;
 }
 
-/* line 77, ../scss/partials/_lists.scss */
 .inline-list > li {
   float: left;
 }
@@ -1203,7 +1055,6 @@ Author(s):
 /*------------------------------------*\
   $ Borders
 \*------------------------------------*/
-/* line 26, ../scss/partials/_menu.scss */
 .main-menu-wrapper {
   position: fixed;
   top: 0;
@@ -1216,7 +1067,6 @@ Author(s):
 /*------------------------------------*\
   $ Main Menu
 \*------------------------------------*/
-/* line 44, ../scss/partials/_menu.scss */
 .main-menu,
 .main-menu > li {
   margin: 0;
@@ -1224,28 +1074,23 @@ Author(s):
   list-style: none;
 }
 
-/* line 50, ../scss/partials/_menu.scss */
 .main-menu {
   display: none;
   padding: 20px 0;
 }
-/* line 56, ../scss/partials/_menu.scss */
 .main-menu li {
   width: 100%;
   padding: 0 10px;
   border-top: 1px solid #222222;
   line-height: 2.3em;
 }
-/* line 62, ../scss/partials/_menu.scss */
 .main-menu li a {
   text-decoration: none;
   color: #222;
 }
-/* line 76, ../scss/partials/_menu.scss */
 .main-menu li a:hover {
   color: darkred;
 }
-/* line 87, ../scss/partials/_menu.scss */
 .main-menu li:last-child {
   border-bottom: 1px solid #222222;
 }
@@ -1253,7 +1098,6 @@ Author(s):
 /*------------------------------------*\
   $ Menu Icon
 \*------------------------------------*/
-/* line 99, ../scss/partials/_menu.scss */
 .icon-menu {
   margin: 5px 0;
   width: 44px;
@@ -1264,7 +1108,6 @@ Author(s):
   color: #999999;
 }
 
-/* line 109, ../scss/partials/_menu.scss */
 .icon-menu:before {
   content: "";
   position: absolute;
@@ -1278,64 +1121,52 @@ Author(s):
 
 @media only screen and (min-width: 480px) {
   /* Menu Icon */
-  /* line 127, ../scss/partials/_menu.scss */
   .icon-menu {
     display: none;
   }
 
   /* Main Menu */
-  /* line 133, ../scss/partials/_menu.scss */
   .main-menu {
     display: block;
     width: 100%;
   }
-  /* line 138, ../scss/partials/_menu.scss */
   .main-menu li {
     width: auto;
     border: none;
     float: left;
     padding: 0 10px;
   }
-  /* line 144, ../scss/partials/_menu.scss */
   .main-menu li a {
     text-decoration: none;
     color: #222222;
   }
-  /* line 157, ../scss/partials/_menu.scss */
   .main-menu li:first-child {
     padding-left: 0;
   }
-  /* line 161, ../scss/partials/_menu.scss */
   .main-menu li:last-child {
     border: none;
   }
-  /* line 165, ../scss/partials/_menu.scss */
   .main-menu .main-menu-active {
     pointer-events: none;
   }
 
   /* You are here */
-  /* line 175, ../scss/partials/_menu.scss */
   .home .main-menu-active a {
     font-weight: 600;
   }
 
-  /* line 183, ../scss/partials/_menu.scss */
   .about .main-menu-active a {
     font-weight: 600;
   }
 
-  /* line 191, ../scss/partials/_menu.scss */
   .blog .main-menu-active a {
     font-weight: 600;
   }
 
-  /* line 199, ../scss/partials/_menu.scss */
   .contact .main-menu-active a {
     font-weight: 600;
   }
 
-  /* line 207, ../scss/partials/_menu.scss */
   .work .main-menu-active a {
     font-weight: 600;
   }
@@ -1377,7 +1208,6 @@ Author(s):
 /*------------------------------------*\
   $ Buttons
 \*------------------------------------*/
-/* line 32, ../scss/partials/_buttons.scss */
 button,
 .button {
   border: none;
@@ -1389,7 +1219,6 @@ button,
   padding: 0 20px;
   border-radius: 3px;
 }
-/* line 41, ../scss/partials/_buttons.scss */
 button:hover,
 .button:hover {
   background: darkred;
@@ -1432,26 +1261,21 @@ Author(s):
 /*------------------------------------*\
   $ Links
 \*------------------------------------*/
-/* line 30, ../scss/partials/_links.scss */
 a {
   color: darkred;
 }
-/* line 33, ../scss/partials/_links.scss */
 a:hover {
   color: #222222;
 }
 
-/* line 38, ../scss/partials/_links.scss */
 h2 a {
   color: #222222;
   text-decoration: none;
 }
-/* line 42, ../scss/partials/_links.scss */
 h2 a:hover {
   text-decoration: underline;
 }
 
-/* line 50, ../scss/partials/_links.scss */
 .circle-link {
   display: inline-block;
   width: 38px;
@@ -1463,7 +1287,6 @@ h2 a:hover {
   line-height: 2.3em;
 }
 
-/* line 61, ../scss/partials/_links.scss */
 .circle-link:hover {
   border-color: darkred;
   color: darkred;
@@ -1567,13 +1390,11 @@ Author(s):
   $ Helper classes
 \*------------------------------------*/
 /* Visibility */
-/* line 94, ../scss/partials/_utilities.scss */
 .hide,
 .lt-ie9 .ie8-hide {
   display: none;
 }
 
-/* line 98, ../scss/partials/_utilities.scss */
 .invisible {
   position: absolute;
   overflow: hidden;
@@ -1585,20 +1406,17 @@ Author(s):
   border: 0;
 }
 
-/* line 109, ../scss/partials/_utilities.scss */
 .disabled {
   color: #cccccc;
   pointer-events: none;
 }
 
 /* Floaters */
-/* line 117, ../scss/partials/_utilities.scss */
 .right,
 .always-right {
   float: right !important;
 }
 
-/* line 122, ../scss/partials/_utilities.scss */
 .left,
 .always-left {
   float: left !important;
@@ -1608,82 +1426,67 @@ Author(s):
   $ Padding
 \*------------------------------------*/
 /* Remove Padding */
-/* line 135, ../scss/partials/_utilities.scss */
 .no-padding {
   padding: 0 !important;
 }
 
-/* line 139, ../scss/partials/_utilities.scss */
 .no-padding-left {
   padding-left: 0 !important;
 }
 
-/* line 143, ../scss/partials/_utilities.scss */
 .no-padding-right {
   padding-right: 0 !important;
 }
 
-/* line 147, ../scss/partials/_utilities.scss */
 .no-padding-top {
   padding-top: 0 !important;
 }
 
-/* line 151, ../scss/partials/_utilities.scss */
 .no-padding-bottom {
   padding-bottom: 0 !important;
 }
 
 /* Add Padding */
-/* line 157, ../scss/partials/_utilities.scss */
 .padding {
   padding: 10px !important;
 }
 
-/* line 162, ../scss/partials/_utilities.scss */
 .padding-left,
 input.padding-left {
   padding-left: 10px !important;
 }
 
-/* line 166, ../scss/partials/_utilities.scss */
 .padding-right {
   padding-right: 10px !important;
 }
 
-/* line 170, ../scss/partials/_utilities.scss */
 .padding-top {
   padding-top: 10px !important;
 }
 
-/* line 174, ../scss/partials/_utilities.scss */
 .padding-bottom {
   padding-bottom: 10px !important;
 }
 
 /* Extra Padding */
-/* line 180, ../scss/partials/_utilities.scss */
 .extra-padding {
   padding: 20px !important;
 }
 
-/* line 184, ../scss/partials/_utilities.scss */
 .extra-padding-right {
   padding-right: 20px !important;
 }
 
-/* line 189, ../scss/partials/_utilities.scss */
 .extra-padding-left,
 input.extra-padding-left {
   padding-left: 20px !important;
 }
 
-/* line 193, ../scss/partials/_utilities.scss */
 .extra-padding-bottom {
   padding-bottom: 20px !important;
 }
 
 /* IE8 Support */
-/* line 199, ../scss/partials/_utilities.scss */
 .lt-ie9 .extra-padding-top {
   padding-top: 38px !important;
 }
@@ -1692,116 +1495,94 @@ input.extra-padding-left {
   $ Margin
 \*------------------------------------*/
 /*  */
-/* line 212, ../scss/partials/_utilities.scss */
 .section-margin {
   margin-top: 80px;
 }
 
-/* line 216, ../scss/partials/_utilities.scss */
 .related-margin {
   margin-top: 40px;
 }
 
 /* Remove Margin */
-/* line 222, ../scss/partials/_utilities.scss */
 .no-margin {
   margin: 0 !important;
 }
 
-/* line 226, ../scss/partials/_utilities.scss */
 .no-margin-left {
   margin-left: 0 !important;
 }
 
-/* line 230, ../scss/partials/_utilities.scss */
 .no-margin-right {
   margin-right: 0 !important;
 }
 
-/* line 234, ../scss/partials/_utilities.scss */
 .no-margin-top {
   margin-top: 0 !important;
 }
 
-/* line 238, ../scss/partials/_utilities.scss */
 .no-margin-bottom {
   margin-bottom: 0 !important;
 }
 
 /* Add Margin */
-/* line 244, ../scss/partials/_utilities.scss */
 .margin {
   margin: 10px !important;
 }
 
-/* line 248, ../scss/partials/_utilities.scss */
 .margin-left {
   margin-left: 10px !important;
 }
 
-/* line 252, ../scss/partials/_utilities.scss */
 .margin-right {
   margin-right: 10px !important;
 }
 
-/* line 256, ../scss/partials/_utilities.scss */
 .margin-top {
   margin-top: 10px !important;
 }
 
-/* line 260, ../scss/partials/_utilities.scss */
 .margin-bottom {
   margin-bottom: 10px !important;
 }
 
 /* Extra Margin */
-/* line 266, ../scss/partials/_utilities.scss */
 .extra-margin {
   margin: 20px !important;
 }
 
-/* line 270, ../scss/partials/_utilities.scss */
 .extra-margin-left {
   margin-left: 20px !important;
 }
 
-/* line 274, ../scss/partials/_utilities.scss */
 .extra-margin-right {
   margin-right: 20px !important;
 }
 
-/* line 278, ../scss/partials/_utilities.scss */
 .extra-margin-top {
   margin-top: 20px !important;
 }
 
-/* line 282, ../scss/partials/_utilities.scss */
 .extra-margin-bottom {
   margin-bottom: 20px !important;
 }
 
 /* Half Margin */
-/* line 288, ../scss/partials/_utilities.scss */
 .half-margin {
   margin: 5px !important;
 }
 
-/* line 292, ../scss/partials/_utilities.scss */
 .half-margin-left {
   margin-left: 5px !important;
 }
 
-/* line 296, ../scss/partials/_utilities.scss */
 .half-margin-right {
   margin-right: 5px !important;
 }
 
-/* line 300, ../scss/partials/_utilities.scss */
 .half-margin-top {
   margin-top: 5px !important;
 }
 
-/* line 304, ../scss/partials/_utilities.scss */
 .half-margin-bottom {
   margin-bottom: 5px !important;
 }
@@ -1810,7 +1591,6 @@ input.extra-padding-left {
   $ Borders
 \*------------------------------------*/
 /* No Border */
-/* line 317, ../scss/partials/_utilities.scss */
 .no-border {
   border-top: none;
   border-right: none;
@@ -1818,47 +1598,38 @@ input.extra-padding-left {
   border-left: none;
 }
 
-/* line 324, ../scss/partials/_utilities.scss */
 .no-border-top {
   border-top: none;
 }
 
-/* line 328, ../scss/partials/_utilities.scss */
 .no-border-right {
   border-right: none;
 }
 
-/* line 332, ../scss/partials/_utilities.scss */
 .no-border-bottom {
   border-bottom: none;
 }
 
-/* line 336, ../scss/partials/_utilities.scss */
 .no-border-left {
   border-left: none;
 }
 
-/* line 340, ../scss/partials/_utilities.scss */
 .border {
   border: 1px solid #222222;
 }
 
-/* line 344, ../scss/partials/_utilities.scss */
 .border-top {
   border-top: 1px solid #222222;
 }
 
-/* line 348, ../scss/partials/_utilities.scss */
 .border-right {
   border-right: 1px solid #222222;
 }
 
-/* line 352, ../scss/partials/_utilities.scss */
 .border-bottom {
   border-bottom: 1px solid #222222;
 }
 
-/* line 356, ../scss/partials/_utilities.scss */
 .border-left {
   border-left: 1px solid #222222;
 }
@@ -1867,13 +1638,11 @@ input.extra-padding-left {
   $ Positioning
 \*------------------------------------*/
 /* Relative */
-/* line 369, ../scss/partials/_utilities.scss */
 .relative {
   position: relative;
 }
 
 /* Absolute */
-/* line 375, ../scss/partials/_utilities.scss */
 .absolute {
   position: absolute;
 }
@@ -1882,19 +1651,16 @@ input.extra-padding-left {
   $ Display
 \*------------------------------------*/
 /* Block */
-/* line 388, ../scss/partials/_utilities.scss */
 .block {
   display: block;
 }
 
 /* Inline block */
-/* line 394, ../scss/partials/_utilities.scss */
 .inline-block {
   display: inline-block;
 }
 
 /* Inline */
-/* line 400, ../scss/partials/_utilities.scss */
 .inline {
   display: inline;
 }
@@ -1903,7 +1669,6 @@ input.extra-padding-left {
   $ Cursors
 \*------------------------------------*/
 /* Pointer */
-/* line 413, ../scss/partials/_utilities.scss */
 .pointer {
   cursor: pointer;
 }
@@ -1912,31 +1677,26 @@ input.extra-padding-left {
   $ Widths
 \*------------------------------------*/
 /* 100% */
-/* line 426, ../scss/partials/_utilities.scss */
 .full-width {
   width: 100%;
 }
 
 /* 66% */
-/* line 432, ../scss/partials/_utilities.scss */
 .two-thirds-width {
   width: 66%;
 }
 
 /* 50% */
-/* line 438, ../scss/partials/_utilities.scss */
 .half-width {
   width: 50%;
 }
 
 /* 45% */
-/* line 444, ../scss/partials/_utilities.scss */
 .half-width-margin {
   width: 45%;
 }
 
 /* 33% */
-/* line 450, ../scss/partials/_utilities.scss */
 .third-width {
   width: 33%;
 }
@@ -1976,7 +1736,6 @@ Author(s):
 /*------------------------------------*\
   $ Borders
 \*------------------------------------*/
-/* line 28, ../scss/partials/_syntax.scss */
 .highlight {
   background-color: #f9f9f9;
   padding: 5px 20px;
@@ -1984,76 +1743,64 @@ Author(s):
 }
 
 /* mustang syntax highlighting */
-/* line 39, ../scss/partials/_syntax.scss */
 .highlight, .highlight pre, .highlight table {
-  background: #202020!important;
-  color: #e2e2e5!important;
+  background: #202020 !important;
+  color: #e2e2e5 !important;
 }
 
-/* line 40, ../scss/partials/_syntax.scss */
 .highlight .hll {
-  background-color: #ffc!important;
+  background-color: #ffffcc !important;
 }
 
-/* line 41, ../scss/partials/_syntax.scss */
 .highlight .cp {
-  color: #faf4c6!important;
+  color: #faf4c6 !important;
 }
 
-/* line 42, ../scss/partials/_syntax.scss */
 .highlight .go {
-  color: gray!important;
-  background-color: #303030!important;
+  color: gray !important;
+  background-color: #303030 !important;
 }
 
-/* line 43, ../scss/partials/_syntax.scss */
 .highlight .c, .highlight .cm, .highlight .c1, .highlight .cs {
-  color: gray!important;
-  font-style: italic!important;
+  color: gray !important;
+  font-style: italic !important;
 }
 
-/* line 47, ../scss/partials/_syntax.scss */
 .highlight .err, .highlight .g, .highlight .l, .highlight .n, .highlight .o, .highlight .x, .highlight .p, .highlight .gd,
 .highlight .ge, .highlight .gr, .highlight .gi, .highlight .gp, .highlight .gs, .highlight .gt, .highlight .ld, .highlight .nb,
 .highlight .nc, .highlight .nd, .highlight .ne, .highlight .nl, .highlight .nn, .highlight .nx, .highlight .py, .highlight .ow,
 .highlight .w, .highlight .bp {
-  color: #e2e2e5!important;
+  color: #e2e2e5 !important;
 }
 
-/* line 49, ../scss/partials/_syntax.scss */
 .highlight .k, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt,
 .highlight .nt {
-  color: #7e8aa2!important;
+  color: #7e8aa2 !important;
 }
 
-/* line 50, ../scss/partials/_syntax.scss */
 .highlight .gh, .highlight .gu {
-  color: #f6f3e8!important;
-  font-weight: 700!important;
+  color: #f6f3e8 !important;
+  font-weight: 700 !important;
 }
 
-/* line 52, ../scss/partials/_syntax.scss */
 .highlight .m, .highlight .no, .highlight .ni, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo,
 .highlight .il {
-  color: #ff9800!important;
+  color: #ff9800 !important;
 }
 
-/* line 54, ../scss/partials/_syntax.scss */
 .highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si,
 .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss {
-  color: #b1d631!important;
-  font-style: italic!important;
+  color: #b1d631 !important;
+  font-style: italic !important;
 }
 
-/* line 55, ../scss/partials/_syntax.scss */
 .highlight .na, .highlight .nf {
-  color: #fff!important;
-  font-weight: 700!important;
+  color: white !important;
+  font-weight: 700 !important;
 }
 
-/* line 56, ../scss/partials/_syntax.scss */
 .highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi {
-  color: #b1d631!important;
+  color: #b1d631 !important;
 }
 
 /* Vendor */
