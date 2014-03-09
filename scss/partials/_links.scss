@@ -35,12 +35,17 @@ a {
 	}
 }
 
-.section-header a {
-	color: $grayDark;
-	text-decoration: none;
+.posts,
+.projects {
+	h2 {
+		a {
+			text-decoration: none;
+			color: $grayDark;
+		}
 
-	&:hover {
-		text-decoration: underline; 
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 }
 

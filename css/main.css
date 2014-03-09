@@ -373,7 +373,7 @@ b {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003155}}
   h2 {
-    font-size: 2.2em;
+    font-size: 2em;
     /* =42px */
   }
 
@@ -1441,17 +1441,19 @@ a:hover {
   color: #222222;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_links\.scss}line{font-family:\0000338}}
-.section-header a {
-  color: #222222;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_links\.scss}line{font-family:\0000341}}
+.posts h2 a,
+.projects h2 a {
   text-decoration: none;
+  color: #222222;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_links\.scss}line{font-family:\0000342}}
-.section-header a:hover {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_links\.scss}line{font-family:\0000346}}
+.posts h2:hover,
+.projects h2:hover {
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_links\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_links\.scss}line{font-family:\0000355}}
 .circle-link {
   display: inline-block;
   width: 38px;
@@ -1463,7 +1465,7 @@ a:hover {
   line-height: 2.3em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_links\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_links\.scss}line{font-family:\0000366}}
 .circle-link:hover {
   border-color: darkred;
   color: darkred;

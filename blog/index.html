@@ -6,7 +6,7 @@ class: blog
 
 <h1>{{ page.title }}</h1>
 
-<div class="section-margin row">
+<div class="section-margin row posts">
 
   <!-- This loops through the paginated posts -->
 	{% for post in paginator.posts %}
@@ -25,7 +25,7 @@ class: blog
 
 	</div>
 
-	<div class="row">
+	<div class="row posts">
 
 	{% endif %}
 
