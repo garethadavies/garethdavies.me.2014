@@ -63,8 +63,17 @@ body {
   $ Images
 \*------------------------------------*/
 
-img {
-  max-width: 100%;
+.column {
+   a {
+    img { 
+      max-width: 100%;
+      border: 2px $borderStyle $borderColour;
+    }
+
+    img:hover {
+      border: 2px $borderStyle darkred;
+    }
+  }
 }
 
 .trophy-wrapper {
