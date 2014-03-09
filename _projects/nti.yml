@@ -1,0 +1,19 @@
+description:
+  New Technology Institute
+endorsements:
+-
+  body:
+    Working with this company was great!
+  from: Endorser Name
+  role: Project Manager
+image:
+  url: /images/work-nti-thumb.jpg
+  title: Carer+ Application
+  alt: Sample Project
+layout: project
+project_description:
+  We did this project.
+published: true
+short:     This is a sample short description.
+title:     Sample Project
+website:   http://sampleproject.com/

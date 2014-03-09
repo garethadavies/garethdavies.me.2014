@@ -6,7 +6,27 @@ class: work
 
 <h1>{{ page.title }}</h1>
 
-<h2>Birmingham City University</h2>
+<div class="row">
+
+  {% for project in page.projects %}
+  <div class="column large-4 section-header">
+
+  	<h2 class="no-margin"><a href="/work/{{ project[0] }}">{{ project[1].description }}</a></h2>
+
+    <p><a href="/work/{{ project[0] }}">
+      {% if project[1].image %}
+        <img src="{{ project[1].image.url }}" title="{{ project[1].image.title }}" alt="{{ project[1].image.alt }}" />
+      {% endif %}
+    </a></p>
+
+    <p>{{ project[1].short }}</p>
+
+  </div>
+  {% endfor %}
+
+</div>
+
+<!-- <h2>Birmingham City University</h2>
 
 <p><img src="/images/work-bcu.png" alt=""></p>
 
@@ -58,4 +78,4 @@ class: work
 
 	</div>
 
-</div>
+</div> -->
