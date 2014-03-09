@@ -19,9 +19,16 @@ class: work
       {% endif %}
     </a></p>
 
-    <p>{{ project[1].short }}</p>
-
   </div>
+
+	{% if forloop.index == 3 or forloop.index == 6 or forloop.index == 9 or forloop.index == 12 %}
+
+	</div>
+
+	<div class="row">
+
+	{% endif %}
+
   {% endfor %}
 
 </div>
