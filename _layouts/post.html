@@ -9,19 +9,13 @@ class: blog
 
 <div class="row section-margin">
 
-  <div class="column-3 section-header">
+  <div class="column large-3 section-header">
 
-		<ul class="no-list-styling date">
-			<!-- <li><b>Published</b></li> -->
-			<!-- <li>{{ page.date | date: "%-d %B %Y" }}</li> -->
-			<li>{{ page.date | date: "%d %B" }}</li>
-			<!-- <li>{{ page.date | date: "%b" }}</li> -->
-			<li>{{ page.date | date: "%Y" }}</li>
-		</ul>
+		<p>{{ page.date | date: "%d %B %Y" }}</p>
 
 	</div>
 
-	<div class="column-9 section-header">
+	<div class="column large-9 section-header">
 
 		<div class="post">
 		{{ content }}

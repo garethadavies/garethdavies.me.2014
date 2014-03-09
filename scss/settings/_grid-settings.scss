@@ -1,5 +1,7 @@
 @import "../neat/neat-helpers";
 
+$max-width: em(960) !default; // Max-width of the outer container
+
 // Breakpoints
 $large: new-breakpoint(min-width 940px 12);
 $medium: new-breakpoint(min-width 768px 12);

@@ -35,12 +35,12 @@ a {
 	}
 }
 
-h2 a {
+.section-header a {
 	color: $grayDark;
 	text-decoration: none;
 
 	&:hover {
-		text-decoration: underline;
+		text-decoration: underline; 
 	}
 }
 
