@@ -1,19 +1,24 @@
-description:
+title:
   Carer+ Application
-endorsements:
--
-  body:
-    Working with this company was great!
-  from: Endorser Name
-  role: Project Manager
+subtitle:
+  Responsive application...
+paragraph1:
+  A friendly and usable experience for the target audience was set as the overall goal for the Just Checking web application. Careful planning and user experience testing have allowed the team to produce a single-page application that queries the Just Checking API for JSON data, which is then consumed by a front-end built using Backbone.js, MarionetteJS and Sass stylesheet language.
+paragraph2:
+  My role in this project is primary user experience designer and front-end developer.
+tools:
+  - name: Backbone
+  - name: MarionetteJS
+  - name: RequireJS
+  - name: Grunt
+  - name: SASS
 image:
+  url: /images/work-carerplus.png
+  title: Carer+ Application
+  alt: Sample Project
+thumbnail:
   url: /images/work-carerplus-thumb.jpg
   title: Carer+ Application
   alt: Sample Project
 layout: project
-project_description:
-  We did this project.
 published: true
-short:     This is a sample short description.
-title:     Sample Project
-website:   http://sampleproject.com/

@@ -11,11 +11,11 @@ class: work
   {% for project in page.projects %}
   <div class="column large-4 medium-4 small-4 section-header">
 
-  	<h2 class="no-margin"><a href="/work/{{ project[0] }}">{{ project[1].description }}</a></h2>
+  	<h2 class="no-margin"><a href="/work/{{ project[0] }}">{{ project[1].title }}</a></h2>
 
     <p><a href="/work/{{ project[0] }}">
-      {% if project[1].image %}
-        <img src="{{ project[1].image.url }}" title="{{ project[1].image.title }}" alt="{{ project[1].image.alt }}" />
+      {% if project[1].thumbnail %}
+        <img src="{{ project[1].thumbnail.url }}" title="{{ project[1].thumbnail.title }}" alt="{{ project[1].thumbnail.alt }}" />
       {% endif %}
     </a></p>
 
@@ -35,7 +35,7 @@ class: work
 
 <!-- <h2>Birmingham City University</h2>
 
-<p><img src="/images/work-bcu.png" alt=""></p>
+<p><img src="/thumbnails/work-bcu.png" alt=""></p>
 
 <div class="Grid Grid--gutters3x Grid--full large-Grid--fit section-margin">
 
@@ -62,7 +62,7 @@ class: work
 
 <h2>Just Checking</h2>
 
-<p><img src="/images/work-jc.png" alt=""></p>
+<p><img src="/thumbnails/work-jc.png" alt=""></p>
 
 <div class="Grid Grid--gutters3x Grid--full large-Grid--fit section-margin">
 
