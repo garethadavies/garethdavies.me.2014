@@ -3,11 +3,11 @@ title:
 subtitle:
   Responsive application...
 paragraph1:
-  A friendly and usable experience for the target audience was set as the overall goal for the Just Checking web application. Careful planning and user experience testing have allowed the team to produce a single-page application that queries the Just Checking API for JSON data, which is then consumed by a front-end built using Backbone.js, MarionetteJS and Sass stylesheet language.
+  A friendly and usable experience for the target audience was set as the overall goal for the Just Checking Carer+ web application. Careful planning and user experience testing have allowed the team to produce a single-page application that queries the Just Checking API for JSON data, which is then consumed by a front-end built using Backbone.js, MarionetteJS and Sass stylesheet language.
 paragraph2:
-  My role in this project is primary user experience designer and front-end developer.
+  My role during this project was as primary user experience designer and front-end developer.
 tools:
-  - name: Backbone
+  - name: Backbone.js
   - name: MarionetteJS
   - name: RequireJS
   - name: Grunt
@@ -15,10 +15,10 @@ tools:
 image:
   url: /images/work-carerplus.png
   title: Carer+ Application
-  alt: Sample Project
+  alt: Carer+ Application
 thumbnail:
   url: /images/work-carerplus-thumb.jpg
   title: Carer+ Application
-  alt: Sample Project
+  alt: Carer+ Application
 layout: project
 published: true

@@ -1,19 +1,24 @@
-description:
-  Support Dashboard
-endorsements:
--
-  body:
-    Working with this company was great!
-  from: Endorser Name
-  role: Project Manager
+title:
+  Just Checking Dashboard
+subtitle:
+  Responsive application...
+paragraph1:
+  The Just Checking Support Dashboard is an internal application that allows staff members to access information quickly and efficiently when dealing with customer support issues.
+paragraph2:
+  The application was developed with a focus on 'user stories' that were created by the staff members during planning sessions run by the development team. These 'user stories' were then ranked in importance and value to the company and created during agile sprints. This active system is undergoing constant improvement due to regular, deliberate user feedback.
+paragraph3:
+  My role during this project was as primary user experience designer and front-end developer.
+tools:
+  - name: Backbone.js
+  - name: Twitter Bootstrap
+  - name: LESS
 image:
+  url: /images/work-jc.png
+  title: Just Checking Dashboard
+  alt: Just Checking Dashboard
+thumbnail:
   url: /images/work-jc-thumb.jpg
-  title: Carer+ Application
-  alt: Sample Project
+  title: Just Checking Dashboard
+  alt: Just Checking Dashboard
 layout: project
-project_description:
-  We did this project.
 published: true
-short:     This is a sample short description.
-title:     Sample Project
-website:   http://sampleproject.com/

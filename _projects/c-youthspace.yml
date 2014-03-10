@@ -1,19 +1,23 @@
-description:
+title:
   YouthSpace
-endorsements:
--
-  body:
-    Working with this company was great!
-  from: Endorser Name
-  role: Project Manager
+subtitle:
+  Responsive application...
+paragraph1:
+  Youthspace is a service within Birmingham & Solihull Mental Health Trust that acts as an information and help point for young people with mental health issues. Youthspace required an online presence that was suitable for their young target audience but professional enough to represent the subject matter. Information architecture planning was paramount in a website where the user finding the right information quickly and easily was the main priority.
+paragraph2:
+  During this project, I acted as visual designer, information architect, and both front-end and back-end developer.
+tools:
+  - name: ASP.Net
+  - name: Team Foundation Server
+  - name: Microsoft SQL Server
+  - name: jQuery
 image:
-  url: /images/work-toc-thumb.jpg
-  title: Carer+ Application
-  alt: Sample Project
+  url: /images/work-youthspace.png
+  title: YouthSpace
+  alt: YouthSpace
+thumbnail:
+  url: /images/work-youthspace-thumb.jpg
+  title: YouthSpace
+  alt: YouthSpace
 layout: project
-project_description:
-  We did this project.
 published: true
-short:     This is a sample short description.
-title:     Sample Project
-website:   http://sampleproject.com/

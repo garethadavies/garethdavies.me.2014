@@ -28,7 +28,13 @@ class: work
     
     <p>{{ page.paragraph1 }}</p>
 
+    {% if page.paragraph2 %}
     <p>{{ page.paragraph2 }}</p>
+    {% endif %}
+
+    {% if page.paragraph3 %}
+    <p>{{ page.paragraph3 }}</p>
+    {% endif %}
     
   </div>
 
