@@ -1,0 +1,25 @@
+title:
+  Birmingham City University
+subtitle:
+  Responsive application...
+paragraph1:
+  The Birmingham City University web platform project took place over 3 years and included a initial 6 month consultation and planning period, then 18 months of actual development and testing, all to bring together hundreds of satellite websites under one consistently branded web platform and CMS. Version 2.0 of the website was a visual refresh of the website developed over the previous 2 years.
+paragraph2:
+  Fully responsive templates were built using HTML, CSS and Javascript.
+paragraph3:
+  During this project, I acted as visual designer, user experience designer, client consultant, CMS trainer and front-end developer.
+tools:
+  - name: ASP.Net
+  - name: Team Foundation Server
+  - name: Microsoft SQL Server
+  - name: jQuery
+image:
+  url: /images/work-bcu.png
+  title: Birmingham City University
+  alt: Birmingham City University
+thumbnail:
+  url: /images/work-bcu-thumb.jpg
+  title: Birmingham City University
+  alt: Birmingham City University
+layout: project
+published: true

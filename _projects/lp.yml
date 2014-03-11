@@ -1,19 +1,23 @@
-description:
+title:
   Little Palm
-endorsements:
--
-  body:
-    Working with this company was great!
-  from: Endorser Name
-  role: Project Manager
+subtitle:
+  Responsive application...
+paragraph1:
+  Little Palm is a talented singer and songwriter based in Birmingham. She required a unique online presence that mirrored her personality and drew from her musical influences to keep her fans up-to-date with the latest news, music and gigs.
+paragraph2:
+  My role in this project was as visual designer and front-end developer.
+tools:
+  - name: HTML
+  - name: CSS
+  - name: jQuery
+  - name: Flash
 image:
+  url: /images/work-lp.png
+  title: Little Palm
+  alt: Little Palm
+thumbnail:
   url: /images/work-lp-thumb.jpg
-  title: Carer+ Application
-  alt: Sample Project
+  title: Little Palm
+  alt: Little Palm
 layout: project
-project_description:
-  We did this project.
 published: true
-short:     This is a sample short description.
-title:     Sample Project
-website:   http://sampleproject.com/

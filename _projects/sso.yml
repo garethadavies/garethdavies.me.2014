@@ -1,19 +1,23 @@
-description:
-  BCU - Single Sign-on
-endorsements:
--
-  body:
-    Working with this company was great!
-  from: Endorser Name
-  role: Project Manager
+title:
+  BCU - Single Sign-On
+subtitle:
+  Responsive application...
+paragraph1:
+  Birmingham City University required a single sign-on portal that would work over all target browsers and devices including Internet Explorer 6. This simple single-page application hides a complex mix of API connections, media queries and feature detection scripts that were required to allow students and staff alike to log into the university network no matter where they were or what device they were using.
+paragraph2:
+  My role in this project was as visual designer and front-end developer.
+tools:
+  - name: ASP.Net
+  - name: Team Foundation Server
+  - name: Microsoft SQL Server
+  - name: jQuery
 image:
+  url: /images/work-sso.png
+  title: BCU - Single Sign-On
+  alt: BCU - Single Sign-On
+thumbnail:
   url: /images/work-sso-thumb.jpg
-  title: Carer+ Application
-  alt: Sample Project
+  title: BCU - Single Sign-On
+  alt: BCU - Single Sign-On
 layout: project
-project_description:
-  We did this project.
 published: true
-short:     This is a sample short description.
-title:     Sample Project
-website:   http://sampleproject.com/

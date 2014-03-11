@@ -1,19 +1,23 @@
-description:
+title:
   Tales of Creativity
-endorsements:
--
-  body:
-    Working with this company was great!
-  from: Endorser Name
-  role: Project Manager
+subtitle:
+  Responsive application...
+paragraph1:
+  The Tales of Creativity website was a showcase for creative courses at Birmingham City University. Users could watch interviews with previous students talking about the courses they undertook and how they progressed in their careers after graduating.
+paragraph2:
+  My role in this project was as visual designer and front-end developer.
+tools:
+  - name: HTML
+  - name: CSS
+  - name: jQuery
+  - name: AJAX
 image:
+  url: /images/work-toc.png
+  title: Tales of Creativity
+  alt: Tales of Creativity
+thumbnail:
   url: /images/work-toc-thumb.jpg
-  title: Carer+ Application
-  alt: Sample Project
+  title: Tales of Creativity
+  alt: Tales of Creativity
 layout: project
-project_description:
-  We did this project.
 published: true
-short:     This is a sample short description.
-title:     Sample Project
-website:   http://sampleproject.com/

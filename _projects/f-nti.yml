@@ -1,19 +1,23 @@
-description:
-  New Technology Institute
-endorsements:
--
-  body:
-    Working with this company was great!
-  from: Endorser Name
-  role: Project Manager
+title:
+  NTI Birmingham
+subtitle:
+  Responsive application...
+paragraph1:
+  At the time of launch, NTI Birmingham was a base for multimedia training, video productions, graphic design and website development. The main purpose of the website was to promote these services and provide information about the wide range of Apple, Avid and Adobe accredited courses available.
+paragraph2:
+  My role in this project was as visual designer and front-end developer.
+tools:
+  - name: ASP.Net
+  - name: HTML
+  - name: CSS
+  - name: jQuery
 image:
+  url: /images/work-nti.png
+  title: NTI Birmingham
+  alt: NTI Birmingham
+thumbnail:
   url: /images/work-nti-thumb.jpg
-  title: Carer+ Application
-  alt: Sample Project
+  title: NTI Birmingham
+  alt: NTI Birmingham
 layout: project
-project_description:
-  We did this project.
 published: true
-short:     This is a sample short description.
-title:     Sample Project
-website:   http://sampleproject.com/

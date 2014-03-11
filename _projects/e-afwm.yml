@@ -1,19 +1,23 @@
-description:
-  Animation Forum West Midlands
-endorsements:
--
-  body:
-    Working with this company was great!
-  from: Endorser Name
-  role: Project Manager
+title:
+  Animation Forum
+subtitle:
+  Responsive application...
+paragraph1:
+  Animation Forum West Midlands is a free-to-join, support network for animators and those working generally within the animation sector, in the West Midlands region. This website was initially launched in 2006 and currently has over 1200 members.
+paragraph2:
+  The website was built using Blog Engine, an ASP.NET blogging platform. My role in this project was as visual designer and back-end developer.
+tools:
+  - name: BlogEngine
+  - name: HTML
+  - name: CSS
+  - name: jQuery
 image:
+  url: /images/work-afwm.png
+  title: Animation Forum
+  alt: Animation Forum
+thumbnail:
   url: /images/work-afwm-thumb.jpg
-  title: Carer+ Application
-  alt: Sample Project
+  title: Animation Forum
+  alt: Animation Forum
 layout: project
-project_description:
-  We did this project.
 published: true
-short:     This is a sample short description.
-title:     Sample Project
-website:   http://sampleproject.com/

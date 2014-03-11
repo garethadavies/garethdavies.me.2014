@@ -1,19 +1,22 @@
-description:
+title:
   Media Talent Bank
-endorsements:
--
-  body:
-    Working with this company was great!
-  from: Endorser Name
-  role: Project Manager
+subtitle:
+  Responsive application...
+paragraph1:
+  Media Talent Bank is an online collective of creatives, media organisations and freelancers. Through this robust online database of individuals, employers can source the hottest creative talent around through personalised profiles.
+paragraph2:
+  My role in this project was as visual designer and front-end developer.
+tools:
+  - name: HTML
+  - name: CSS
+  - name: jQuery
 image:
+  url: /images/work-mtb.png
+  title: Media Talent Bank
+  alt: Media Talent Bank
+thumbnail:
   url: /images/work-mtb-thumb.jpg
-  title: Carer+ Application
-  alt: Sample Project
+  title: Media Talent Bank
+  alt: Media Talent Bank
 layout: project
-project_description:
-  We did this project.
 published: true
-short:     This is a sample short description.
-title:     Sample Project
-website:   http://sampleproject.com/

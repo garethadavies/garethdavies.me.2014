@@ -1,19 +1,25 @@
-description:
+title:
   Richard Woolley
-endorsements:
--
-  body:
-    Working with this company was great!
-  from: Endorser Name
-  role: Project Manager
+subtitle:
+  Responsive application...
+paragraph1:
+  Richard Woolley is a British independent filmmaker of significant 70s and 80s films, as well as an active screenwriter, author, novelist, musician and songwriter.
+paragraph2:
+  Richard required a highly personalised website that projected his strong personality and promoted his extensive film archive.
+paragraph3:
+  My role in this project was as visual designer and front-end and back-end developer.
+tools:
+  - name: ASP.Net
+  - name: HTML
+  - name: CSS
+  - name: Flash
 image:
+  url: /images/work-rw.png
+  title: Richard Woolley
+  alt: Richard Woolley
+thumbnail:
   url: /images/work-rw-thumb.jpg
-  title: Carer+ Application
-  alt: Sample Project
+  title: Richard Woolley
+  alt: Richard Woolley
 layout: project
-project_description:
-  We did this project.
 published: true
-short:     This is a sample short description.
-title:     Sample Project
-website:   http://sampleproject.com/

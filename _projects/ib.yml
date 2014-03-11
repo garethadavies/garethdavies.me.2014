@@ -1,19 +1,23 @@
-description:
+title:
   Inspiration Bank
-endorsements:
--
-  body:
-    Working with this company was great!
-  from: Endorser Name
-  role: Project Manager
+subtitle:
+  Responsive application...
+paragraph1:
+  The Inspiration Bank website is a collaboration between numerous midlands-based gallery, museum and library archives that aims to showcase rarely seen artworks and decorative objects online.
+paragraph2:
+  My role in this project was as visual designer and front-end developer.
+tools:
+  - name: ASP.Net
+  - name: HTML
+  - name: CSS
+  - name: jQuery
 image:
+  url: /images/work-ib.png
+  title: Inspiration Bank
+  alt: Inspiration Bank
+thumbnail:
   url: /images/work-ib-thumb.jpg
-  title: Carer+ Application
-  alt: Sample Project
+  title: Inspiration Bank
+  alt: Inspiration Bank
 layout: project
-project_description:
-  We did this project.
 published: true
-short:     This is a sample short description.
-title:     Sample Project
-website:   http://sampleproject.com/
