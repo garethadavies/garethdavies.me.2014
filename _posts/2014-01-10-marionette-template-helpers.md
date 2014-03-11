@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "04. Marionette Template Helpers"
+subtitle: "Inject some magic into your HTML templates"
 date:   2014-01-10 10:13:00
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "07. Dividing Backone Collections"
+subtitle: "Split up collections based on an attribute value"
 date:   2014-01-28 10:13:00
 ---
 

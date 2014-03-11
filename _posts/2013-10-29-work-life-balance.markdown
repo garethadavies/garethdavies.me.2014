@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "01. The Work/Life Balance"
+subtitle: "...or how I learned to have a life as well as a career"
 date:   2013-10-29 10:13:00
 ---
 

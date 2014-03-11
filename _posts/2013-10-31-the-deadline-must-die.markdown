@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "02. The Deadline Must Die!"
+subtitle: "The bringer of pain, anguish and project creep"
 date:   2013-10-31 10:13:00
 ---
 

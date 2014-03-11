@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "06. SASS Dynamic Classes"
+subtitle: "Make producing and maintaining your CSS easier"
 date:   2014-01-24 10:13:00
 ---
 

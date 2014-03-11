@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "05. Application State Object"
+subtitle: "Every move you make, i'll be watching you!"
 date:   2014-01-24 10:13:00
 ---
 

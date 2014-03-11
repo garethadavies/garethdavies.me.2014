@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title:  "03. Interview rules & tips"
+subtitle: "Advice for the people on both sides of the boardroom table"
 date:   2013-11-05 11:16:00
 ---
 
