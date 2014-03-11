@@ -1459,13 +1459,15 @@ button,
   color: white;
   line-height: 2.6em;
   min-width: 100px;
-  padding: 0 20px;
+  padding: 10px 20px;
   border-radius: 3px;
+  text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_buttons\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_buttons\.scss}line{font-family:\0000342}}
 button:hover,
 .button:hover {
   background: darkred;
+  color: white;
 }
 
 /*------------------------------------*\

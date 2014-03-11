@@ -35,10 +35,12 @@ button,
 	color: white;
 	line-height: 2.6em;
 	min-width: 100px;
-	padding: 0 $padding*2;
+	padding: $padding $padding*2;
 	border-radius: $borderRadius;
+	text-decoration: none;
 
 	&:hover {
 		background: darkred;
+		color: white; 
 	}
 }
