@@ -45,13 +45,14 @@ body {
     position: relative;
     width: 100%;  
     min-height: 700px;
-    background: url('../images/map.png') no-repeat top right;
+    background: url('../images/map.png') no-repeat 0 3px;
+    background-size: 100%;
   }
 
   .contact-map-label {
     position: absolute;
-    top: 180px; 
-    right: 282px;
+    top: 150px; 
+    left: 275px;
   }
 
 }
@@ -63,15 +64,18 @@ body {
   $ Images
 \*------------------------------------*/
 
+img {
+  max-width: 100%;
+}
+
 .column {
    a {
     img { 
-      max-width: 100%;
-      border: 2px $borderStyle $borderColour;
+      border: 5px $borderStyle $borderColour;
     }
 
     img:hover {
-      border: 2px $borderStyle darkred;
+      border: 5px $borderStyle darkred;
     }
   }
 }

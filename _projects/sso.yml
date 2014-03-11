@@ -1,7 +1,7 @@
 title:
   BCU - Single Sign-On
 subtitle:
-  Responsive application...
+  Responsive Web Application
 paragraph1:
   Birmingham City University required a single sign-on portal that would work over all target browsers and devices including Internet Explorer 6. This simple single-page application hides a complex mix of API connections, media queries and feature detection scripts that were required to allow students and staff alike to log into the university network no matter where they were or what device they were using.
 paragraph2:

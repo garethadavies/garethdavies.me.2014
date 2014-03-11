@@ -75,6 +75,7 @@ h1 {
 	margin: $margin*4 0;
 	line-height: 1.1em;
 	//font-weight: 500;
+	text-align: center;
 }
 
 h2 { 
@@ -108,7 +109,7 @@ h5 {
 	text-align: center;
 	margin-top: -1em;
 	font-weight: 300;
-	font-size: 1.8em;
+	font-size: 1.2em;
 	border: none;
 	line-height: 1.2em;
 	letter-spacing: -0.02em;
@@ -136,20 +137,13 @@ b {
 
 
 /*------------------------------------*\
-  $ >940
+  $ >768
 \*------------------------------------*/
 
-@include media($large) {
+@include media($small) {
 
 	h1 {
-		font-size: 4em; /* =62px */
-		text-align: center;
-	}
-
-	.home h1 {
-
-		text-align: left; 
-
+		font-size: 3.2em; 
 	}
 
 	h2 { 
@@ -162,6 +156,41 @@ b {
 
 	h4 { 
 		font-size: 1em; /* =26px */
+	}
+
+	.sub-title {
+		font-size: 1.4em;
+	}
+
+}
+
+
+
+
+/*------------------------------------*\
+  $ >940
+\*------------------------------------*/
+
+@include media($large) {
+
+	h1 {
+		font-size: 4em; /* =62px */
+	}
+
+	h2 { 
+		font-size: 2em; /* =42px */
+	} 
+
+	h3 { 
+		font-size: 1.4em; /* =26px */
+	}
+
+	h4 { 
+		font-size: 1em; /* =26px */
+	}
+
+	.sub-title {
+		font-size: 1.8em;
 	}
 
 }

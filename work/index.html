@@ -9,15 +9,17 @@ class: work
 <div class="row section-margin projects">
 
   {% for project in page.projects %}
-  <div class="column large-4 medium-4 small-4 section-header">
+  <div class="column large-4 medium-4 small-4">
 
-  	<h2 class="no-margin"><a href="/work/{{ project[0] }}">{{ project[1].title }}</a></h2>
-
-    <p><a href="/work/{{ project[0] }}">
+    <p>
+    	<a href="/work/{{ project[0] }}">
       {% if project[1].thumbnail %}
         <img src="{{ project[1].thumbnail.url }}" title="{{ project[1].thumbnail.title }}" alt="{{ project[1].thumbnail.alt }}" />
       {% endif %}
-    </a></p>
+    	</a>
+    </p>
+
+  	<!-- <h2 class="no-margin"><a href="/work/{{ project[0] }}">{{ project[1].title }}</a></h2> -->
 
   </div>
 

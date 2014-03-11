@@ -120,7 +120,7 @@ Author(s):
 
 
 
-@media only screen and (min-width: 480px) {
+@include media($large) {
 
 	/* Menu Icon */
 
