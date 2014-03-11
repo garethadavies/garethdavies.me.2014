@@ -1292,7 +1292,7 @@ Author(s):
 \*------------------------------------*/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\0000399}}
 .icon-menu {
-  margin: 5px 0;
+  margin: 5px;
   width: 44px;
   height: 44px;
   display: block;
@@ -1308,7 +1308,7 @@ Author(s):
   top: 0.4em;
   left: 0;
   width: 44px;
-  height: 0.4em;
+  height: 0.45em;
   border-top: 1.2em double #222222;
   border-bottom: 0.4em solid #222222;
 }
