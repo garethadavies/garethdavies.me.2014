@@ -24,7 +24,31 @@ Author(s):
 
 	$('#icon-menu').on('click', function() {
 
-		$('#main-menu').toggle();
+		var
+		menu = $('#main-menu-small'),
+		trophy = $('.trophy-wrapper');
+
+		// if (menu.is(':visible')) {
+
+		// 	menu.addClass('hide');
+
+		// }
+		// else {
+
+		// 	menu.addClass('hide');
+
+		// }
+
+		menu.toggle();
+		trophy.toggle();
+
+	});
+
+	$(window).on('resize', function() {
+
+		$('#main-menu-small').removeAttr('style');
+
+		$('.trophy-wrapper').removeAttr('style');
 
 	});
 

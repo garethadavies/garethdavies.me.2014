@@ -320,22 +320,28 @@ h6 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\0000372}}
 h1 {
   letter-spacing: -0.04em;
+  font-size: 2.8em;
   margin: 40px 0;
   line-height: 1.1em;
   text-align: center;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\0000381}}
+.home h1 {
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\0000385}}
 h2 {
   letter-spacing: -0.02em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\0000393}}
 h3 {
   margin-top: 1.4em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003111}}
 .sub-title {
   width: 100%;
   text-align: center;
@@ -347,7 +353,7 @@ h3 {
   letter-spacing: -0.02em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003124}}
 .home .sub-title {
   text-align: left;
   margin-top: 0;
@@ -356,7 +362,7 @@ h3 {
 /*------------------------------------*\
   $ Styles
 \*------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003136}}
 b {
   font-weight: 600;
 }
@@ -365,30 +371,30 @@ b {
   $ >768
 \*------------------------------------*/
 @media screen and (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003149}}
   h1 {
     font-size: 3.2em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003153}}
   h2 {
     font-size: 2em;
     /* =42px */
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003157}}
   h3 {
     font-size: 1.4em;
     /* =26px */
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003161}}
   h4 {
     font-size: 1em;
     /* =26px */
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003165}}
   .sub-title {
     font-size: 1.4em;
   }
@@ -397,31 +403,31 @@ b {
   $ >940
 \*------------------------------------*/
 @media screen and (min-width: 940px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003180}}
   h1 {
     font-size: 4em;
     /* =62px */
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003184}}
   h2 {
     font-size: 2em;
     /* =42px */
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003188}}
   h3 {
     font-size: 1.4em;
     /* =26px */
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003192}}
   h4 {
     font-size: 1em;
     /* =26px */
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_typography\.scss}line{font-family:\00003196}}
   .sub-title {
     font-size: 1.8em;
   }
@@ -1254,6 +1260,12 @@ Author(s):
   $ Main Menu
 \*------------------------------------*/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\0000344}}
+.main-menu-small,
+.main-menu-large {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\0000349}}
 .main-menu,
 .main-menu > li {
   margin: 0;
@@ -1261,36 +1273,41 @@ Author(s):
   list-style: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\0000355}}
 .main-menu {
-  display: none;
   padding: 20px 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\0000359}}
 .main-menu li {
   width: 100%;
-  padding: 0 10px;
   border-top: 1px solid #222222;
-  line-height: 2.3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\0000363}}
 .main-menu li a {
+  line-height: 3.3em;
+  width: 100%;
+  padding: 0 10px;
+  display: inline-block;
   text-decoration: none;
   color: #222;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\0000379}}
 .main-menu li a:hover {
   color: darkred;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\0000384}}
 .main-menu li:last-child {
   border-bottom: 1px solid #222222;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\0000388}}
+.main-menu .right {
+  display: none;
 }
 
 /*------------------------------------*\
   $ Menu Icon
 \*------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003100}}
 .icon-menu {
   margin: 5px;
   width: 44px;
@@ -1301,7 +1318,7 @@ Author(s):
   color: #999999;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003110}}
 .icon-menu:before {
   content: "";
   position: absolute;
@@ -1315,64 +1332,83 @@ Author(s):
 
 @media screen and (min-width: 940px) {
   /* Menu Icon */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003128}}
   .icon-menu {
     display: none;
   }
 
   /* Main Menu */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003134}}
+  .main-menu-small {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003138}}
+  .main-menu-large {
+    display: inherit;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003142}}
   .main-menu {
-    display: block;
     width: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003147}}
   .main-menu li {
     width: auto;
     border: none;
     float: left;
-    padding: 0 10px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003153}}
   .main-menu li a {
     text-decoration: none;
     color: #222222;
+    line-height: 2.3em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003166}}
   .main-menu li:first-child {
     padding-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003170}}
   .main-menu li:last-child {
     border: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003174}}
+  .main-menu .right {
+    display: inline-block;
+    margin-left: 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003178}}
+  .main-menu .right a {
+    width: 38px;
+    padding: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003184}}
   .main-menu .main-menu-active {
     pointer-events: none;
   }
 
   /* You are here */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003194}}
   .home .main-menu-active a {
     font-weight: 600;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003202}}
   .about .main-menu-active a {
     font-weight: 600;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003210}}
   .blog .main-menu-active a {
     font-weight: 600;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003218}}
   .contact .main-menu-active a {
     font-weight: 600;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\00003226}}
   .work .main-menu-active a {
     font-weight: 600;
   }
@@ -2097,24 +2133,34 @@ Author(s):
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_visibility\.scss}line{font-family:\000031}}
+.hide {
+  display: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_visibility\.scss}line{font-family:\000035}}
+.show {
+  display: inherit !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_visibility\.scss}line{font-family:\000039}}
 .show-for-large-only {
   display: none;
 }
 
 @media screen and (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_visibility\.scss}line{font-family:\000037}}
-  .show-for-large-only {
-    display: none;
-  }
-}
-@media screen and (min-width: 768px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_visibility\.scss}line{font-family:\0000315}}
   .show-for-large-only {
     display: none;
   }
 }
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 768px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_visibility\.scss}line{font-family:\0000323}}
+  .show-for-large-only {
+    display: none;
+  }
+}
+@media screen and (min-width: 940px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_visibility\.scss}line{font-family:\0000331}}
   .show-for-large-only {
     display: inherit;
   }

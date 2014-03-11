@@ -40,6 +40,11 @@ Author(s):
   $ Main Menu
 \*------------------------------------*/
 
+.main-menu-small,
+.main-menu-large {
+	display: none;
+}
+
 .main-menu,
 .main-menu > li {
 	margin: 0;
@@ -48,21 +53,19 @@ Author(s):
 }
 
 .main-menu {
-	display: none;
-	// background-color: white;
-	// margin-bottom: $margin*4;
+	// display: none;
 	padding: $padding*2 $padding;
 
 	li {
 		width: 100%;
-		padding: 0 $padding;
-		border-top: $borderWidth $borderStyle $borderColour;
-		line-height: 2.3em; 
+		border-top: $borderWidth $borderStyle $borderColour; 
 
 		a {
+			line-height: 3.3em;
 			//font-family: 'Roboto Slab', serif;
-			// width: 100%;
-			// display: inline-block;
+			width: 100%;
+			padding: 0 $padding;
+			display: inline-block;
 			text-decoration: none;
 			color: #222;
 			//font-size: 1.8rem;
@@ -76,16 +79,14 @@ Author(s):
 		a:hover {
 			color: darkred;
 		}
-
-		// Circle links in top menu
-		.circle-link {
-			//position: relative;
-			//top: .8em;
-		}
 	}
 
 	li:last-child {
 		border-bottom: $borderWidth $borderStyle $borderColour;
+	}
+
+	.right {
+		display: none;
 	}
 }
 
@@ -130,8 +131,16 @@ Author(s):
 
 	/* Main Menu */
 
+	.main-menu-small {
+		display: none;
+	}
+
+	.main-menu-large {
+		display: inherit;
+	}
+
 	.main-menu {
-		display: block;
+		// display: block;
 		width: 100%;
 		// padding: $padding*4 0;
 
@@ -139,14 +148,14 @@ Author(s):
 			width: auto;
 			border: none;
 			float: left;
-			padding: 0 $padding;
+			// padding: 0;
 
 			a {
 				// width: auto;
 				text-decoration: none;
 				color: $grayDark;
-				//font-size: 1.8rem;
-				//font-weight: 300;
+				line-height: 2.3em;
+				// width: auto;
 
 				&:hover {
 					// font-weight: 500;
@@ -160,6 +169,16 @@ Author(s):
 
 		li:last-child {
 			border: none;
+		}
+
+		.right {
+			display: inline-block;
+			margin-left: $margin;
+
+			a {
+				width: 38px;
+				padding: 0;
+			}
 		}
 
 		.main-menu-active {
