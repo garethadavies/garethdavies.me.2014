@@ -49,12 +49,12 @@ Author(s):
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/_base\.scss}line{font-family:\0000322}}
 body {
   width: 100%;
-  padding: 190px 10px 20px 10px;
+  padding: 160px 10px 20px 10px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/_base\.scss}line{font-family:\0000327}}
 .home {
-  padding: 200px 10px 20px 10px;
+  padding: 170px 10px 20px 10px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/_base\.scss}line{font-family:\0000331}}
@@ -117,9 +117,9 @@ img {
   top: 34px;
   left: 50%;
   z-index: 3;
-  margin-left: -79px;
-  width: 159px;
-  height: 159px;
+  margin-left: -64px;
+  width: 129px;
+  height: 129px;
   background-color: white;
   border: 1px solid #222222;
   border-width: 2px;
@@ -132,11 +132,11 @@ img {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/_base\.scss}line{font-family:\0000398}}
 .trophy {
   position: relative;
-  top: 8px;
+  top: 4px;
   left: 50%;
-  margin-left: -69px;
-  width: 139px;
-  height: 139px;
+  margin-left: -59px;
+  width: 117px;
+  height: 117px;
   background-color: white;
   border: 1px solid #222222;
   border-radius: 100%;
@@ -146,7 +146,7 @@ img {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/_base\.scss}line{font-family:\00003111}}
 .trophy-fixed {
   position: fixed;
-  top: -15px;
+  top: -12px;
   -webkit-transform: scale(0.6);
   -moz-transform: scale(0.6);
   -ms-transform: scale(0.6);
@@ -1275,7 +1275,7 @@ Author(s):
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\0000355}}
 .main-menu {
-  padding: 20px 10px;
+  padding: 15px 10px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gareth_a_davies\/Sites\/garethdavies\.me\.2014\/scss\/partials\/_menu\.scss}line{font-family:\0000359}}
 .main-menu li {

@@ -21,11 +21,11 @@ Author(s):
 
 body {
 	width: 100%;
-  padding: $padding*19 $padding $padding*2 $padding;
+  padding: $padding*16 $padding $padding*2 $padding;
 }
 
 .home {
-  padding: $padding*20 $padding $padding*2 $padding;
+  padding: $padding*17 $padding $padding*2 $padding;
 }
 
 .container {
@@ -85,9 +85,9 @@ img {
   top: 34px;
   left: 50%; 
   z-index: 3;
-  margin-left: -79px;
-  width: 159px;
-  height: 159px;
+  margin-left: -64px;
+  width: 129px;
+  height: 129px;
   background-color: white;
   border: $border;
   border-width: 2px;
@@ -97,11 +97,11 @@ img {
 
 .trophy {
   position: relative;
-  top: 8px;
+  top: 4px;
   left: 50%;
-  margin-left: -69px;
-  width: 139px;
-  height: 139px;
+  margin-left: -59px;
+  width: 117px;
+  height: 117px;
   background-color: white;
   border: $border;
   border-radius: 100%;
@@ -110,7 +110,7 @@ img {
 
 .trophy-fixed {
   position: fixed;
-  top: -15px;
+  top: -12px;
   @include transform(scale(0.6));
 }
 
