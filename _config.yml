@@ -1,6 +1,11 @@
 name: www.garethdavies.me
+url: http://www.garethdavies.me
 markdown: redcarpet
 pygments: true
 exclude: [scss]
 paginate: 6
 paginate_path: "blog/page:num"
+sitemap:
+  include_posts:
+    - "/index.html"
+    - "/blog/index.html"

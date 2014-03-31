@@ -42,7 +42,7 @@ Messy, and as I have found out, unnecessary.
 
 #### Backbone Mutators
 
-The backbone.mutators guthub repo asks:
+The backbone.mutators github repo asks:
 
 > Ever wanted Backbone to have getters and setters you can override with your own logic?
 
