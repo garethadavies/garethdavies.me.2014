@@ -13,6 +13,7 @@ intermediate/
 publish/
 .sass-cache/
 _site/
+node_modules/
 
 # Files
 .orig
