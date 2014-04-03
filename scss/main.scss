@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /*------------------------------------*\
   $ Imports
 \*------------------------------------*/
@@ -5,7 +7,7 @@
 @import "bourbon/bourbon"; 
 @import "settings/_grid-settings";
 @import "neat/neat";
-@import "modules/_variables"; 
+@import "modules/_variables";
 
 /* Base */
 @import "vendor/normalize.scss";
