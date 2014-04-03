@@ -2,13 +2,13 @@
   $ Imports
 \*------------------------------------*/
 
-@import "bourbon/bourbon";
+@import "bourbon/bourbon"; 
 @import "settings/_grid-settings";
 @import "neat/neat";
 @import "modules/_variables"; 
 
 /* Base */
-@import "../css/normalize.css";
+@import "vendor/normalize.scss";
 @import "_base.scss"; 
 
 /* Partials */
@@ -23,4 +23,4 @@
 @import "partials/_visibility.scss";
 
 /* Vendor */
-@import "../css/vendor/fontello.css";
+@import "vendor/fontello.scss";

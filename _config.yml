@@ -2,7 +2,7 @@ name: www.garethdavies.me
 url: http://www.garethdavies.me
 markdown: redcarpet
 pygments: true
-exclude: [scss, README.md, node_modules, package.json, Gruntfile.js]
+exclude: [scss, README.md, node_modules, package.json, Gruntfile.js, fontello.css, normalize.css]
 paginate: 6
 paginate_path: "blog/page:num"
 sitemap:

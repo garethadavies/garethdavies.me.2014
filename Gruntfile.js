@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     // Let's make sure the JavaScript is ok
     jshint: {
-      all: ['./js/script.js']
+      all: ['./_site/js/script.js']
     },
     //
     uglify: {
@@ -14,7 +14,7 @@ module.exports = function(grunt) {
       },
       my_target: {
         files: {
-          './js/script.min.js': ['./js/script.js']
+          './_site/js/script.min.js': ['./_site/js/script.js']
         }
       }
     },
@@ -23,16 +23,26 @@ module.exports = function(grunt) {
         separator: ';',
       },
       dist: {
-        src: ['./js/lib/jquery-1.8.2.min.js', './js/lib/Chart.js', './js/script.min.js'],
-        dest: './js/main.min.js',
+        src: ['./_site/js/lib/jquery-1.8.2.min.js', './_site/js/lib/Chart.js', './_site/js/script.min.js'],
+        dest: './_site/js/main.min.js',
       },
     },
     // 
     cssmin: {
       combine: {
         files: {
-          './css/main.min.css': ['./css/main.css']
+          './_site/css/main.min.css': ['./_site/css/main.css']
         }
+      }
+    },
+    // Hash our minified files and update any references to them
+    hashres: {
+      prod: {
+        src: [
+          './_site/js/main.min.js',
+          './_site/css/main.min.css'
+        ],
+        dest: './_site/index.html'
       }
     },
     // Create a cache manifest
@@ -43,7 +53,7 @@ module.exports = function(grunt) {
           network: ['http://*', 'https://*'],
           preferOnline: true,
           timestamp: true,
-          master: ['index.html']
+          master: ['./_site/index.html']
         },
         src: [
           '*.html',
@@ -64,6 +74,9 @@ module.exports = function(grunt) {
   // 
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
+  //
+  grunt.loadNpmTasks('grunt-hashres');
+
   // Load the cache manifest plugin
   grunt.loadNpmTasks('grunt-manifest');
 
@@ -71,6 +84,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
 
   // Default task(s).
-  grunt.registerTask('default', ['jshint', 'uglify', 'concat', 'cssmin', 'manifest']);
+  grunt.registerTask('default', ['jshint', 'uglify', 'concat', 'cssmin', 'hashres', 'manifest']);
 
 }
