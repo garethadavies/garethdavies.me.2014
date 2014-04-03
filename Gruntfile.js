@@ -34,18 +34,18 @@ module.exports = function(grunt) {
     manifest: {
       generate: {
         options: {
-          basePath: './',
+          basePath: './_site/',
           network: ['http://*', 'https://*'],
           preferOnline: true,
           timestamp: true,
-          master: ['./_site/index.html']
+          master: ['index.html']
         },
         src: [
-          '*.html',
-          'js/.js',
+          '**/*.html',
+          'js/**/*.js',
           'css/*.css'
         ],
-        dest: './manifest.appcache'
+        dest: 'manifest.appcache'
       }
     }
   });
