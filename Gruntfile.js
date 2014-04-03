@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     jshint: {
       all: ['./_site/js/script.js']
     },
-    //
+    // Minify the javascript
     uglify: {
       options: {
         banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
@@ -18,7 +18,7 @@ module.exports = function(grunt) {
         }
       }
     },
-    // 
+    // Minify the css
     cssmin: {
       options: {
         banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
@@ -50,19 +50,11 @@ module.exports = function(grunt) {
     }
   });
 
-  // 
   grunt.loadNpmTasks('grunt-contrib-cssmin');
-
-  // 
   grunt.loadNpmTasks('grunt-contrib-uglify');
-
-  // Load the cache manifest plugin
   grunt.loadNpmTasks('grunt-manifest');
-
-  // Load the jshint plugin
   grunt.loadNpmTasks('grunt-contrib-jshint');
 
-  // Default task(s).
   grunt.registerTask('default', ['jshint', 'uglify', 'cssmin', 'manifest']);
 
 }
