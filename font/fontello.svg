@@ -7,7 +7,14 @@
 <font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
 <missing-glyph horiz-adv-x="1000" />
 <glyph glyph-name="mail" unicode="&#xe801;" d="m0-29l324 342l176-100l176 100l324-342l-1000 0z m0 114l0 414l254-147z m0 503l0 141l1000 0l0-141l-500-285z m746-236l254 147l0-414z" horiz-adv-x="1000" />
+<glyph glyph-name="location" unicode="&#xe809;" d="m0 473q0 156 110 267t267 110t267-110t110-267q0-123-53-193l-324-430l-324 430q-53 70-53 193z m219 0q0-66 46-112t112-46t112 46t46 112t-46 112t-112 46t-112-46t-46-112z" horiz-adv-x="754" />
+<glyph glyph-name="doc" unicode="&#xe803;" d="m0-150l0 674l338 0l0 326l371 0l0-1000l-709 0z m0 756l0 62l189 182l65 0l0-244l-254 0z" horiz-adv-x="709" />
+<glyph glyph-name="rss" unicode="&#xe808;" d="m0-150l0 199q82 0 141-58t58-141l-199 0z m0 400l0 200q248 0 424-176t176-424l-200 0q0 166-117 283t-283 117z m0 401l0 199q203 0 389-79t319-213t213-319t79-389l-199 0q0 217-108 401t-292 292t-401 108z" horiz-adv-x="1000" />
 <glyph glyph-name="phone" unicode="&#xe802;" d="m0 615q0 50 28 76l138 138q45 37 77-13l113-211q18-39-14-71l-51-52q-5-6-5-14q25-98 132-195l31-30t36-34t34-26t41-25t40-14q20-6 27 2l61 60q39 30 72 12l203-121q22-14 25-37t-13-39l-141-139q-27-27-74-27q-140 4-318 121q-258 185-375 406q-72 151-67 233z" horiz-adv-x="988" />
+<glyph glyph-name="down-open" unicode="&#xe804;" d="m0 526l148 148l352-351l352 351l148-148l-352-352l-148-148l-148 148z" horiz-adv-x="1000" />
+<glyph glyph-name="left-open" unicode="&#xe805;" d="m0 350l148 149l352 351l148-148l-351-352l351-352l-148-148l-352 352z" horiz-adv-x="648" />
+<glyph glyph-name="right-open" unicode="&#xe806;" d="m0-2l352 352l-352 352l148 148l352-351l148-149l-148-148l-352-352z" horiz-adv-x="648" />
+<glyph glyph-name="up-open" unicode="&#xe807;" d="m0 174l352 352l148 148l148-148l352-352l-148-148l-352 351l-352-351z" horiz-adv-x="1000" />
 <glyph glyph-name="twitter" unicode="&#xe800;" d="m0 26q162-19 305 88q-67-2-117 39t-77 105q18-3 43-1q34 1 49 5q-99 34-139 108q-23 51-23 103q57-29 92-27q-80 68-90 146q-6 63 25 135q114-125 239-180q93-39 185-39q-12 94 26 159q45 70 128 93q55 14 106-3t86-55q60 6 133 49q-30-86-92-118q62 10 121 36q-10-20-37-53t-68-57q1-10 1-17q4-110-42-233q-81-201-243-302q-160-90-382-69q-141 16-229 88z" horiz-adv-x="1000" />
 </font>
 </defs>

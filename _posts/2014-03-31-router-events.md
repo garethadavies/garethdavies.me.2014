@@ -57,7 +57,7 @@ define([
 
 This meant that any routers I create further into the app, will inherit the base router's methods.
 
-My application features a 'state' model that I use to record various constants and changing values. I use a [Marionette.Command](https://github.com/marionettejs/backbone.marionette/blob/master/docs/marionette.commands.md) to set the model's values and a [Marionette.Request](https://github.com/marionettejs/backbone.marionette/blob/master/docs/marionette.requestresponse.md) to retrieve the model's values. This is where I will store the current and previous param values as objects with a default value of `undefined`.
+My application features a 'state' model that I use to record various constants and changing values. I use a [Marionette.Command](https://github.com/marionettejs/backbone.marionette/blob/master/docs/marionette.commands.md) to set the model's values and a [Marionette.Request](https://github.com/marionettejs/backbone.marionette/blob/master/docs/marionette.requestresponse.md) to retrieve the model's values. This is where I will store the current and previous param values as objects.
 
 ```js
 define([
@@ -185,27 +185,18 @@ define([
 
       var previousParams = Requests.request('get:state:data').get('previousParams');
 
-      if (previousParams) {
+      if (previousParams.fooId) {
 
-        if (previousParams.fooId) {
+        return {
 
-          return {
+          fooId: parseInt(previousParams.fooId, 10)
 
-            fooId: parseInt(previousParams.fooId, 10)
-
-          };
-
-        }
-        else {
-
-          return;
-
-        }
+        };
 
       }
       else {
 
-        return
+        return;
 
       }
 
@@ -258,6 +249,6 @@ define([
     ...
 ```
 
-The `className` function checks for a matchinf value for `fooId` and the model's id. If there is a match, a class of 'selected-row' is added to the view.
+The `className` function checks for a matching value for `fooId` and the model's id. If there is a match, a class of 'selected-row' is added to the view.
 
 The fading out effect now occurs when I navigate back to the list view from a detail view.

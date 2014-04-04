@@ -45,6 +45,10 @@ Author(s):
 	display: none;
 }
 
+.main-menu-small {
+	box-shadow: 1px 1px 1px $gray; 
+}
+
 .main-menu,
 .main-menu > li {
 	margin: 0;
@@ -85,7 +89,7 @@ Author(s):
 		border-bottom: $borderWidth $borderStyle $borderColour;
 	}
 
-	.right {
+	.main-menu-large .right {
 		display: none;
 	}
 }

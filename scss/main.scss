@@ -11,7 +11,10 @@
 
 /* Base */
 @import "vendor/normalize.scss";
-@import "_base.scss"; 
+@import "_base.scss";
+
+/* Vendor */
+@import "vendor/fontello.scss"; 
 
 /* Partials */
 @import "partials/_typography.scss";
@@ -24,5 +27,3 @@
 @import "partials/_syntax.scss";
 @import "partials/_visibility.scss";
 
-/* Vendor */
-@import "vendor/fontello.scss";
