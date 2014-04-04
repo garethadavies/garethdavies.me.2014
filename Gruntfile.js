@@ -29,6 +29,18 @@ module.exports = function(grunt) {
         }
       }
     },
+    // Remove unused css
+    uncss: {
+      options: {
+        csspath: './_site/css/',
+        htmlroot: './',
+      },
+      dist: {
+        files: {
+          './_site/css/main.css': ['_site/*.html', '_site/**/*.html']
+        }
+      }
+    },
     // Minify the css
     cssmin: {
       options: {
@@ -66,7 +78,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-manifest');
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-uncss');
 
-  grunt.registerTask('default', ['jekyll', 'jshint', 'uglify', 'cssmin', 'manifest']);
+  grunt.registerTask('default', ['jekyll', 'jshint', 'uglify', 'uncss', 'cssmin', 'manifest']);
 
 }
