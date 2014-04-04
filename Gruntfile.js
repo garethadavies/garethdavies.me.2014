@@ -32,6 +32,7 @@ module.exports = function(grunt) {
     // Remove unused css
     uncss: {
       options: {
+        ignore: ['.trophy-fixed'],
         csspath: './_site/css/',
         htmlroot: './',
       },
