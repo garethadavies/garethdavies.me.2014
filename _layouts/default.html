@@ -103,8 +103,9 @@
   </div>
 
   <script src="/js/vendor/jquery-1.8.2.min.js"></script>
-  <script src="/js/vendor/Chart.min.js
-"></script>
+  {% if page.script %}
+  <script src="{{ page.script }}"></script>
+  {% endif %}
   <script src="/js/script.js"></script>
 
   <!--<![endif]-->

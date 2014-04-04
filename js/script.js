@@ -22,7 +22,7 @@ Author(s):
 
 	}
 
-	$('#icon-menu').on('click', function() {
+	$('#icon-menu').on('click', function(e) {
 
 		var
 		menu = $('#main-menu-small'),
@@ -30,6 +30,8 @@ Author(s):
 
 		menu.toggle();
 		trophy.toggle();
+
+		e.preventDefault();
 
 	});
 
