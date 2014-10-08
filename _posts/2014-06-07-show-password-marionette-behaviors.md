@@ -2,7 +2,7 @@
 layout: post
 title:  "13. Show Password Behavior"
 subtitle: "Making a common UI feature easy with Marionette Behaviors"
-date:   2014-04-07 00:00:10
+date:   2014-06-07 00:00:10
 ---
 
 In one of my [previous articles](http://garethdavies.me/2014/03/26/marionette-behaviors.html), I wrote about [Marionette.Behaviors](https://github.com/marionettejs/backbone.marionette/blob/master/docs/marionette.behaviors.md) and how you can create reusable UI interactions. If you haven't read that article, I would suggest you do so before reading this article.

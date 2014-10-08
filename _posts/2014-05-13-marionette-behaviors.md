@@ -2,7 +2,7 @@
 layout: post
 title:  "11. Marionette Behaviors"
 subtitle: "Mixing common user interactions into any view"
-date:   2014-03-26 10:13:00
+date:   2014-05-13 10:13:00
 ---
 
 The latest version of Marionette includes a new utility class called Marionette.Behaviors that:

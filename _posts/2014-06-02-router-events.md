@@ -2,7 +2,7 @@
 layout: post
 title:  "12. Router Events"
 subtitle: "Add before and after events to your routers"
-date:   2014-03-31 00:00:10
+date:   2014-06-02 00:00:10
 ---
 
 I was recently asked to incorporate a 'last item viewed' feature into a web application. The goal was to style a previously selected list item in some manner after the user had viewed a detail view and then returned back to the list.

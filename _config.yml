@@ -1,6 +1,8 @@
 name: www.garethdavies.me
 url: http://www.garethdavies.me
 markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 pygments: true
 exclude: [scss, README.md, node_modules, package.json, Gruntfile.js]
 paginate: 6
