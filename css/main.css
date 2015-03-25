@@ -471,10 +471,12 @@ img {
 }
 
 .column a img {
-  border: 5px solid #222222;
+  border: 1px solid #222222;
+  outline: 2px solid white;
+  box-shadow: 0 -8px 0 #222222;
 }
 .column a img:hover {
-  border: 5px solid darkred;
+  border: 1px solid darkred;
 }
 
 .trophy-wrapper {

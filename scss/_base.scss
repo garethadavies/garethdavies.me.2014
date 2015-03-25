@@ -71,11 +71,13 @@ img {
 .column {
    a {
     img { 
-      border: 5px $borderStyle $borderColour;
+      border: 1px $borderStyle $borderColour;
+      outline: 2px $borderStyle white;
+      box-shadow: 0 -8px 0 $borderColour;
     }
 
     img:hover {
-      border: 5px $borderStyle darkred;
+      border: 1px $borderStyle darkred;
     }
   }
 }
